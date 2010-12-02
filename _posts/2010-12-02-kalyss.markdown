@@ -1,0 +1,21 @@
+---
+layout: sponsor
+logo: images/kalyss.gif
+category: sponsor
+---
+
+Fondée en 2001, Kalyss SA est est une société de conseil et d'ingénierie spécialisée dans les nouvelles technologies de l'information.
+
+**Les valeurs:**
+Une relation de confiance dans la durée, le respect des collaborateurs et la mise en avant des qualités humaines au sein des projets ainsi que l'utilisation pragmatique des nouvelles technologies.
+
+**Savoir- faire:**
+Pilotage de projet / expertise technique
+Dans les technologies Java / microsoft .Net / PHP
+
+**Type de mandat:**
+Para engagement de résultat au forfait
+Par engagement de moyen en délégation d'experts.
+
+**Editeur de logiciel:**
+KDocProject, une solution 100% web, pour gérer efficacement les projets

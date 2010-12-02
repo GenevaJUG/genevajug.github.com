@@ -4,9 +4,15 @@ title: GenevaJUG's sponsors
 ---
 
 <div id="home">
-  <h2 class="orange">sponsors</h2>
+  <h2>Nos sponsors premium</h2>
+    {% for post in site.categories.sponsor-premium %}
+      <img src="{{ post.logo }}"/>
+	{{ post.content }}
+    {% endfor %}
+
+  <h2>Nos sponsors saison</h2>
     {% for post in site.categories.sponsor %}
-      <img src="{{ post.logo  }}"/>
+      <img src="{{ post.logo }}"/>
 	{{ post.content }}
     {% endfor %}
 </div>
