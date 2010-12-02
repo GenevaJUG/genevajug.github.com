@@ -1,0 +1,12 @@
+---
+layout: default
+title: GenevaJUG's sponsors
+---
+
+<div id="home">
+  <h2 class="orange">sponsors</h2>
+    {% for post in site.categories.sponsor %}
+      <img src="{{ post.logo  }}"/>
+	{{ post.content }}
+    {% endfor %}
+</div>
