@@ -1,0 +1,12 @@
+---
+logo: images/logo_genesis.png
+website: http://www.genesis-groupe.com
+category: sponsor
+title: Genesis
+---
+
+Genesis compte 170 collaborateurs et est certifié ISO 9001 v2008. En qualité de généraliste, nos offres couvrent les domaines du conseil, du développement ainsi que de la formation. Notre centre de service permet d'accueillir un grand nombre de projets encadrés par les normes qualité ITIL & CMMI.
+
+Notre culture s'est construite autour de projets en mode forfaitaire, notamment avec les technologies Java J2EE. En Suisse, nous sommes connus et reconnus pour notre expertise en matière d'audit d'architecture, applications Web et Open source aussi bien dans l'informatique applicative de gestion que dans les applications scientifiques. La majorité de nos projets est réalisée avec une forte composante AGILE.
+
+Gensis est donc heureux de participer au JUG pour partager avec vous notre passion commune autour des technologies JAVA

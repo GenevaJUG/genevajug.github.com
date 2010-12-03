@@ -1,0 +1,9 @@
+<div class="span-4 last">
+    <center>
+    <h5>nos sponsors</h5>
+{% for post in site.categories.sponsor %}
+    <a href="{{ post.website }}"><img height="70" src="{{ post.logo }}"/></a>
+{% endfor %}
+    </center>
+</div>
+

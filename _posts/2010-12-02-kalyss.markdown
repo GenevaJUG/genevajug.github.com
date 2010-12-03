@@ -1,8 +1,10 @@
 ---
-layout: sponsor
-logo: images/kalyss.gif
+logo: images/logo_kalyss.gif
+website: http://www.kalyss.com
 category: sponsor
+title: Kalyss
 ---
+
 
 Fondée en 2001, Kalyss SA est est une société de conseil et d'ingénierie spécialisée dans les nouvelles technologies de l'information.
 

@@ -1,0 +1,17 @@
+---
+logo: images/logo_ilem.jpg
+website: http://www.ilem.ch
+category: sponsor
+title: Ilem
+---
+
+**Société de Conseil et de Service en Informatique - Specialiste dans l’évaluation de performance d’applications J2EE.**
+
+ilem SA est une société suisse, fondée en 2001.
+Forte de plus de 150 collaborateurs, dont une centaine en Suisse Romande, ilem SA est une des principales sociétés de services informatiques locales.
+
+L’activité « Java » chez Ilem repose sur une équipe d’experts dans les technologies Java /J2EE et l’intégration de solutions Open source.
+Nous intervenons auprès de nos clients dans le cadre de missions de conseil, d'intégration, de développement spécifique et de formation.
+
+Notre démarche méthodologie avant tout axée sur  la « Qualité »,  nous permet aujourd’hui de nous positionner comme spécialiste dans l’évaluation de performance d’applications J2EE.
+Une des spécificités d’Ilem réside  dans son initiative réussie de développement d'un pôle JAVA "SmartShore" au Maroc (avec Framework MDA).

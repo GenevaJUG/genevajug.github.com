@@ -1,0 +1,14 @@
+---
+logo: images/logo_oosphere.png
+website: http://www.oosphere.ch
+category: sponsor
+title: OOsphere
+---
+
+**Société de Conseil et de Service en Informatique Spécialiste Java et Open source**
+
+Expert genevois des technologies "OO" depuis 1996, peu après le lancement officiel de Java par Sun !
+
+OOsphère compte une vingtaine d'experts des technologies Java et Open source à même d'intervenir indifféremment dans des missions de conseil, d'accompagnement, d'ingénierie, d'intégration, de formation et de recherche.
+
+Partenaire intégrateur Suisse de la solution de portail collaboratif Silverpeas (X-net). OOsphère participe également activement au développement et à l'enrichissement de la solution dont le coeur est en Open Source.

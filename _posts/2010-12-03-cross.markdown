@@ -1,0 +1,22 @@
+---
+logo: images/logo_cross_systems.png
+website: http://www.cross-systems.ch
+category: sponsor
+title: Cross-Systems
+---
+
+Avec plus de 180 collaborateurs en Suisse romande et 1200 collaborateurs dans le groupe, Cross Systems dispose de consultants de grande qualité.
+
+Nous sommes conscients que notre "capital entreprise" repose sur la compétence de nos consultants. C'est pourquoi nous investissons une grande partie de nos moyens sur les 3 axes de leurs expertises:
+1. Leurs compétences technologiques
+2. Leurs compétences métiers
+3. Leurs capacités à travailler dans l'écosystème d'un projet, aussi bien d'un point de vue technologique que méthodologique
+
+Nous intervenons comme nos confrères sponsors du GenevaJUG sur l'intégralité du spectre des développements informatiques, depuis le conseil jusqu'à l'implémentation des développements.
+C'est pourquoi, nous avons structuré nos équipes autour de 4 pôles de compétences:
+1. Cross Agency: Agence web incontournable en Suisse Romande (Conseil, création, webdesign, développement, e-marketing)
+2. Cross Engineering: Parmi les pionniers du développement Java, un énorme gisement de compétence
+3. Cross Consulting: Conseil ERP, un avenir prometteur
+4. Cross Business Intelligence: une spécialité de Cross Systems
+
+Chacun chez Cross Systems peut trouver sa place et jouer l'équipe.

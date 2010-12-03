@@ -1,8 +1,8 @@
 ---
-layout: sponsor
-logo: images/hortis.jpg
-category: sponsor-premium
-title: hortis
+logo: images/logo_hortis.jpg
+website: http://www.hortis.ch
+category: sponsor
+title: Hortis
 ---
 
 L'ambition des dirigeants d'Hortis GRC SA est de véhiculer leurs propres valeurs à travers HORTIS: 
