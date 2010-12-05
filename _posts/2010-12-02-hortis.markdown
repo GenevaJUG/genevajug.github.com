@@ -16,5 +16,4 @@ Cette approche fait d'Hortis une société de conseil et de services originale g
 * Son approche ouverte concrétisée par sa volonté de développement et de satisfaction de ses collaborateurs.
 
 Crée en 2002, Hortis est aujourd’hui reconnue, grâce à ses 50 collaborateurs, pour sa forte expertise des environnements Java JEE. Expertise à laquelle elle a su ajouter tout son savoir-faire autour de la Qualité Logiciel, des methodologies Agile, et des développements Open Source.
-
 Dans ce cadre Hortis est à l'origine du projet Open Source Sonar (plateforme logicielle permettant de contrôler la qualité du code Java et autres)

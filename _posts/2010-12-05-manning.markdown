@@ -1,0 +1,8 @@
+---
+logo: images/logo_manning.jpg
+website: http://www.manning.com/
+category: partenaire
+title: Manning
+---
+
+**Manning** via son User Group Program nous permet de vous faire gagner 2 livres à chaque réunion du JUG et vous offre une remise de 36 % sur tout achat effectué sur [www.manning.com](http:/www.manning.com) (pour plus d'infos contactez nous).
