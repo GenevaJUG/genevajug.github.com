@@ -1,5 +1,5 @@
 ---
-logo: images/logo_manning.jpg
+logo: /images/logo_manning.jpg
 website: http://www.manning.com/
 category: partenaire
 title: Manning

@@ -1,5 +1,5 @@
 ---
-logo: images/logo_oosphere.png
+logo: /images/logo_oosphere.png
 website: http://www.oosphere.ch
 category: sponsor
 title: OOsphere

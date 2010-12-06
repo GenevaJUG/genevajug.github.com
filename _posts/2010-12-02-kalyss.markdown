@@ -1,5 +1,5 @@
 ---
-logo: images/logo_kalyss.gif
+logo: /images/logo_kalyss.gif
 website: http://www.kalyss.com
 category: sponsor
 title: Kalyss

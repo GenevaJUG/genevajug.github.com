@@ -1,5 +1,5 @@
 ---
-logo: images/logo_ilem.jpg
+logo: /images/logo_ilem.jpg
 website: http://www.ilem.ch
 category: sponsor
 title: Ilem
