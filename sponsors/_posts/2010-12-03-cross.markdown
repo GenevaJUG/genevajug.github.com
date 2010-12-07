@@ -1,7 +1,6 @@
 ---
 logo: /images/logo_cross_systems.png
 website: http://www.cross-systems.ch
-category: sponsor
 title: Cross-Systems
 ---
 

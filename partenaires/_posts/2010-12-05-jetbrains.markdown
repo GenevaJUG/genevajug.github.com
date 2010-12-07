@@ -1,7 +1,6 @@
 ---
 logo: /images/logo_jetbrains.gif
 website: http://www.jetbrains.com/
-category: partenaire
 title: JetBrains
 ---
 

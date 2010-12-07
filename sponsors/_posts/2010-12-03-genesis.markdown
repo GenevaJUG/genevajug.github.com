@@ -1,7 +1,6 @@
 ---
 logo: /images/logo_genesis.png
 website: http://www.genesis-groupe.com
-category: sponsor
 title: Genesis
 ---
 
