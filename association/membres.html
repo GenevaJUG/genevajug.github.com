@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<p>
+    <div class="span-20 last">
+    {% include menu_association.html %}
+    </div>
+    <div class="span-20 last">
+    {% for post in site.categories.members %}
+        <div class="span-6">
+            <img src="{{ post.photo }}" height="80" align="right"/></a>
+        </div>
+        <div class="span-14 last" align="justify">
+            <h3>{{ post.title }}</h3>
+			<p>
+				{{ post.poste }}<br>
+				LinkedIn : <a href="http://{{ post.linkedIn }}">{{ post.linkedIn }}</a><br>
+				Twitter  : <a href="http://{{ post.twitter }}">{{ post.twitter }}</a>
+			</p>
+        </div>
+        <hr>
+    {% endfor %}
+    </div>
+</p>

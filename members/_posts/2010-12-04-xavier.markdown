@@ -1,0 +1,7 @@
+---
+title: Xavier Bourguignon
+poste: Co-Fondateur et Président de l'association GenevaJUG
+linkedIn: ch.linkedin.com/in/xavierbourguignon
+twitter: twitter.com/xbourguignon
+photo: /images/xavier.jpg
+---

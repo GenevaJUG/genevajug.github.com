@@ -1,0 +1,7 @@
+---
+title: Ludovic Bertin
+poste: Co-Fondateur et Trésorier de l'association GenevaJUG
+linkedIn: ch.linkedin.com/in/ludovicbertin
+twitter: twitter.com/ludoBertin
+photo: /images/ludovic.jpg
+---
