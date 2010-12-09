@@ -4,6 +4,20 @@ layout: jug
 
 <p>
     <div class="span-20 last">
-    Les speakers
+    {% for post in site.categories.speakers %}
+        <div class="span-6">
+	{% if post.photo %}
+		<img src="/images/speakers/{{ post.photo }}" height="120" align="right"/></a>
+	{% else %}
+		<br>
+	{% endif %}
+        </div>
+        <div class="span-14 last" align="justify">
+       		<h3>{{ post.title }}</h3>
+		<p>{{ post.content }}</p>
+        </div>
+        <hr>
+    {% endfor %}
     </div>
 </p>
+
