@@ -1,5 +1,6 @@
 ---
-logo: /images/logo_oosphere.png
+layout: sponsor
+logo: logo_oosphere.png
 website: http://www.oosphere.ch
 title: OOsphere
 ---

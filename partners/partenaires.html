@@ -1,19 +1,15 @@
 ---
-layout: default
+layout: partners
 ---
-<p>
-    <div class="span-20 last">
-    {% include menu_partners.html %}
+
+<div class="span-20 last">
+{% for post in site.categories.partenaires %}
+    <div class="span-4">
+        <a href="{{ post.website }}"><img width="140" src="{{ post.logo }}" align="left"/></a>
     </div>
-    <div class="span-20 last">
-    {% for post in site.categories.partenaires %}
-        <div class="span-4">
-            <a href="{{ post.website }}"><img width="140" src="{{ post.logo }}" align="left"/></a>
-        </div>
-        <div class="span-16 last" align="justify">
-            {{ post.content }}
-        </div>
-        <hr>
-    {% endfor %}
+    <div class="span-16 last" align="justify">
+        {{ post.content }}
     </div>
-</p>
+    <hr>
+{% endfor %}
+</div>

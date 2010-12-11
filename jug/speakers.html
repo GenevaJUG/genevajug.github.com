@@ -3,7 +3,6 @@ layout: jug
 ---
 
 <div class="span-20 last">
-
     {% for post in site.categories.speakers %}
     <div class="{% cycle 'span-4', 'span-4', 'span-4', 'span-4', 'span-4 last' %}" align="center">
         <a href="{{ post.url }}" class="load"><img src="/images/speakers/{{ post.photo }}" height="100"/></a>
@@ -12,25 +11,5 @@ layout: jug
     {% endfor %}
 </div>
 <br>
-<div id="speaker_details" class="span-20 last"></div>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $("a.load").click(function() {
-            $("#speaker_details").hide();
-            if ($("#speaker_details").attr('memo_url') == this.href) {
-                $("#speaker_details").attr('memo_url', '');
-            } else {
-                $("#speaker_details").attr('memo_url', this.href);
-                $.get(this.href,
-                        function (c) {
-                            $("#speaker_details")
-                                    .html(c)
-                                    .fadeIn('slow');
-                        }
-                        );
-            }
-            return false;
-        });
-    });
-</script>
-
+<div id="details" class="span-20 last"></div>
+        

@@ -1,5 +1,6 @@
 ---
-logo: /images/logo_kalyss.gif
+layout: sponsor
+logo: logo_kalyss.gif
 website: http://www.kalyss.com
 title: Kalyss
 ---

@@ -1,17 +1,18 @@
 ---
-logo: /images/logo_hortis.jpg
+layout: sponsor
+logo: logo_hortis.jpg
 website: http://www.hortis.ch
 title: Hortis
 ---
 
-L'ambition des dirigeants d'Hortis GRC SA est de véhiculer leurs propres valeurs à travers HORTIS: 
-* Innover pour mieux satisfaire les clients
+L'ambition des dirigeants d'Hortis GRC SA est de véhiculer leurs propres valeurs à travers HORTIS:
 * Faire progresser les collaborateurs.
+* Innover pour mieux satisfaire les clients
 * Partager pour mieux dynamiser et créer un écosystème autour d'Hortis.
 
 Cette approche fait d'Hortis une société de conseil et de services originale grâce à:
-* Sa forte culture de la collaboration et du partage de connaissances. 
-* Son souci permanent de la performance du client. 
+* Sa forte culture de la collaboration et du partage de connaissances.
+* Son souci permanent de la performance du client.
 * Son approche ouverte concrétisée par sa volonté de développement et de satisfaction de ses collaborateurs.
 
 Crée en 2002, Hortis est aujourd’hui reconnue, grâce à ses 50 collaborateurs, pour sa forte expertise des environnements Java JEE. Expertise à laquelle elle a su ajouter tout son savoir-faire autour de la Qualité Logiciel, des methodologies Agile, et des développements Open Source.

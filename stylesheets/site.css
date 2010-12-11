@@ -7,3 +7,17 @@ body { margin: 1em 0; }
     margin-right:20px;
     margin-top:10px
 }
+
+ul#grid li {
+  list-style: none outside;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+}
+ul#grid li img {
+  vertical-align: middle;
+}
