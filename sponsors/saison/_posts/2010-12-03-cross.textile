@@ -2,6 +2,8 @@
 layout: sponsor
 logo: logo_cross_systems.png
 website: http://www.cross-systems.ch
+twitter:
+linkedIn: 12959
 title: Cross-Systems
 ---
 

@@ -1,8 +1,13 @@
 <p>
-    <h5>nos sponsors</h5>
-{% for post in site.categories.sponsors %}
+    <h5>sponsors premiums</h5>
+    {% for post in site.categories.premium %}
     <a href="/partners/sponsors.html"><img width="100" src="/images/sponsors/{{ post.logo }}"/></a>
-{% endfor %}
+    {% endfor %}
+</p>
+    <h5>sponsors saison</h5>
+    {% for post in site.categories.saison %}
+    <a href="/partners/sponsors.html"><img width="100" src="/images/sponsors/{{ post.logo }}"/></a>
+    {% endfor %}
 </p>
 <p>
     <h5>nos partenaires</h5>

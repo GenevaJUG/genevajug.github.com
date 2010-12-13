@@ -2,6 +2,8 @@
 layout: sponsor
 logo: logo_hortis.jpg
 website: http://www.hortis.ch
+twitter: HortisNews
+linkedIn: hortis
 title: Hortis
 ---
 

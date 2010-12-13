@@ -2,6 +2,8 @@
 layout: sponsor
 logo: logo_oosphere.png
 website: http://www.oosphere.ch
+twitter:
+linkedIn: 130285
 title: OOsphere
 ---
 

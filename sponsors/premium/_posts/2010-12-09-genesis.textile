@@ -2,6 +2,8 @@
 layout: sponsor
 logo: logo_genesis.png
 website: http://www.genesis-groupe.com
+twitter: genesis_info
+linkedIn: 38943
 title: Genesis
 ---
 

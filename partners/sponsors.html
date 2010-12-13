@@ -6,9 +6,16 @@ layout: partners
     <br>
 </div>
 <div class="span-16">
+    <h3>sponsors premium</h3>
     <ul id="grid" >
-    {% for post in site.categories.sponsors %}
-    <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}" width="120"/></a></li>
+    {% for post in site.categories.premium %}
+    <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}" width="160"/></a></li>
+    {% endfor %}
+    </ul>
+    <h3>sponsors saison</h3>
+    <ul id="grid" >
+    {% for post in site.categories.saison%}
+    <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}" width="110"/></a></li>
     {% endfor %}
     </ul>
 </div>
