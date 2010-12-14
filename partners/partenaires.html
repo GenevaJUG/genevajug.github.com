@@ -3,7 +3,7 @@ layout: partners
 ---
 
 <div class="span-20 last">
-{% for post in site.categories.partenaires %}
+    {% for post in site.categories.partenaires %}
     <div class="span-4">
         <a href="{{ post.website }}"><img width="140" src="{{ post.logo }}" align="left"/></a>
     </div>
@@ -11,5 +11,5 @@ layout: partners
         {{ post.content }}
     </div>
     <hr>
-{% endfor %}
+    {% endfor %}
 </div>

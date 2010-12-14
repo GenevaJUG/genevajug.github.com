@@ -3,25 +3,31 @@ layout: partners
 ---
 
 <div class="span-2">
-    <br>
+    <h4 class="turned">sponsors premium</h4>
 </div>
 <div class="span-16">
-    <h3>sponsors premium</h3>
-    <ul id="grid" >
-    {% for post in site.categories.premium %}
-    <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}" width="160"/></a></li>
-    {% endfor %}
-    </ul>
-    <h3>sponsors saison</h3>
-    <ul id="grid" >
-    {% for post in site.categories.saison%}
-    <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}" width="110"/></a></li>
-    {% endfor %}
+    <ul id="grid-premium">
+        {% for post in site.categories.premium %}
+        <li><a href="{{ post.url }}" class="load-premium"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+        {% endfor %}
     </ul>
 </div>
 <div class="span-1 last">
     <br>
 </div>
-<br>
-<br>        
+<div id="details-premium"></div>
+
+<div class="span-2">
+    <h4 class="turned">sponsors saison</h4>
+</div>
+<div class="span-16">
+    <ul id="grid-saison">
+        {% for post in site.categories.saison %}
+        <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="span-1 last">
+    <br>
+</div>
 <div id="details"></div>

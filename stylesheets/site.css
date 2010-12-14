@@ -1,23 +1,58 @@
-body { margin: 1em 0; }
-#site-menu { padding-left: 0; }
-  #site-menu li { display: inline; }
+body {
+    margin: 1em 0;
+}
+
+#site-menu {
+    padding-left: 0;
+}
+
+#site-menu li {
+    display: inline;
+}
 
 .speaker-photo {
-    height:120px;
-    margin-right:20px;
-    margin-top:10px
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 10px
 }
 
-ul#grid li {
-  list-style: none outside;
-  float: left;
-  margin-right: 20px;
-  margin-left: 20px;
-  width: 140px;
-  height: 140px;
-  line-height: 140px;
-  text-align: center;
+ul#grid-premium li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
 }
-ul#grid li img {
-  vertical-align: middle;
+
+ul#grid-premium li img {
+    vertical-align: middle;
+    width: 140px;
+}
+
+ul#grid-saison li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+}
+
+ul#grid-saison li img {
+    vertical-align: middle;
+    width: 90px;
+}
+
+.turned {
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    display: block;
+    position: relative;
+    top: 50px;
 }
