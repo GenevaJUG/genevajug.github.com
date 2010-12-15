@@ -21,15 +21,14 @@ ul#grid-premium li {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    width: 140px;
-    height: 140px;
-    line-height: 140px;
+    width: 260px;
+    height: 110px;
     text-align: center;
 }
 
 ul#grid-premium li img {
     vertical-align: middle;
-    width: 140px;
+    height: 100px;
 }
 
 ul#grid-saison li {
@@ -37,22 +36,12 @@ ul#grid-saison li {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
+    width: 140px;
+    height: 70px;
     text-align: center;
 }
 
 ul#grid-saison li img {
     vertical-align: middle;
-    width: 90px;
-}
-
-.turned {
-    -webkit-transform: rotate(-90deg); 
-    -moz-transform: rotate(-90deg);
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    display: block;
-    position: relative;
-    top: 50px;
+    height: 60px;
 }
