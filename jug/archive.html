@@ -2,7 +2,7 @@
 layout: jug
 ---
 <div class="span-20 last">
-    <ul>Les rencontres passées:
+    <ul>
     {% for post in site.categories.events %}
         <li>{{ post.date | date_to_string }} <a href="{{ post.url }}" class="load">{{ post.title }}</a></li>
     {% endfor %}
