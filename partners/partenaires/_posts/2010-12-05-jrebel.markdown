@@ -1,5 +1,5 @@
 ---
-logo: /images/logo_jrebel.png
+logo: logo_jrebel.png
 website: http://www.zeroturnaround.com/jrebel/
 title: JRebel
 ---

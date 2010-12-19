@@ -6,19 +6,31 @@ layout: default
     {% include menu_association.html %}
     </div>
     <div class="span-20 last">
+        <div class="span-2">
+            <br>
+        </div>
+        <div class="span-16">
     {% for post in site.categories.members %}
-        <div class="span-6">
-            <img src="{{ post.photo }}" height="80" align="right"/></a>
-        </div>
-        <div class="span-14 last" align="justify">
-            <h3>{{ post.title }}</h3>
-			<p>
-				{{ post.poste }}<br>
-				LinkedIn : <a href="http://{{ post.linkedIn }}">{{ post.linkedIn }}</a><br>
-				Twitter  : <a href="http://{{ post.twitter }}">{{ post.twitter }}</a>
-			</p>
-        </div>
-        <hr>
+            <div class="span-16 last" align="center">
+                <div class="span-4">
+                    <img src="/images/members/{{ post.photo }}" height="80" align="right"/></a>
+                </div>
+                <div class="span-12 last" align="justify">
+                    <h3>{{ post.title }}</h3>
+                    <p>
+                        {{ post.poste }}<br>
+                        <a class="linkedin-profileinsider-popup" href="{{ post.linkedIn }}">{{ post.title }}</a><br>
+                        <a href="http://www.twitter.com/{{ post.twitter }}">
+                            <img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow {{ post.twitter }} on Twitter"/>
+                        </a>
+                    </p>
+                </div>
+                <hr>
+            </div>
     {% endfor %}
+        </div>
+        <div class="span-1 last">
+            <br>
+        </div>
     </div>
 </p>

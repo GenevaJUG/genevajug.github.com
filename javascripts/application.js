@@ -15,21 +15,5 @@ $(document).ready(function () {
         }
         return false;
     });
-
-    $("a.load-premium").click(function() {
-        $("#details-premium").hide();
-        if ($("#details-premium").attr('memo_url') == this.href) {
-            $("#details-premium").attr('memo_url', '');
-        } else {
-            $("#details-premium").attr('memo_url', this.href);
-            $.get(this.href,
-                    function (c) {
-                        $("#details-premium")
-                                .html(c)
-                                .fadeIn('slow');
-                    }
-            );
-        }
-        return false;
-    });
 });
+

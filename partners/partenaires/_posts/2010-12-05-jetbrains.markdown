@@ -1,5 +1,5 @@
 ---
-logo: /images/logo_jetbrains.gif
+logo: logo_jetbrains.gif
 website: http://www.jetbrains.com/
 title: JetBrains
 ---

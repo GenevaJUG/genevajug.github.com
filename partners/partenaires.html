@@ -5,7 +5,7 @@ layout: partners
 <div class="span-20 last">
     {% for post in site.categories.partenaires %}
     <div class="span-4">
-        <a href="{{ post.website }}"><img width="140" src="{{ post.logo }}" align="left"/></a>
+        <a href="{{ post.website }}"><img width="140" src="/images/partners/{{ post.logo }}" align="left"/></a>
     </div>
     <div class="span-16 last" align="justify">
         {{ post.content }}

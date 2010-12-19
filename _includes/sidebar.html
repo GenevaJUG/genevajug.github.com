@@ -1,18 +1,18 @@
 <p>
     <h5>sponsors premiums</h5>
     {% for post in site.categories.premium %}
-    <a href="/partners/sponsors.html"><img width="100" src="/images/sponsors/{{ post.logo }}"/></a>
+    <a href="/partners/sponsors.html#{{ post.title }}"><img width="100" src="/images/sponsors/{{ post.logo }}"/></a>
     {% endfor %}
 </p>
     <h5>sponsors saison</h5>
     {% for post in site.categories.saison %}
-    <a href="/partners/sponsors.html"><img width="100" src="/images/sponsors/{{ post.logo }}"/></a>
+    <a href="/partners/sponsors.html#{{ post.title }}"><img width="100" src="/images/sponsors/{{ post.logo }}"/></a>
     {% endfor %}
 </p>
 <p>
     <h5>nos partenaires</h5>
 {% for post in site.categories.partenaires %}
-    <a href="/partners/partenaires.html"><img width="100" src="{{ post.logo }}"/></a>
+    <a href="/partners/partenaires.html"><img width="100" src="/images/partners/{{ post.logo }}"/></a>
 {% endfor %}
 </p>
 
