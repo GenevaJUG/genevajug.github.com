@@ -16,6 +16,12 @@ body {
     margin-top: 10px
 }
 
+.event-logo {
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 0px
+}
+
 ul#grid-premium li {
     list-style: none outside;
     float: left;
