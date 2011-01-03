@@ -10,17 +10,44 @@ body {
     display: inline;
 }
 
+#details {
+    margin-top: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
 .speaker-photo {
+    display: block;
+    float: left;
     height: 120px;
-    margin-right: 20px;
-    margin-top: 10px
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.partner-logo {
+    display: block;
+    float: left;
+    width: 140px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .event-logo {
     height: 120px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 0px
 }
+
+.margin-logo {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 
 ul#grid-premium li {
     list-style: none outside;
