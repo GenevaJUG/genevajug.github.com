@@ -1,5 +1,6 @@
 ---
 title: Le 17 Janvier, 1er Anniversaire avec Scala et Akka
+category: next
 ---
 
 **A l'Uni-Mai - Salle S150 - De 18h30 à 21h30**
