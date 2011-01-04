@@ -1,10 +1,4 @@
-<div class="span-1">
-    <br>
-</div>
-<div class="span-18">
-    <img src="/images/speakers/{{ page.photo }}" class="speaker-photo" alt="{{ page.title }}">
-    {{ content }}
-</div>
-<div class="span-1 last">
-    <br>
-</div>
+{% include border_left.html %}
+<img src="/images/speakers/{{ page.photo }}" class="speaker-photo" alt="{{ page.title }}">
+{{ content }}
+{% include border_right.html %}

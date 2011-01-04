@@ -2,32 +2,24 @@
 layout: partners
 ---
 
-<div class="span-1">
-    <br>
+{% include border_left.html %}
+<div class="span-18 last" align="center">
+    <h4>sponsors premiums</h4>
+    <ul id="grid-premium">
+        {% for post in site.categories.premium %}
+        <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+        {% endfor %}
+    </ul>
 </div>
-<div class="span-18">
-    <div class="span-18 last" align="center">
-        <h4>sponsors premiums</h4>
-        <ul id="grid-premium">
-            {% for post in site.categories.premium %}
-            <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
-            {% endfor %}
-        </ul>
-    </div>
-    <br>
-    <hr>
-    <div class="span-18 last" align="center">
-        <h4>sponsors saison</h4>
-        <ul id="grid-saison">
-            {% for post in site.categories.saison %}
-            <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
-            {% endfor %}
-        </ul>
-    </div>
-    <br>
-    <hr>
-    <div id="details"></div>
+<br>
+<hr>
+<div class="span-18 last" align="center">
+    <h4>sponsors saison</h4>
+    <ul id="grid-saison">
+        {% for post in site.categories.saison %}
+        <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+        {% endfor %}
+    </ul>
 </div>
-<div class="span-1 last">
-    <br>
-</div>
+<div id="details"></div>
+{% include border_right.html %}

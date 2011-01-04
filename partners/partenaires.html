@@ -2,12 +2,10 @@
 layout: partners
 ---
 
-<div class="span-1"><br></div>
-<div class="span-18 last">
-    {% for post in site.categories.partenaires %}
-        <a href="{{ post.website }}"><img class="partner-logo" src="/images/partners/{{ post.logo }}"/></a>
-        {{ post.content }}
-        <hr>
-    {% endfor %}
-</div>
-<div class="span-1 last"><br></div>
+{% include border_left.html %}
+{% for post in site.categories.partenaires %}
+<a href="{{ post.website }}"><img class="partner-logo" src="/images/partners/{{ post.logo }}"/></a>
+{{ post.content }}
+<hr>
+{% endfor %}
+{% include border_right.html %}
