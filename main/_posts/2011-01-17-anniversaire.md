@@ -29,6 +29,3 @@ We believe that writing correct concurrent, fault-tolerant and scalable applicat
 Cette soirée se finira par buffet d'anniversaire offert par nos sponsors.
 
 Inscription obligatoire sur [jugevents](http://bit.ly/f8mjmV)
-
-
-- - -

@@ -2,7 +2,13 @@
 layout: default
 ---
 
-<div class="span-20 last">
-    {% include menu_association.html %}
+<div id="main_container">
+    {% include navigation_association.html %}
+    <div id="main">
+        <div id="slogan">// Java dans tous ses états</div>
+        <div id="content">
+            {{ content }}
+            {% include footer.html %}
+        </div>
+    </div>
 </div>
-{{ content }}

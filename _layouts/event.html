@@ -1,8 +1,7 @@
-{% include border_left.html %}
-<img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
-{{ content }}
+<div class="disp">
+    <img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
+    {{ content }}
 
-<div class="span-9">
     {% if page.slideshareId %}
     <h3 style="text-align: center;">les slides</h3>
 
@@ -22,9 +21,7 @@
         </object>
     </div>
     {% endif %}
-</div>
 
-<div class="span-9 last">
     {% if page.picasa %}
     <h3 style="text-align: center;">les photos</h3>
     <embed type="application/x-shockwave-flash"
@@ -35,4 +32,3 @@
     </embed>
     {% endif %}
 </div>
-{% include border_right.html %}

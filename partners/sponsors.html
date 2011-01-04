@@ -2,8 +2,12 @@
 layout: partners
 ---
 
-{% include border_left.html %}
-<div class="span-18 last" align="center">
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#sponsors").attr("class", "active");
+    });
+</script>
+<div class="disp">
     <h4>sponsors premiums</h4>
     <ul id="grid-premium">
         {% for post in site.categories.premium %}
@@ -11,9 +15,7 @@ layout: partners
         {% endfor %}
     </ul>
 </div>
-<br>
-<hr>
-<div class="span-18 last" align="center">
+<div class="disp">
     <h4>sponsors saison</h4>
     <ul id="grid-saison">
         {% for post in site.categories.saison %}
@@ -22,4 +24,3 @@ layout: partners
     </ul>
 </div>
 <div id="details"></div>
-{% include border_right.html %}

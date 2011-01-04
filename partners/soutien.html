@@ -2,15 +2,19 @@
 layout: partners
 ---
 
-{% include border_left.html %}
-<div class="span-18 last">
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#soutien").attr("class", "active");
+    });
+</script>
+<div class="disp">
     Le GenevaJUG propose trois formules de partenariat de type sponsoring :
+    <br>
     <ul>
         {% for post in site.categories.sponsoring %}
         <li><a href="{{ post.url }}" class="load">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
-<div id="details"></div>
-{% include border_right.html %}
+<div id="details" class="disp"></div>
 

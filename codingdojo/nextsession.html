@@ -2,7 +2,11 @@
 layout: codingdojo
 ---
 
-{% include border_left.html %}
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#nextsession").attr("class", "active");
+    });
+</script>
+<div class="disp">
     Prochaine session
-{% include border_right.html %}
-
+</div>

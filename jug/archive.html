@@ -1,12 +1,17 @@
 ---
 layout: jug
 ---
-{% include border_left.html %}
-<ul>
-{% for post in site.categories.events %}
-    <li>{{ post.date | date_to_string }} <a href="{{ post.url }}" class="load">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-<hr>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#archive").attr("class", "active");
+    });
+</script>
+<div class="disp">
+    <ul>
+    {% for post in site.categories.events %}
+        <li>{{ post.date | date_to_string }} <a href="{{ post.url }}" class="load">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
 <div id="details"></div>
-{% include border_right.html %}

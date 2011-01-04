@@ -2,7 +2,11 @@
 layout: codingdojo
 ---
 
-{% include border_left.html %}
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#presentation").attr("class", "active");
+    });
+</script>
+<div class="disp">
     Présentation
-{% include border_right.html %}
-
+</div>

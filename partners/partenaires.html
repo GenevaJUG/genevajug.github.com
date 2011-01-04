@@ -2,10 +2,14 @@
 layout: partners
 ---
 
-{% include border_left.html %}
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#partners").attr("class", "active");
+    });
+</script>
 {% for post in site.categories.partenaires %}
-<a href="{{ post.website }}"><img class="partner-logo" src="/images/partners/{{ post.logo }}"/></a>
-{{ post.content }}
-<hr>
+<div class="disp">
+    <a href="{{ post.website }}"><img class="partner-logo" src="/images/partners/{{ post.logo }}"/></a>
+    {{ post.content }}
+</div>
 {% endfor %}
-{% include border_right.html %}
