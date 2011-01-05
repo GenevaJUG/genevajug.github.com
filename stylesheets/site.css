@@ -352,6 +352,12 @@ div.text {
     margin-top: 40px;
 }
 
+.member-photo {
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+}
+
 .speaker-photo {
     float: left;
     height: 120px;

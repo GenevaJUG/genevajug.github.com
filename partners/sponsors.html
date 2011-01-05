@@ -4,11 +4,11 @@ layout: partners
 
 <script type="text/javascript">
     $(document).ready(function() {
-        $("#sponsors").attr("class", "active");
+        $("#sponsor").attr("class", "active");
     });
 </script>
 <div class="disp">
-    <h4>sponsors premiums</h4>
+    <h2>Nos sponsors premiums</h2>
     <ul id="grid-premium">
         {% for post in site.categories.premium %}
         <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
@@ -16,7 +16,7 @@ layout: partners
     </ul>
 </div>
 <div class="disp">
-    <h4>sponsors saison</h4>
+    <h2>Nos sponsors saison</h2>
     <ul id="grid-saison">
         {% for post in site.categories.saison %}
         <li><a href="{{ post.url }}" class="load"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
