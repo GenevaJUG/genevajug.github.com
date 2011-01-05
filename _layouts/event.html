@@ -1,34 +1,32 @@
-<div class="disp">
-    <img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
-    {{ content }}
+<img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
+{{ content }}
 
-    {% if page.slideshareId %}
-    <h3 style="text-align: center;">les slides</h3>
+{% if page.slideshareId %}
+<h3 style="text-align: center;">les slides</h3>
 
-    <div style="width:425px" id="__ss_{{ page.slideshareId }}">
-        <object id="__sse{{ page.slideshareId }}" width="425" height="355">
-            <param name="movie"
-                   value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"/>
-            <param name="allowFullScreen" value="true"/>
-            <param name="allowScriptAccess" value="always"/>
-            <embed name="__sse{{ page.slideshareId }}"
-                   src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"
-                   type="application/x-shockwave-flash"
-                   allowscriptaccess="always"
-                   allowfullscreen="true"
-                   width="425"
-                   height="355"></embed>
-        </object>
-    </div>
-    {% endif %}
-
-    {% if page.picasa %}
-    <h3 style="text-align: center;">les photos</h3>
-    <embed type="application/x-shockwave-flash"
-           src="http://picasaweb.google.com/s/c/bin/slideshow.swf"
-           width="425" height="320"
-           flashvars="host=picasaweb.google.com&captions=1&hl=fr&feat=flashalbum&RGB=0x000000&feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fxavierbourguignon%2Falbumid%2F{{ page.picasa }}%3Falt%3Drss%26kind%3Dphoto%26hl%3Dfr"
-           pluginspage="http://www.macromedia.com/go/getflashplayer">
-    </embed>
-    {% endif %}
+<div style="width:425px" id="__ss_{{ page.slideshareId }}">
+    <object id="__sse{{ page.slideshareId }}" width="425" height="355">
+        <param name="movie"
+               value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"/>
+        <param name="allowFullScreen" value="true"/>
+        <param name="allowScriptAccess" value="always"/>
+        <embed name="__sse{{ page.slideshareId }}"
+               src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"
+               type="application/x-shockwave-flash"
+               allowscriptaccess="always"
+               allowfullscreen="true"
+               width="425"
+               height="355"></embed>
+    </object>
 </div>
+{% endif %}
+
+{% if page.picasa %}
+<h3 style="text-align: center;">les photos</h3>
+<embed type="application/x-shockwave-flash"
+       src="http://picasaweb.google.com/s/c/bin/slideshow.swf"
+       width="425" height="320"
+       flashvars="host=picasaweb.google.com&captions=1&hl=fr&feat=flashalbum&RGB=0x000000&feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fxavierbourguignon%2Falbumid%2F{{ page.picasa }}%3Falt%3Drss%26kind%3Dphoto%26hl%3Dfr"
+       pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed>
+{% endif %}
