@@ -146,7 +146,7 @@ p {
 
 #container {
     position: absolute;
-    background: url(../images/raster.gif) repeat scroll 0 0 transparent;
+    background: url(/images/raster.gif) repeat scroll 0 0 transparent;
     height: 100%;
     top: 0;
     width: 100%;
@@ -180,7 +180,7 @@ p {
 }
 
 #nav ul li a {
-    background: url("../images/dis.png") repeat-x scroll left bottom transparent;
+    background: url("/images/dis.png") repeat-x scroll left bottom transparent;
     padding: 10px 15px 10px 15px;
     font-weight: bold;
     text-decoration: none;
@@ -196,31 +196,31 @@ p {
 }
 
 #nav ul li a:hover {
-    background: url("../images/hover.png") no-repeat 0 -70px transparent;
+    background: url("/images/hover.png") no-repeat 0 -70px transparent;
 }
 
 #nav ul li.active a {
-    background: url("../images/hover.png") no-repeat 0 -35px transparent;
+    background: url("/images/hover.png") no-repeat 0 -35px transparent;
 }
 
 #nav ul li.active a:hover {
-    background: url("../images/hover.png") no-repeat 0 -35px transparent;
+    background: url("/images/hover.png") no-repeat 0 -35px transparent;
 }
 
 #nav ul li ul li a {
-    background: url("../images/hover.png") no-repeat 0 -70px transparent;
+    background: url("/images/hover.png") no-repeat 0 -70px transparent;
 }
 
 #nav ul li.parent.active ul li a {
-    background: url("../images/hover.png") no-repeat 0 -70px transparent;
+    background: url("/images/hover.png") no-repeat 0 -70px transparent;
 }
 
 #nav ul li.parent.active ul li a:hover {
-    background: url("../images/hover.png") no-repeat 0 -105px transparent;
+    background: url("/images/hover.png") no-repeat 0 -105px transparent;
 }
 
 #nav ul li.parent.active ul li.active a {
-    background: url("../images/hover.png") no-repeat 0 0 transparent;
+    background: url("/images/hover.png") no-repeat 0 0 transparent;
     color: #ffffff;
 }
 
@@ -259,7 +259,7 @@ p {
 }
 
 #content {
-    background: url("../images/bg_content.png") repeat 0 0 transparent;
+    background: url("/images/bg_content.png") repeat 0 0 transparent;
     margin: 23px 0 20px 0;
     padding: 15px 15px 15px 15px;
     color: #4b4b4b;
@@ -281,7 +281,7 @@ p {
 
 .disp li {
     padding: 0 0 1px 10px;
-    background: url("../images/ul_li.gif") no-repeat 0 3px transparent;
+    background: url("/images/ul_li.gif") no-repeat 0 3px transparent;
 }
 
 .art-Infos-footer {
@@ -301,7 +301,7 @@ div.cadre {
     position: absolute;
     width: 170px;
     height: 120px;
-    background: url("../images/sponsor_logo.gif") no-repeat 0 0 transparent;
+    background: url("/images/sponsor_logo.gif") no-repeat 0 0 transparent;
     float: left;
     z-index: 300;
 }
@@ -343,9 +343,7 @@ div.text {
 }
 
 .banner img {
-
     margin: 0 auto;
-
 }
 
 #details {
@@ -371,7 +369,6 @@ div.text {
     float: left;
     width: 140px;
     margin-right: 10px;
-    margin-bottom: 5px;
 }
 
 .event-logo {
@@ -394,14 +391,16 @@ ul#grid-premium li {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    width: 260px;
-    height: 110px;
-    text-align: center;
+    width: 120px;
+    height: 120px;
+    background: none;
 }
 
 ul#grid-premium li img {
-    vertical-align: middle;
-    height: 100px;
+    float: none;
+    height: 110px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 ul#grid-saison li {
@@ -409,12 +408,20 @@ ul#grid-saison li {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    width: 140px;
-    height: 70px;
-    text-align: center;
+    width: 80px;
+    height: 80px;
+    background: none;
 }
 
 ul#grid-saison li img {
-    vertical-align: middle;
-    height: 60px;
+    float: none;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.sponsor-details {
+    float: left;
+    display: block;
+    margin-right: 10px;
 }
