@@ -5,15 +5,21 @@ layout: jug
 <script type="text/javascript">
     $(document).ready(function() {
         $("#speakers").attr("class", "active");
+        $("#myGallery").ImageOverlay();
     });
 </script>
 <div class="disp">
+    <ul id="myGallery" class="image-overlay">
     {% for post in site.categories.speakers %}
-    <div class="{% cycle 'span-4', 'span-4', 'span-4', 'span-4', 'span-4 last' %}" align="center">
-        <a href="{{ post.url }}" class="load"><img src="/images/speakers/{{ post.photo }}" height="100"/></a>
-        <h4>{{ post.title }}</h4>
-    </div>
+        <li>
+            <a href="{{ post.url }}" class="{ overlay_speed: 'fast', overlay_speed_out: 'slow' } load"><img src="/images/speakers/{{ post.photo }}"/>
+                <div class="caption">
+                    <h4>{{ post.title }}</h4>
+                </div>
+            </a>
+        </li>
     {% endfor %}
+    </ul>
 </div>
 <div id="details" class="disp"></div>
         

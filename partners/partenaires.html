@@ -9,7 +9,11 @@ layout: partners
 </script>
 {% for post in site.categories.partenaires %}
 <div class="disp">
-    <a href="{{ post.website }}"><img class="partner-logo" src="/images/partners/{{ post.logo }}"/></a>
-    {{ post.content }}
+    <div class="img">
+        <a href="{{ post.website }}"><img src="/images/partners/{{ post.logo }}" align="left"/></a>
+    </div>
+    <div class="text">
+        {{ post.content }}
+    </div>
 </div>
 {% endfor %}

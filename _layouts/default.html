@@ -8,18 +8,22 @@
 		<meta http-equiv="content-language" content="fr" />
 
 		<meta name="language" content="fr" />
-		<meta name="robots" content="all" />
-		<meta name="description" xml:lang="fr" content="XXXXXXXXXXXXXX" />
-		<meta name="keywords" xml:lang="en" content="XXXXXXXXXXXX" />
-		<meta name="author" content="Geneva JUG" />
+        <meta name="description" xml:lang="fr"
+              content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+        <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}"/>
+        <meta name="robots" content="noodp,noydir"/>
+        <meta name="author" content="GenevaJUG" />
 
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="stylesheet" media="screen" type="text/css" title="default css" href="/stylesheets/site.css" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/ImageOverlay.css">
 
 		<script src="/javascripts/jquery-1.4.4.min.js" type="text/javascript"></script>
 	    <script src="/javascripts/jquery.cycle.js" type="text/javascript"></script>
         <script src="/javascripts/application.js" type="text/javascript"></script>
-        <script src="http://www.linkedin.com/companyInsider?script&useBorder=no" type="text/javascript"></script> 
+        <script src="/javascripts/jquery.ImageOverlay.js" type="text/javascript"></script>
+        <script src="http://www.linkedin.com/companyInsider?script&useBorder=yes" type="text/javascript"></script>
         <script src="http://www.linkedin.com/js/public-profile/widget-os.js" type="text/javascript"></script>
     </head>
 

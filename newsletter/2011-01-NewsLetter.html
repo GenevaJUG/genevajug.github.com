@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>Geneva JUG - Newsletter - Janvier 2011</title>
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="content-language" content="fr" />
+
+		<meta name="language" content="fr" />
+		<meta name="robots" content="all" />
+		<meta name="description" xml:lang="fr" content="XXXXXXXXXXXXXX" />
+		<meta name="keywords" xml:lang="en" content="XXXXXXXXXXXX" />
+		<meta name="author" content="GenevaJUG" />
+
+        <script src="http://genevajug.github.com/javascripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://genevajug.github.com/javascripts/jquery.cycle.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#superimage').cycle({
+                    fx:    'fade',
+                    pause:	60,
+                    timeout: 20000,
+                    speed:  10
+                 });
+            });
+        </script>
+
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html, body {
+                color: #ffffff;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                height: 100%;
+                text-align: center;
+                width: 100%;
+            }
+
+            html body {
+                height: 100%;
+            }
+
+            table {
+                clear: both;
+                width: 100%;
+            }
+
+            table, table td, table tr {
+                clear: both;
+                border-collapse: collapse;
+                text-align: left;
+                vertical-align: top;
+            }
+
+            img {
+                border-style: none;
+                display: block;
+            }
+
+            abbr, acronym, .help {
+                border-bottom: 1px dotted #333333;
+                cursor: help;
+            }
+
+            h1, h2, h3, h4 {
+                clear: both;
+            }
+
+            h1 {
+                display: block;
+                color: #555555;
+                font-size: 26px;
+                font-weight: normal;
+                letter-spacing: 1px;
+                line-height: 31px;
+                font-style: italic;
+            }
+
+            h2 {
+                font-family: Georgia, Arial, lucida sans;
+                font-size: 24px;
+                text-transform: none;
+                color: #00AAE7;
+                display: block;
+                padding: 0px 0px 10px 0px;
+                font-weight: normal;
+                text-shadow: 1px 1px 0 #FFFFFF;
+                line-height: 21px;
+            }
+
+            h3 {
+                color: #666666;
+                display: block;
+                padding: 0px 0px 0px 0px;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 17px;
+            }
+
+            h4 {
+
+                display: block;
+                color: #8F8F8F;
+                font-size: 13px;
+                font-weight: normal;
+                line-height: 16px;
+                font-style: italic;
+                padding: 0px 0px 15px 0px;
+            }
+
+            ul, ol, dl {
+                list-style: none outside none;
+            }
+
+            header, section, footer, aside, nav, article, figure {
+                display: block;
+            }
+
+            input, textarea {
+                border: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+            }
+
+            *:link, *:visited, *:link:focus, *:visited:focus {
+                color: #00aae7;
+                text-decoration: none;
+            }
+
+            *:link:hover, *:visited:hover, *:link:active, *:visited:active {
+                color: #00aae7;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+
+            p {
+                line-height: 16px;
+                padding: 0 0 10px 0;
+                text-align: justify;
+            }
+
+       /* -----------------------------------------------
+                Page Layout
+            ----------------------------------------------- */
+            #superimage {
+                position: fixed;
+                z-index: -1;
+                width: 1680px;
+                height: 1260px;
+                display: block;
+            }
+
+            #superimage img {
+                border: none;
+                width: 100%;
+                height: 100%;
+            }
+
+            #container {
+                position: absolute;
+                background: url("http://genevajug.github.com/images/raster.gif") repeat scroll 0 0 transparent;
+                height: 100%;
+                top: 0;
+                width: 100%;
+                z-index: 100;
+                overflow: auto;
+            }
+
+            #main_container {
+                width: 900px;
+                margin: 0 auto;
+                padding: 50px 0 0 0;
+                text-align: left;
+                z-index: 999999;
+            }
+
+            #navigation {
+                display: block;
+                width: 160px;
+                float: left;
+                overflow: hidden;
+            }
+
+            #navigation img {
+                border: none;
+                padding: 0 0 20px 0;
+            }
+
+            #nav ul li {
+                text-align: right;
+                font-size: 12px;
+            }
+
+            #nav ul li a {
+                background: url("http://genevajug.github.com/images/dis.png") repeat-x scroll left bottom transparent;
+                padding: 10px 15px 10px 15px;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: block;
+                color: #ffffff;
+            }
+
+            #nav ul li ul li a {
+                text-align: right;
+                font-size: 11px;
+                color: #00aae7;
+            }
+
+            #nav ul li a:hover {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 -70px transparent;
+            }
+
+            #nav ul li.active a {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 -35px transparent;
+            }
+
+            #nav ul li.active a:hover {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 -35px transparent;
+            }
+
+            #nav ul li ul li a {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 -70px transparent;
+            }
+
+            #nav ul li.parent.active ul li a {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 -70px transparent;
+            }
+
+            #nav ul li.parent.active ul li a:hover {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 -105px transparent;
+            }
+
+            #nav ul li.parent.active ul li.active a {
+                background: url("http://genevajug.github.com/images/hover.png") no-repeat 0 0 transparent;
+                color: #ffffff;
+            }
+
+            #social {
+                padding: 30px 0 0 0;
+            }
+
+            #social ul {
+
+            }
+
+            #social li {
+                float: left;
+            }
+
+            #social li a {
+                display: block;
+                padding: 0 15px 0 15px;
+            }
+
+            #main {
+                display: block;
+                width: 715px;
+                margin: 0 0 0 20px;
+                float: left;
+            }
+
+            #slogan {
+                background-color: #000000;
+                margin: 5px 0 0 0;
+                padding: 9px 15px 9px 15px;
+                font-family: Georgia, Times New Roman, Times, serif;
+                font-style: italic;
+                font-size: 13px;
+                color: #ffffff;
+            }
+
+            #content {
+                background: url("http://genevajug.github.com/images/bg_content.png") repeat 0 0 transparent;
+                margin: 23px 0 20px 0;
+                padding: 15px 15px 15px 15px;
+                color: #4b4b4b;
+            }
+
+            .disp {
+                color: #707070;
+                font-family: Lucida Grande, lucida-sans, Arial, Helvetica, Tahoma;
+                font-size: 14px;
+                padding: 15px 15px 15px 15px;
+                margin: 0 0 15px 0;
+                background-color: #f5f5f5;
+            }
+
+            .disp ul {
+                margin: 0 0 25px 10px;
+                overflow: hidden;
+            }
+
+            .disp li {
+                padding: 0 0 1px 10px;
+                background: url("http://genevajug.github.com/images/ul_li.gif") no-repeat 0 3px transparent;
+            }
+
+            .art-Infos-footer {
+                padding: 25px 0 0 0;
+                clear: both;
+                text-align: right;
+                font-size: 12px;
+                color: #b6dff7;
+            }
+
+            .imgtop {
+                float: left;
+                padding: 0 15px 15px 0;
+            }
+
+            div.cadre {
+                position: absolute;
+                width: 170px;
+                height: 120px;
+                background: url("http://genevajug.github.com/images/sponsor_logo.gif") no-repeat 0 0 transparent;
+                float: left;
+                z-index: 300;
+            }
+
+            div.img {
+                position: absolute;
+                z-index: 200;
+                float: left;
+            }
+
+            div.text {
+                padding: 0 0 0 180px;
+                clear: both;
+            }
+
+            #footer {
+                color: #707070;
+                font-family: Lucida Grande, lucida-sans, Arial, Helvetica, Tahoma;
+                font-size: 12px;
+                padding: 15px 15px 15px 15px;
+                margin: 0 0 0 0;
+                background-color: #f5f5f5;
+            }
+
+            #footer ul {
+                height: 100%;
+                margin: 0 0 15px 0;
+                overflow: hidden;
+                list-style-type: none;
+            }
+
+            #footer ul li {
+                float: left;
+                width: 210px;
+            }
+
+            #copy {
+                text-align: right;
+            }
+
+            .banner img {
+                margin: 0 auto;
+            }
+        </style>
+
+	</head>
+	<body>
+		<div id="superimage">
+			<img src="https://d7f72d6f57-custmedia.vresp.com/18441515ec/bg_01.jpg">
+		</div>
+		<div id="container" class="scroll_auto">
+			<div id="main_container">
+				<div id="navigation">
+					<a href="#"><img src="http://genevajug.github.com/images/geneva_jug_logo.png" alt="GenevaJUG"/></a>
+					<div id="nav">
+						<ul>
+							<li class="first active"><a href="#">Newsletter</a></li>
+							<li class="parent"><a href="#">Janvier</a>
+								<ul>
+									<li ><a href="#">2011</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div id="social">
+						<ul>
+							<li><a href="http://www.twitter.com/GenevaJUG"><img src="http://genevajug.github.com/images/social_twitter.gif" alt="twitter"/></a></li>
+							<li><a href="http://www.linkedin.com/groups?gid=2511735"><img src="http://genevajug.github.com/images/social_linkedin.gif" alt="linkedin"/></a></li>
+							<li><a href="http://groups.google.com/group/genevajug"><img src="http://genevajug.github.com/images/social_google.gif" alt="google groups"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="main">
+					<div id="slogan">// Java dans tous ses états</div>
+					<div id="content">
+                        <div class="disp">
+                            <h2>Un nouveau site !</h2>
+                        </div>
+						<div class="disp">
+							<h2>Le 17 Janvier, 1er Anniversaire avec Scala et Akka</h2>
+							<h3>A l'Uni-Mai - Salle S150 - De 18h30 à 21h30</h3>
+							<h4>Avec Iulian Dragos et Jonas Bonèr</h4>
+							<p>Venez fêter avec nous le 1er anniversaire du GenevaJUG avec 2 speakers d'exceptions et des surprises !</p>
+							<p>Déroulement de la soirée:</p>
+							<p>18h30-18h45: accueil des participants et bilan de l'année 2010</p>
+							<p>18h-45-19h45: Scala avec Iulian Dragos (English talk, questions and answers in french))</p>
+							<div class="art-Infos-footer">
+								publié le 13 décembre 2010 par Xavier BOURGUIGNON
+	      		        	</div>
+						</div>
+						<div id="footer">
+							<ul>
+								<li>
+									<h3>Banner</h3>
+									<br/>
+									<div class="banner">
+										<img src="http://genevajug.github.com/images/devoxx10-120x240-white.gif" alt="" />
+									</div>
+								</li>
+								<li>
+									<h3>Nos sponsors</h3>
+									<br/>
+									<ul>
+										<li><a href="">sponsor</a></li>
+										<li><a href="">sponsor</a></li>
+										<li><a href="">sponsor</a></li>
+										<li><a href="">sponsor</a></li>
+										<li><a href="">sponsor</a></li>
+									</ul>
+								</li>
+								<li>
+									<h3>Nos partenaires</h3>
+									<br/>
+									<ul>
+										<li><a href="">partenaire</a></li>
+										<li><a href="">partenaire</a></li>
+										<li><a href="">partenaire</a></li>
+										<li><a href="">partenaire</a></li>
+										<li><a href="">partenaire</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div id="copy">
+								&copy; Copyright 2011 GenevaJUG - Design by <a href="http://www.hortis.ch">Hortis, le studio</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
