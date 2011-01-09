@@ -1,32 +1,28 @@
 <div id="footer">
+
     <ul>
         <li>
-            <h3>Banner</h3>
-            <br/>
-            <div class="banner">
-                <img src="/images/devoxx10-120x240-white.gif" alt="" />
-            </div>
-        </li>
-        <li>
-            <h3>Nos sponsors</h3>
-            <br/>
-            <ul>
-                <li><a href="">sponsor</a></li>
-                <li><a href="">sponsor</a></li>
-                <li><a href="">sponsor</a></li>
-                <li><a href="">sponsor</a></li>
-                <li><a href="">sponsor</a></li>
+            <h3>sponsors premiums</h3>
+            <ul id="grid-premium-footer">
+                {% for post in site.categories.premium %}
+                <li><a href="/partners/sponsors.html"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+                {% endfor %}
             </ul>
         </li>
         <li>
-            <h3>Nos partenaires</h3>
-            <br/>
+            <h3>sponsors saison</h3>
+            <ul id="grid-saison-footer">
+                {% for post in site.categories.saison %}
+                <li><a href="/partners/sponsors.html"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <h3>partenaires</h3>
             <ul>
-                <li><a href="">partenaire</a></li>
-                <li><a href="">partenaire</a></li>
-                <li><a href="">partenaire</a></li>
-                <li><a href="">partenaire</a></li>
-                <li><a href="">partenaire</a></li>
+                {% for post in site.categories.partenaires %}
+                <li><a href="/partners/partenaires.html"><img src="/images/partners/{{ post.logo }}" height="40"/></a></li>
+                {% endfor %}
             </ul>
         </li>
     </ul>

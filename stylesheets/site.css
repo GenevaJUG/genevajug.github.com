@@ -419,6 +419,22 @@ ul#grid-premium li img {
     margin-left: 5px;
 }
 
+ul#grid-premium-footer li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+ul#grid-premium-footer li img {
+    float: none;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 ul#grid-saison li {
     list-style: none outside;
     float: left;
@@ -432,6 +448,23 @@ ul#grid-saison li {
 ul#grid-saison li img {
     float: none;
     height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul#grid-saison-footer li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    background: none;
+}
+
+ul#grid-saison-footer li img {
+    float: none;
+    height: 50px;
     margin-right: 5px;
     margin-left: 5px;
 }
