@@ -376,9 +376,10 @@ div.text {
 .event-logo {
     display: block;
     float: left;
-    height: 120px;
+    height: 100px;
     margin-right: 10px;
-    margin-top: 0px
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .margin-logo {
@@ -389,20 +390,16 @@ div.text {
 }
 
 ul#grid-speaker li {
-    list-style: : none outside;
+    list-style: none outside;
     float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 120px;
-    height: 120px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 110px;
     background: none;
 }
 
 ul#grid-speaker li img {
     float: none;
-    height: 100px;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 ul#grid-premium li {
