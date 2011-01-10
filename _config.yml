@@ -7,9 +7,9 @@ auto:        true
 # Site configuration
 #
 url:          http://localhost:4000
-title:        Geneva JUG
+title:        GenevaJUG
 description:  Geneva Java User Group Website
 keywords:     Geneva, Java, JUG
 author:       # atom.xml: Name of website's author
 email:        # atom.xml: Author email
-analytics_id: UA-19954917-1
+analytics_id: UA-20372950-1
