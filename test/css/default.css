@@ -146,6 +146,7 @@ clear: both;
 	}
 	
 #container {
+    clear: both;
 	position: absolute;
 	background: url(../images/raster.gif) repeat scroll 0 0 transparent;
     height: 100%;
