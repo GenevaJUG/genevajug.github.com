@@ -131,6 +131,7 @@ p {
 	Page Layout
 ----------------------------------------------- */
 #superimage {
+    clear: both;
     position: fixed;
     z-index: -1;
     width: 1680px;
