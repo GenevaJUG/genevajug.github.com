@@ -6,7 +6,6 @@
 					  www.hortis.ch
 ----------------------------------------------- */
 
-
 /* -----------------------------------------------
 	Base
 ----------------------------------------------- */
@@ -351,4 +350,134 @@ div.text {
 
 	margin: 0 auto; 
 
-	}		
+	}
+
+#details {
+    margin-top: 40px;
+}
+
+.member-photo {
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.speaker-photo {
+    float: left;
+    height: 120px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.partner-logo {
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.event-logo {
+    display: block;
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.margin-logo {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+ul#grid-speaker li {
+    list-style: none outside;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 110px;
+    background: none;
+}
+
+ul#grid-speaker li img {
+    float: none;
+}
+
+ul#grid-premium li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 120px;
+    height: 120px;
+    background: none;
+}
+
+ul#grid-premium li img {
+    float: none;
+    height: 110px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul#grid-premium-footer li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+ul#grid-premium-footer li img {
+    float: none;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul#grid-saison li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+ul#grid-saison li img {
+    float: none;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul#grid-saison-footer li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    background: none;
+}
+
+ul#grid-saison-footer li img {
+    float: none;
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.sponsor-details {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    clear: both;
+}
