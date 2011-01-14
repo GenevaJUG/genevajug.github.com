@@ -9,7 +9,7 @@ layout: association
 </script>
 {% for post in site.categories.members %}
 <div class="disp">
-    <img src="/images/members/{{ post.photo }}" class="member-photo"/>
+    <img src="/images/members/{{ post.photo }}" class="member-photo" alt="{{ post.title }}"/>
     <p>
     <a class="linkedin-profileinsider-popup" href="{{ post.linkedIn }}">{{ post.title }}</a>
     {{ post.content }}

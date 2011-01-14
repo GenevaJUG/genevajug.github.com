@@ -10,7 +10,7 @@ layout: partners
 {% for post in site.categories.partenaires %}
 <div class="disp">
     <div class="img">
-        <a href="{{ post.website }}"><img src="/images/partners/{{ post.logo }}" align="left"/></a>
+        <a href="{{ post.website }}"><img src="/images/partners/{{ post.logo }}" alt="{{ post.title }}" align="left"/></a>
     </div>
     <div class="text">
         {{ post.content }}

@@ -5,7 +5,7 @@
             <h3>sponsors premiums</h3>
             <ul id="grid-premium-footer">
                 {% for post in site.categories.premium %}
-                <li><a href="/partners/sponsors.html"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+                <li><a href="/partners/sponsors.html"><img src="/images/sponsors/{{ post.logo }}" alt="{{ post.title }}"/></a></li>
                 {% endfor %}
             </ul>
         </li>
@@ -13,7 +13,7 @@
             <h3>sponsors saison</h3>
             <ul id="grid-saison-footer">
                 {% for post in site.categories.saison %}
-                <li><a href="/partners/sponsors.html"><img src="/images/sponsors/{{ post.logo }}"/></a></li>
+                <li><a href="/partners/sponsors.html"><img src="/images/sponsors/{{ post.logo }}" alt="{{ post.title }}"/></a></li>
                 {% endfor %}
             </ul>
         </li>
@@ -21,7 +21,7 @@
             <h3>partenaires</h3>
             <ul>
                 {% for post in site.categories.partenaires %}
-                <li><a href="/partners/partenaires.html"><img src="/images/partners/{{ post.logo }}" height="40"/></a></li>
+                <li><a href="/partners/partenaires.html"><img src="/images/partners/{{ post.logo }}" height="40" alt="{{ post.title }}"/></a></li>
                 {% endfor %}
             </ul>
         </li>
