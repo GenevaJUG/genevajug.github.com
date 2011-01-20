@@ -1,27 +1,47 @@
-<img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
-{{ content }}
+<div class="disp">
+    {% if page.logo %}
+    <img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
+    {% endif %}
+    {{ content }}
 
-{% if page.slideshareId %}
-<object id="__sse{{ page.slideshareId }}" width="320" height="260">
-    <param name="movie"
-           value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"/>
-    <param name="allowFullScreen" value="true"/>
-    <param name="allowScriptAccess" value="always"/>
-    <embed name="__sse{{ page.slideshareId }}"
-           src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"
-           type="application/x-shockwave-flash"
-           allowscriptaccess="always"
-           allowfullscreen="true"
-           width="320"
-           height="260"></embed>
-</object>
-{% endif %}
-&nbsp;
-{% if page.picasa %}
-<embed type="application/x-shockwave-flash"
-       src="http://picasaweb.google.com/s/c/bin/slideshow.swf"
-       width="320" height="260"
-       flashvars="host=picasaweb.google.com&captions=1&hl=fr&feat=flashalbum&RGB=0x000000&feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fxavierbourguignon%2Falbumid%2F{{ page.picasa }}%3Falt%3Drss%26kind%3Dphoto%26hl%3Dfr"
-       pluginspage="http://www.macromedia.com/go/getflashplayer">
-</embed>
-{% endif %}
+    {% if page.slideshareId %}
+    <object id="__sse{{ page.slideshareId }}" width="320" height="260">
+        <param name="movie"
+               value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"/>
+        <param name="allowFullScreen" value="true"/>
+        <param name="allowScriptAccess" value="always"/>
+        <embed name="__sse{{ page.slideshareId }}"
+               src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"
+               type="application/x-shockwave-flash"
+               allowscriptaccess="always"
+               allowfullscreen="true"
+               width="320"
+               height="260"></embed>
+    </object>
+    {% endif %}
+    &nbsp;
+    {% if page.slideshareId2 %}
+    <object id="__sse{{ page.slideshareId2 }}" width="320" height="260">
+        <param name="movie"
+               value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam2 }}"/>
+        <param name="allowFullScreen" value="true"/>
+        <param name="allowScriptAccess" value="always"/>
+        <embed name="__sse{{ page.slideshareId }}"
+               src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam2 }}"
+               type="application/x-shockwave-flash"
+               allowscriptaccess="always"
+               allowfullscreen="true"
+               width="320"
+               height="260"></embed>
+    </object>
+    {% endif %}
+    &nbsp;
+    {% if page.picasa %}
+    <embed type="application/x-shockwave-flash"
+           src="http://picasaweb.google.com/s/c/bin/slideshow.swf"
+           width="320" height="260"
+           flashvars="host=picasaweb.google.com&captions=1&hl=fr&feat=flashalbum&RGB=0x000000&feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fxavierbourguignon%2Falbumid%2F{{ page.picasa }}%3Falt%3Drss%26kind%3Dphoto%26hl%3Dfr"
+           pluginspage="http://www.macromedia.com/go/getflashplayer">
+    </embed>
+    {% endif %}
+</div>
