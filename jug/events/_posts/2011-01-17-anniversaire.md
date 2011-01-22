@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 1er Anniversaire avec Scala et Akka
+title: Birthday party with Scala and Akka
 slideshareId: 6643956
 slideshareParam: doc=scala-intro-110120140714-phpapp01&stripped_title=scala-at-genevajug&userName=GenevaJUG
 slideshareId2: 6636244
