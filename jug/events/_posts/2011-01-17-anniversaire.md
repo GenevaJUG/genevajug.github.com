@@ -5,6 +5,7 @@ slideshareId: 6643956
 slideshareParam: doc=scala-intro-110120140714-phpapp01&stripped_title=scala-at-genevajug&userName=GenevaJUG
 slideshareId2: 6636244
 slideshareParam2: doc=akka-scala-genevajug-110120030446-phpapp01&stripped_title=akka-talk-at-geneva-jug-scala-api&userName=jboner
+picasa: 5565055027211660977
 ---
 
 <img align="right" class="margin-logo" src="/images/events/scala-logo.png" alt="Logo Scala">
