@@ -9,8 +9,10 @@ $(document).ready(function () {
             $("#details").attr('memo_url', this.href);
             $.get(this.href, function (c) {
                         $("#details").html(c).fadeIn();
+                        pageTracker._trackPageview(this.href);
                     });
         }
+
         return false;
     });
 });
