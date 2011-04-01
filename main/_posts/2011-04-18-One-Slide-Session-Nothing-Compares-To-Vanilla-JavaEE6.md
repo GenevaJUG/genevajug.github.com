@@ -1,5 +1,5 @@
 ---
-title: April 18th, the One Slide Session ! Lightweight Killer Apps with Nothing But Vanilla Java EE 6
+title: "April 18th, the One Slide Session: Nothing Compares to ...Vanilla Java EE 6 !"
 category: next
 ---
 
@@ -22,6 +22,6 @@ This is rarely possible with any other platform, but it's “business as usual�
 
 This session shows new Java EE 6 features in a continuous demo style. Attendees questions will be answered with working code.
 
-Cette soirée se finira comme à l'habitude par buffet offert par nos sponsors.
+As usual, the evening will end with a buffet provided by our sponsors.
 
-Inscription obligatoire sur [jugevents](http://bit.ly/goV88n)
+Registration required on [jugevents](http://bit.ly/goV88n)
