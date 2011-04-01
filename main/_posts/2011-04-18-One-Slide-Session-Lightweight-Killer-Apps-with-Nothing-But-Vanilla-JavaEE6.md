@@ -1,5 +1,5 @@
 ---
-title: April 18th, the One Slide Session, Lightweight Killer Apps with Nothing But Vanilla Java EE 6
+title: April 18th, the One Slide Session ! Lightweight Killer Apps with Nothing But Vanilla Java EE 6
 category: next
 ---
 
