@@ -1,12 +1,7 @@
 ---
-title: "April 18th, the One Slide Session: Nothing Compares to ...Vanilla Java EE 6 !"
-category: next
+layout: event
+title: "One Slide Session: Nothing Compares to ...Vanilla Java EE 6 !"
 ---
-
-**Uni-Mail - Salle MR070 - De 18h30 à 20h30**
-
-***with  Adam Bien***
-
 Java Champion Adam Bien, the author of Real World Java EE Patterns, will be throwing away the slide-deck as he demonstrates,
 from the ground up, just how easy it is to create a simple, light-weight and easy to develop Java EE 6 application from scratch.
 
@@ -21,7 +16,3 @@ And it's all done from scratch, without wizards, templates or code generation.
 This is rarely possible with any other platform, but it's “business as usual” in Java EE 6.
 
 This session shows new Java EE 6 features in a continuous demo style. Attendees questions will be answered with working code.
-
-As usual, the evening will end with a buffet provided by our sponsors.
-
-Registration required on [jugevents](http://bit.ly/goV88n)

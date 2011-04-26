@@ -1,5 +1,6 @@
 ---
-title: March 29th, IBM Jazz Agile Development
+layout: event
+title: IBM Jazz Agile Development
 ---
 
 <img align="left" class="margin-logo" src="/images/events/jazz.png" alt="Logo Logback">
