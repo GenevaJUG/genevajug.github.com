@@ -5,34 +5,10 @@
     {{ content }}
 
     {% if page.slideshareId %}
-    <object id="__sse{{ page.slideshareId }}" width="310" height="250">
-        <param name="movie"
-               value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"/>
-        <param name="allowFullScreen" value="true"/>
-        <param name="allowScriptAccess" value="always"/>
-        <embed name="__sse{{ page.slideshareId }}"
-               src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam }}"
-               type="application/x-shockwave-flash"
-               allowscriptaccess="always"
-               allowfullscreen="true"
-               width="310"
-               height="250"></embed>
-    </object>
+    <iframe src="http://www.slideshare.net/slideshow/embed_code/{{ page.slideshareId }}" width="310" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
     {% endif %}
     {% if page.slideshareId2 %}
-    <object id="__sse{{ page.slideshareId2 }}" width="310" height="250">
-        <param name="movie"
-               value="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam2 }}"/>
-        <param name="allowFullScreen" value="true"/>
-        <param name="allowScriptAccess" value="always"/>
-        <embed name="__sse{{ page.slideshareId }}"
-               src="http://static.slidesharecdn.com/swf/ssplayer2.swf?{{ page.slideshareParam2 }}"
-               type="application/x-shockwave-flash"
-               allowscriptaccess="always"
-               allowfullscreen="true"
-               width="310"
-               height="250"></embed>
-    </object>
+    <iframe src="http://www.slideshare.net/slideshow/embed_code/{{ page.slideshareId2 }}" width="310" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
     {% endif %}
     {% if page.picasa %}
     <embed type="application/x-shockwave-flash"

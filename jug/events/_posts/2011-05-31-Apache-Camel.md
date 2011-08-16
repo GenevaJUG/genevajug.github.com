@@ -1,7 +1,10 @@
 ---
 layout: event
 title: Apache Camel
+slideshareId: 8344185
+picasa: 5628574328532353793
 ---
+
 <img align="left" height="100" class="margin-logo" src="/images/events/camel-logo.png" alt="Logo Camel">Le besoin en technologies d'intégration est très important.
 Les EIPs (Enterprise Integration Patterns) sont devenues un standard de fait pour décrire les scénarios d'intégration et de messaging.
 

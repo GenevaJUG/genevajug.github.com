@@ -3,7 +3,6 @@ layout: event
 title: Java EE 6 & GlassFish v3
 logo: glassfish_logo.png
 slideshareId: 5356321
-slideshareParam: doc=javaee6glassfish3genevajug-101004163142-phpapp01&rel=0&stripped_title=java-ee6-glassfish3-genevajug&userName=GenevaJUG
 picasa: 5564943892562152337
 ---
 Avant la pause estivale, Alexis Moussine-Pouchkine, vient nous présenter Java EE 6 & GlassFish v3.
