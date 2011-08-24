@@ -3,4 +3,8 @@
 </div>
 <div class="text">
     {{ content }}
+
+    {% if page.event %}
+    <h3><a href="archive.html?event={{ page.eventKey }}">{{ page.event }}</a></h3>
+    {% endif %}
 </div>

@@ -2,6 +2,9 @@
 layout: speaker
 title: Didier Girard
 photo: didier_girard.jpeg
+key: didier_girard
+event: Soirée Technologies Google
+eventKey: google
 ---
 
 ###Didier Girard###

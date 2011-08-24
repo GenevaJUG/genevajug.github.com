@@ -2,6 +2,9 @@
 layout: speaker
 title: Habib Guergachi
 photo: habib_guergachi.jpeg
+key: habib_guergachi
+event: Play! Framework
+eventKey: play
 ---
 
 ###Habib Guergachi###

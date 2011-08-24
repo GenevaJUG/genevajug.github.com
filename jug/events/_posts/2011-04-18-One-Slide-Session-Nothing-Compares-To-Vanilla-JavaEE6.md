@@ -1,6 +1,9 @@
 ---
 layout: event
 title: "One Slide Session: Nothing Compares to ...Vanilla Java EE 6 !"
+speaker: Adam Bien
+speakerKey: adam_bien
+eventKey: javaee6
 ---
 Java Champion Adam Bien, the author of Real World Java EE Patterns, will be throwing away the slide-deck as he demonstrates,
 from the ground up, just how easy it is to create a simple, light-weight and easy to develop Java EE 6 application from scratch.

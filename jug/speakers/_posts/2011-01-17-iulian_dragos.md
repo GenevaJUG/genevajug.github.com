@@ -2,6 +2,9 @@
 layout: speaker
 title: Iulian Dragos
 photo: iulian_dragos.jpeg
+key: iulian_dragos
+event: Birthday party with Scala and Akka
+eventKey: birthday1
 ---
 
 ###Iulian Dragos###

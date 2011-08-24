@@ -2,6 +2,9 @@
 layout: speaker
 title: Guillaume Bort
 photo: guillaume_bort.jpg
+key: guillaume_bort
+event: Play! Framework
+eventKey: play
 ---
 
 ###Guillaume Bort###

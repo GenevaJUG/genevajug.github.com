@@ -1,4 +1,9 @@
 <div class="disp">
+    <h2>{{ page.title }}</h2>
+    <h3>avec <a href="speakers.html?key={{ page.speakerKey }}">{{ page.speaker }}</a>
+    {% if page.speaker2 %} et <a href="speakers.html?key={{ page.speakerKey2 }}">{{ page.speaker2 }}</a>{% endif %}</h3>
+    <br>
+
     {% if page.logo %}
     <img src="/images/events/{{ page.logo }}" class="event-logo" alt="{{ page.title }}">
     {% endif %}

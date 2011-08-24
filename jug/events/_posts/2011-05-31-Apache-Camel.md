@@ -3,6 +3,9 @@ layout: event
 title: Apache Camel
 slideshareId: 8344185
 picasa: 5628574328532353793
+speaker: Guillaume Nodet
+speakerKey: guillaume_nodet
+eventKey: camel
 ---
 
 <img align="left" height="100" class="margin-logo" src="/images/events/camel-logo.png" alt="Logo Camel">Le besoin en technologies d'intégration est très important.
