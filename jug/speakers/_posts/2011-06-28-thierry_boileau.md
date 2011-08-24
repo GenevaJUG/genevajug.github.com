@@ -2,6 +2,7 @@
 layout: speaker
 title: Thierry Boileau
 photo: thierry_boileau.jpg
+key: thierry_boileau
 ---
 
 ###Thierry Boileau###

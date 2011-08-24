@@ -4,6 +4,8 @@ title: Java EE 6 & GlassFish v3
 logo: glassfish_logo.png
 slideshareId: 5356321
 picasa: 5564943892562152337
+speaker: Alexis Moussine-Pouchkine
+speakerKey: alexis_mp
 ---
 Avant la pause estivale, Alexis Moussine-Pouchkine, vient nous présenter Java EE 6 & GlassFish v3.
 

@@ -2,6 +2,7 @@
 layout: speaker
 title: Didier Girard
 photo: didier_girard.jpeg
+key: didier_girard
 ---
 
 ###Didier Girard###

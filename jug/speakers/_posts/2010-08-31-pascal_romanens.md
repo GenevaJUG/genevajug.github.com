@@ -2,6 +2,7 @@
 layout: speaker
 title: Pascal Romanens
 photo: pascal_romanens.jpeg
+key: pascal_romanens
 ---
 
 ###Pascal Romanens###

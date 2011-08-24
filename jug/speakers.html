@@ -5,12 +5,15 @@ layout: jug
 <script type="text/javascript">
     $(document).ready(function() {
         $("#speakers").attr("class", "active");
+        var params = location.search.substring(1).split(/&/);
+        var sessionParam = params[0].split('=');
+        $("a#"+sessionParam[1]).click();
     })
 </script>
 <div class="disp">
     <ul id="grid-speaker">
     {% for post in site.categories.speakers %}
-        <li><a href="{{ post.url }}" class="load"><img src="/images/speakers/{{ post.photo }}" alt="{{ post.title }}"/></a></li>
+        <li><a href="{{ post.url }}" class="load" id="{{ post.key }}"><img src="/images/speakers/{{ post.photo }}" alt="{{ post.title }}"/></a></li>
     {% endfor %}
     </ul>
 </div>

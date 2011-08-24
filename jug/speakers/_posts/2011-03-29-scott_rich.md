@@ -2,6 +2,7 @@
 layout: speaker
 title: Scott Rich
 photo: scott_rich.jpg
+key: scott_rich
 ---
 
 ###Scott Rich###

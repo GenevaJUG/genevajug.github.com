@@ -2,6 +2,7 @@
 layout: speaker
 title: Guillaume Nodet
 photo: guillaume_nodet.jpg
+key: guillaume_nodet
 ---
 
 ###Guillaume Nodet###

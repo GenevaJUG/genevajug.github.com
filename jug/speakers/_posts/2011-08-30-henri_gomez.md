@@ -2,6 +2,7 @@
 layout: speaker
 title: Henri Gomez
 photo: henri_gomez.jpg
+key: henri_gomez
 ---
 
 ###Henri Gomez###

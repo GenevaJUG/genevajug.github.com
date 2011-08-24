@@ -1,6 +1,8 @@
 ---
 layout: event
 title: IBM Jazz Agile Development
+speaker: Scott Rich
+speakerKey: scott_rich
 ---
 
 <img align="left" class="margin-logo" src="/images/events/jazz.png" alt="Logo Logback">

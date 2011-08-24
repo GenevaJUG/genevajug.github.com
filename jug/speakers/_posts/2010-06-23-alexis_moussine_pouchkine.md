@@ -2,6 +2,7 @@
 layout: speaker
 title: Alexis Moussine-Pouchkine
 photo: alexis_mp.png
+key: alexis_mp
 ---
 
 ###Alexis Moussine-Pouchkine###

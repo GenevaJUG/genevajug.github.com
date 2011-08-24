@@ -2,6 +2,7 @@
 layout: speaker
 title: Jérôme Louvel
 photo: jerome_louvel.png
+key: jerome_louvel
 ---
 
 ###Jérôme Louvel###

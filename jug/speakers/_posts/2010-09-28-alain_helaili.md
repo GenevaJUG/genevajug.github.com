@@ -2,6 +2,7 @@
 layout: speaker
 title: Alain Helaïli
 photo: nophoto.png
+key: alain_helaili
 ---
 
 ###Alain Helaïli###

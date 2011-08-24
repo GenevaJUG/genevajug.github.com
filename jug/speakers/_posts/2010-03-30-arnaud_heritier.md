@@ -2,6 +2,7 @@
 layout: speaker
 title: Arnaud Héritier
 photo: arnaud_heritier.jpeg
+key: arnaud_heritier
 ---
 
 ###Arnaud Héritier###

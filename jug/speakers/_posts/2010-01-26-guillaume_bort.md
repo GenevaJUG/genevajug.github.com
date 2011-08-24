@@ -2,6 +2,7 @@
 layout: speaker
 title: Guillaume Bort
 photo: guillaume_bort.jpg
+key: guillaume_bort
 ---
 
 ###Guillaume Bort###

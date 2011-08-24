@@ -4,6 +4,10 @@ title: Birthday party with Scala and Akka
 slideshareId: 6643956
 slideshareId2: 6636244
 picasa: 5565055027211660977
+speaker: Iulian Dragos
+speakerKey: iulian_dragos
+speaker2: Jonas Bonèr
+speakerKey2: jonas_boner
 ---
 
 <img align="right" class="margin-logo" src="/images/events/scala-logo.png" alt="Logo Scala">

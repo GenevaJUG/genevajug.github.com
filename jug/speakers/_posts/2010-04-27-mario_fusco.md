@@ -2,6 +2,7 @@
 layout: speaker
 title: Mario Fusco
 photo: mario_fusco.jpeg
+key: mario_fusco
 ---
 
 ###Mario Fusco###

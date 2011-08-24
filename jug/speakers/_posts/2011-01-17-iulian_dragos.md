@@ -2,6 +2,7 @@
 layout: speaker
 title: Iulian Dragos
 photo: iulian_dragos.jpeg
+key: iulian_dragos
 ---
 
 ###Iulian Dragos###
