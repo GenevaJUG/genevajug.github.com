@@ -3,6 +3,8 @@ layout: speaker
 title: Thierry Boileau
 photo: thierry_boileau.jpg
 key: thierry_boileau
+event: Développer son API web RESTful avec Restlet
+eventKey: restlet
 ---
 
 ###Thierry Boileau###

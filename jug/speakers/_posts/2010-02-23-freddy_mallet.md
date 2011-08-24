@@ -3,6 +3,8 @@ layout: speaker
 title: Freddy Mallet
 photo: freddy_mallet.jpeg
 key: freddy_mallet
+event: Qualité logicielle avec Sonar 2.0, la chasse aux 7 péchés capitaux peut commencer
+eventKey: sonar
 ---
 
 ###Freddy Mallet###

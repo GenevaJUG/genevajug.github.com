@@ -3,6 +3,8 @@ layout: speaker
 title: Scott Rich
 photo: scott_rich.jpg
 key: scott_rich
+event: IBM Jazz Agile Development
+eventKey: jazz
 ---
 
 ###Scott Rich###

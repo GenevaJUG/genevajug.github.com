@@ -3,6 +3,8 @@ layout: speaker
 title: Arnaud Héritier
 photo: arnaud_heritier.jpeg
 key: arnaud_heritier
+event: Maven pour construire vos applications d'entreprise
+eventKey: maven
 ---
 
 ###Arnaud Héritier###

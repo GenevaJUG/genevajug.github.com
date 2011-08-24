@@ -3,6 +3,8 @@ layout: speaker
 title: Pascal Romanens
 photo: pascal_romanens.jpeg
 key: pascal_romanens
+event: RIA avec Flex et Java
+eventKey: flex
 ---
 
 ###Pascal Romanens###

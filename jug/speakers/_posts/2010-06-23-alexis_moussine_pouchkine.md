@@ -3,6 +3,8 @@ layout: speaker
 title: Alexis Moussine-Pouchkine
 photo: alexis_mp.png
 key: alexis_mp
+event: Java EE 6 & GlassFish v3
+eventKey: glassfish
 ---
 
 ###Alexis Moussine-Pouchkine###

@@ -3,6 +3,8 @@ layout: speaker
 title: Jérôme Louvel
 photo: jerome_louvel.png
 key: jerome_louvel
+event: Développer son API web RESTful avec Restlet
+eventKey: restlet
 ---
 
 ###Jérôme Louvel###

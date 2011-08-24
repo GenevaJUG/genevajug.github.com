@@ -3,6 +3,8 @@ layout: speaker
 title: David Gageot
 photo: david_gageot.jpeg
 key: david_gageot
+event: Git et Mockito
+eventKey: git
 ---
 
 ###David Gageot###

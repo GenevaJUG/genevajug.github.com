@@ -3,6 +3,8 @@ layout: speaker
 title: Alain Helaïli
 photo: nophoto.png
 key: alain_helaili
+event: Hibernate, stratégies de chargement et de cache performantes
+eventKey: hibernate
 ---
 
 ###Alain Helaïli###

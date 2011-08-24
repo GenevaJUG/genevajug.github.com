@@ -3,6 +3,8 @@ layout: speaker
 title: Guillaume Nodet
 photo: guillaume_nodet.jpg
 key: guillaume_nodet
+event: Apache Camel
+eventKey: camel
 ---
 
 ###Guillaume Nodet###

@@ -3,6 +3,8 @@ layout: speaker
 title: Mario Fusco
 photo: mario_fusco.jpeg
 key: mario_fusco
+event: LambdaJ, no more loops in Java !
+eventKey: lambdaj
 ---
 
 ###Mario Fusco###

@@ -3,6 +3,8 @@ layout: speaker
 title: Jonas Bonèr
 photo: jonas_boner.jpeg
 key: jonas_boner
+event: Birthday party with Scala and Akka
+eventKey: birthday1
 ---
 
 ###Jonas Bonèr###

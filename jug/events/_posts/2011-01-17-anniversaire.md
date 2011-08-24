@@ -8,6 +8,7 @@ speaker: Iulian Dragos
 speakerKey: iulian_dragos
 speaker2: Jonas Bonèr
 speakerKey2: jonas_boner
+eventKey: birthday1
 ---
 
 <img align="right" class="margin-logo" src="/images/events/scala-logo.png" alt="Logo Scala">
