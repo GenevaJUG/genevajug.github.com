@@ -3,6 +3,8 @@ layout: speaker
 title: Henri Gomez
 photo: henri_gomez.jpg
 key: henri_gomez
+event: Soirée DevOps
+eventKey: devops
 ---
 
 ###Henri Gomez###
