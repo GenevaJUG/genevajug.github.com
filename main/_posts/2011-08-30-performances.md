@@ -3,7 +3,7 @@ title: le 12 Octobre, Soirée Performances
 category: next
 ---
 
-**HEPIA - Salle A106 - De 18h30 à 20h30**
+**HEPIA - Salle A105 - De 18h30 à 20h30**
 
 ***avec [Claude Falguière](/jug/speakers.html?key=claude_falguiere)***
 
