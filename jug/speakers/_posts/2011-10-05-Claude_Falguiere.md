@@ -3,6 +3,8 @@ layout: speaker
 title: Claude Falguière
 photo: claude_falguiere.jpg
 key: claude_falguiere
+event: Soirée performance
+eventKey: performance
 ---
 
 ###Claude Falguière###
