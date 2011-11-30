@@ -3,6 +3,8 @@ layout: speaker
 title: Nicolas Fränkel
 photo: nicolas_frankel.jpg
 key: nicolas_frankel
+event: Vaadin
+eventKey: vaadin
 ---
 
 ###Nicolas Fränkel###
