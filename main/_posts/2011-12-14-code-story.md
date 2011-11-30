@@ -6,8 +6,8 @@ category: next
 **HEPIA - Salle A105 - De 12h15 à 13h45**
 
 
-"Code Story" à Devoxx France
-============================
+Une team GenevaJUG pour “Code Story” à Devoxx France !
+======================================================
 <br />
 Lors de [Devoxx France](http://devoxx.fr), [David Gageot](https://plus.google.com/100241047121875700803/about) et
 [Jean-Laurent de Morlhon](https://plus.google.com/106566320836551483322/about) vont coder une application en direct, en 2 jours.
