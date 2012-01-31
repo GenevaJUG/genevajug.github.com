@@ -1,10 +1,14 @@
-{% include header_navigation.html %}    
+{% include header_navigation.html %}
 <div id="nav">
     <ul>
-        <li class="first active"><a href="#">Accueil</a></li>
+        <li class="first"><a href="/">Accueil</a></li>
         <li><a href="/jug/agenda.html">JUG</a></li>
         <li><a href="/codingdojo/presentation.html">Coding Dojo</a></li>
-        <li><a href="/speaker.academy/">Speaker Academy</a></li>
+        <li class="parent active"><a href="#">Speaker Academy</a>
+            <ul>
+                <li id="presentation"><a href="index.html">Présentation</a></li>
+            </ul>
+        </li>
         <li><a href="/partners/sponsors.html">Partenaires</a></li>
         <li><a href="/association/index.html">Association</a></li>
     </ul>
