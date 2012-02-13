@@ -3,6 +3,8 @@ layout: speaker
 title: "Hamlet D'Arcy"
 photo: hamlet_darcy.jpg
 key: hamletdarcy
+event: Groovy birthday party
+eventKey: groovy
 ---
 
 ###Hamlet D'Arcy###

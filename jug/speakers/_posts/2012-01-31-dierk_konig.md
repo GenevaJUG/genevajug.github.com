@@ -3,6 +3,8 @@ layout: speaker
 title: Dierk König
 photo: DierkKonig.jpg
 key: dierkkonig
+event: Groovy birthday party
+eventKey: groovy
 ---
 
 ###Dierk König###

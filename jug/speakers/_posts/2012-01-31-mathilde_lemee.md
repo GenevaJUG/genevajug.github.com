@@ -3,6 +3,8 @@ layout: speaker
 title: Mathilde Lemée
 photo: MathildeLemee.jpg
 key: mathildelemee
+event: Groovy birthday party
+eventKey: groovy
 ---
 
 ###Mathilde Lemée###

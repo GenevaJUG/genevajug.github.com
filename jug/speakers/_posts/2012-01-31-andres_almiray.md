@@ -3,6 +3,8 @@ layout: speaker
 title: Andres Almiray
 photo: AndresAlmiray.jpg
 key: andresalmiray
+event: Groovy birthday party
+eventKey: groovy
 ---
 
 ###Andres Almiray###
