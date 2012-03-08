@@ -7,8 +7,6 @@ event: Groovy birthday party
 eventKey: groovy
 ---
 
-###Hamlet D'Arcy###
-
 Sr. Java/Groovy Developer, Groovy and CodeNarc Committer, Hamlet D'Arcy has been writing software for over a decade, and has spent considerable time coding in C++, Java, and Groovy.
 He's passionate about learning new languages and different ways to think about problems.
 Hamlet is the founder of the Basel-based Hackergarten open source coding group,

@@ -3,9 +3,9 @@ layout: speaker
 title: William Draï
 photo: wdrai.jpg
 key: williamdrai
+event: "Flex et GraniteDS en collaboration avec l'AUGG"
+eventKey: graniteds
 ---
-
-###William Draï###
 
 William Draï est architecte Java EE et cofondateur de la société Granite Data Services,
 éditeur de la solution open source GraniteDS.

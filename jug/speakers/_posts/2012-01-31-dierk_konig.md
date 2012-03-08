@@ -7,8 +7,6 @@ event: Groovy birthday party
 eventKey: groovy
 ---
 
-###Dierk König###
-
 Dierk König works as a fellow for Canoo Engineering AG, Basel, Switzerland.
 He is a committer to many open-source projects including Groovy, Grails, and GPars, and a manager of the open-source Canoo WebTest project.
 

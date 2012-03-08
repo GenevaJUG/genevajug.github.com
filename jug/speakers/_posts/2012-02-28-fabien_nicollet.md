@@ -3,9 +3,9 @@ layout: speaker
 title: Fabien Nicollet
 photo: fnicollet.jpg
 key: fabiennicollet
+event: "Flex et GraniteDS en collaboration avec l'AUGG"
+eventKey: graniteds
 ---
-
-###Fabien Nicollet###
 
 Fabien Nicollet, ingénieur TELECOM Lille 1 et employé chez Business Geografic depuis 2009.
 

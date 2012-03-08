@@ -7,8 +7,6 @@ event: Groovy birthday party
 eventKey: groovy
 ---
 
-###Mathilde Lemée###
-
 Mathilde Lemée est une consultante Java indépendante. Membre du réseau des zindeps, groupement d'indépendants pronant une autre manière de travailler.
 Elle est actuellement très active au sein des JDuchess, groupement feminin autour de Java, qu'elle a co-fondé en 2010.
 
