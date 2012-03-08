@@ -226,7 +226,7 @@ p {
 }
 
 #social {
-    padding: 30px 0 0 0;
+    padding: 14px 0 0 0;
 }
 
 #social ul {
@@ -239,7 +239,7 @@ p {
 
 #social li a {
     display: block;
-    padding: 0 15px 0 15px;
+    padding: 0 6px 0 6px;
 }
 
 #main {
