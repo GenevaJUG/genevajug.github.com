@@ -3,6 +3,8 @@ layout: speaker
 title: Emmanuel Hugonnet
 photo: ehugonnet.jpg
 key: emmanuelhugonnet
+event: "J2EE m'a tuer - Comment (sur)vivre avec du code legacy"
+eventKey: j2eematuer
 ---
 
 Depuis plus de douze ans, Emmanuel conçoit et met en place des solutions J2EE pour de grands comptes de l'industrie et des télécoms.

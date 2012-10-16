@@ -3,6 +3,8 @@ layout: speaker
 title: Sacha Labourey
 photo: slabourey.jpg
 key: sachalabourey
+event: "Soirée Cloud" 
+eventKey: cloud
 ---
 
 Sacha was born in Neuchâtel, Switzerland and graduated in 1999 from EPFL. It was during Sacha's studies in 1996 that he started his first consulting business - Cogito Informatique. 
