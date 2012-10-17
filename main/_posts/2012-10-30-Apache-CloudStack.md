@@ -13,6 +13,8 @@ Cette présentation couvrira les étapes nécessaires à la release, le process 
 
 Sébastien nous fera une démo et nous montrera comment participer à ce nouveau projet Java.
 
+Et dans la cadre de la Speaker Academy, [Pablo Tamarit](/jug/speakers.html?key=pablotamarit) nous fera un Quickie de 15 mn sur Clojure en introduction de cette soirée
+
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
 Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/4619392728)
