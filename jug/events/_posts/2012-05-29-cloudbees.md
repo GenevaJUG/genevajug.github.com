@@ -6,7 +6,7 @@ speaker: Sacha Labourey
 speakerKey: sachalabourey
 ---
 
-<img align="right" src="/images/events/cloudbees-logo.png" width="200px" class="margin-logo" alt="Bonita"/>
+<img align="right" src="/images/events/cloudbees-logo.png" width="200px" class="margin-logo" alt="CloudBees"/>
 
 Le Cloud est en train de profondément transformer l'industrie de l'IT. Nous verrons ce que ce changement signifie et, plus précisément, quelles sont les options qui s'offrent aux développeurs.
 

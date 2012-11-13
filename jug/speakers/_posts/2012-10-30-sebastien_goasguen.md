@@ -3,6 +3,8 @@ layout: speaker
 title: Sébastien Goasguen
 photo: sebastien_goasguen.png
 key: sebastiengoasguen
+event: Apache CloudStack
+eventKey: cloudstack
 ---
 
 Sébastien a passé 14 ans aux etats-unis dans le milieu académique. Professeur à Clemson University il a travaillé principalement sur le calcul scientifique, le calcul de grille et la virtualisation. 
