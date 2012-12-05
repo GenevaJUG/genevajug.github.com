@@ -3,6 +3,8 @@ layout: speaker
 title: Nicolas Rémond
 photo: nicolas_remond.jpg
 key: nicolasremond
+event: Gatling
+eventKey: gatling
 ---
 
 Nicolas Rémond est Architecte chez Secutix SA, un fournisseur de système de billetterie. 
