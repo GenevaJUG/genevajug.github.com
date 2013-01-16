@@ -30,4 +30,4 @@ Alors que l’informatique est de plus en plus présente dans notre vie, son app
 
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
-Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/5256947672)
+<div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.fr/tickets-external?eid=5256947672&amp;ref=etckt\&amp;v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.fr/r/etckt">Inscription en ligne pour un événement</a><span style="color:#ddd;"> pour </span><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.fr/event/5256947672?ref=etckt">Soirée "Fier d'être développeur"</a> <span style="color:#ddd;">réalisé par</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.fr?ref=etckt">Eventbrite</a></div></div>
