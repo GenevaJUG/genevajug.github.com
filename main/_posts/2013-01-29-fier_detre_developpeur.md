@@ -15,7 +15,7 @@ title: "le 29 Janvier, Soirée \"Fier d'être développeur\""
 Pour fêter ses 3 ans le GenevaJUG invite les autres users groups de Suisse Romande pour une soirée spéciale "Fier d'être développeur"
 
 
-**Fier d'être développeur** par **[Pierre Pezziardi](/jug/speakers.html?key=pierrepezziardi)**
+**Fier d'être informaticien** par **[Pierre Pezziardi](/jug/speakers.html?key=pierrepezziardi)**
 
 En 2013, quelle place occupe le développeur dans l'entreprise ? Comment son rôle, sa capacité à innover et à agir peuvent-ils influencer l'efficacité de celle-ci ? Du rôle de spectacteur au rôle d'acteur, que pouvons-nous faire chacun, au quotidien, pour que le métier de Développeur soit perçu comme une richesse à cultiver plus que comme un coût à diminuer ?
 
