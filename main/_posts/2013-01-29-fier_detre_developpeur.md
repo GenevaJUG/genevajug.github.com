@@ -30,4 +30,4 @@ Alors que l’informatique est de plus en plus présente dans notre vie, son app
 
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
-Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/4619392728)
+Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/5256947672)
