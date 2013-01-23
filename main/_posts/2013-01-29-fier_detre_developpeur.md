@@ -25,8 +25,9 @@ En 2013, quelle place occupe le développeur dans l'entreprise ? Comment son rô
 Alors que l’informatique est de plus en plus présente dans notre vie, son apprentissage à l’école reste très superficiel : un peu d’internet, un peu de logiciel type traitement de texte ... mais pas de programmation. A l’heure où les enfants naissent avec ces technologies, on ne prend pas la peine de leur donner les clés pour devenir utilisateur de l’outil informatique, et pas seulement consommateur. Mais alors ... comment leur faire découvrir notre métier et notre passion ? C'est l'objectif que s'est fixé Programatoo et je vous présenterai ce que nous avons mis en place pour y parvenir. 
 
 
-**Développer c'est Tester ?** par **[Freddy Mallet](/jug/speakers.html?key=freddymallet)**
+**Développer c'est Tester ?** par **[Freddy Mallet](/jug/speakers.html?key=freddymallet)** et **Olivier Gaudin**
 
+Le développement logiciel est l'activité coeur chez SonarSource, celle qui mobilise les passions et les énergies. Lors de cette session de 40 minutes, nous vous présenterons 4 ans d'évolution des pratiques de développement et ce sans utiliser de buzzwords !
 
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
