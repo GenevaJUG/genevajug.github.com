@@ -29,7 +29,6 @@ Alors que l’informatique est de plus en plus présente dans notre vie, son app
 
 Le développement logiciel est l'activité coeur chez SonarSource, celle qui mobilise les passions et les énergies. Lors de cette session de 40 minutes, nous vous présenterons 4 ans d'évolution des pratiques de développement et ce sans utiliser de buzzwords !
 
-
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
 Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/5256947672)
