@@ -16,3 +16,4 @@ Dans cette présentation nous allons explorer l’architecture de Cassandra et l
 **MongoDB** par **[Katia Aresti](/jug/speakers.html?key=katiaaresti)**
 
 
+Katia nous parlera de comment son équipe a choisi MongoDB (le cheminement intellectuel, la prise en main, la conception des documents). Elle nous parlera également des APIs autour de Java, le driver etc à plus bas niveau.
