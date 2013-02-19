@@ -1,6 +1,7 @@
 ---
-category: next
-title: "le 29 Janvier, Soirée \"Fier d'être développeur\""
+layout: event
+title: "Soirée fier d'être développeur"
+eventKey: fierdetredeveloppeur
 ---
 
 <ul id="grid-premium">
@@ -9,8 +10,6 @@ title: "le 29 Janvier, Soirée \"Fier d'être développeur\""
 	<li><a href="http://www.meetup.com/jsromandie/" target="_blank"><img align="left" alt="JSRomandie" border="0" src="/images/jsromandie.jpeg" title="JSRomandie"></a></li>
 	<li><a href="http://genevarb.com/" target="_blank"><img align="left" alt="Geneva Ruby Brigade" border="0" src="/images/genevarb.png" title="Geneva Ruby Brigade"></a></li>
 </ul>
-
-***à l'HEPIA, Salle Aula, de 18h30 à 20h30***
 
 Pour fêter ses 3 ans le GenevaJUG invite les autres users groups de Suisse Romande pour une soirée spéciale "Fier d'être développeur"
 
@@ -29,6 +28,3 @@ Alors que l’informatique est de plus en plus présente dans notre vie, son app
 
 Le développement logiciel est l'activité coeur chez SonarSource, celle qui mobilise les passions et les énergies. Lors de cette session de 40 minutes, nous vous présenterons 4 ans d'évolution des pratiques de développement et ce sans utiliser de buzzwords !
 
-Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
-
-Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/5256947672)
