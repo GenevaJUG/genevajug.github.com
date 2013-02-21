@@ -2,7 +2,7 @@
 category: next
 title: "le 26 Février, Soirée NoSQL"
 ---
-***à l'HEPIA, Salle A106, de 18h30 à 20h30***
+***à l'Uni Mail, Salle MS130, de 18h30 à 20h30***
 
 
 **Speaker Academy: NoSQL** par **[Cyril Lapinte](/jug/speakers.html?key=cyrillapinte)**
