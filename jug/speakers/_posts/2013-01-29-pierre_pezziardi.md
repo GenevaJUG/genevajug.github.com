@@ -1,7 +1,7 @@
 ---
 layout: speaker
 title: Pierre Pezziardi
-photo: pierre_pezziardi.gif
+photo: pierre_pezziardi.jpg
 key: pierrepezziardi
 ---
 
