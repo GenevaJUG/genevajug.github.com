@@ -2,7 +2,7 @@
 category: next
 title: "le 19 Mars, Applications Java: rétro-conception et hacking"
 ---
-***à l'HEPIA, Salle A106 à partir de 18h30***
+***à l'HEPIA, Salle A106 à partir de 19h30***
 
 **Speaker Academy: Introduction à Neo4j** par **[Dominique Broeglin](/jug/speakers.html?key=dominiquebroeglin)** 
 
