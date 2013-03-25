@@ -1,11 +1,8 @@
 ---
-category: next
-title: "le 19 Mars, Applications Java: rétro-conception et hacking"
+layout: event
+title: "Applications Java: rétro-conception et hacking"
+eventKey: applicationjavahacking
 ---
-***à l'HEPIA, Salle Aula à partir de 19h30***
-
-**Speaker Academy: Introduction à Neo4j** par **[Dominique Broeglin](/jug/speakers.html?key=dominiquebroeglin)** 
-
 **Applications Java: rétro-conception et hacking** par **[Sébastien Andrivet](/jug/speakers.html?key=sebastienandrivet)**
 
 La sécurité est l'un des éléments qui devrait être pris en compte lors de la conception et de la réalisation de systèmes d'information.
