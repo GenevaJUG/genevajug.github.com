@@ -1,7 +1,7 @@
 ---
 layout: speaker
 title: Audrey Neveu
-photo: audrey_neveu.gif
+photo: audrey_neveu.jpg
 key: audreyneveu
 ---
 
