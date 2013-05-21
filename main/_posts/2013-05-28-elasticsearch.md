@@ -28,3 +28,5 @@ les apports de ce moteur par rapport à une solution pure Lucene :
 - La communauté
 
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
+
+Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/6780702263)
