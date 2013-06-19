@@ -1,9 +1,10 @@
 ---
-category: next
-title: "le 28 Mai, Soirée Elasticsearch"
+layout: event
+title: "Soirée Elasticsearch"
+eventKey: elasticsearch
+speaker: David Pilato
+speakerKey: davidpilato
 ---
-
-***à l'HEPIA, Salle A106 à partir de 18h30***
 
 **Soirée Elasticsearch**
 par **[David Pilato](/jug/speakers.html?key=davidpilato)**
@@ -27,4 +28,3 @@ les apports de ce moteur par rapport à une solution pure Lucene :
 - La percolation
 - La communauté
 
-Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
