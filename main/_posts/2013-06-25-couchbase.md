@@ -20,3 +20,5 @@ Venez découvrir les joies du NoSQL et du developpment “schemaless”!
 
 Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
+Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/7159902461)
+
