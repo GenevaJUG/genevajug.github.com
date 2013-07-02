@@ -1,9 +1,10 @@
 ---
-category: next
-title: "le 25 Juin, Introduction au NoSQL avec Couchbase"
+layout: event
+title: "Introduction au NoSQL avec Couchbase"
+eventKey: couchbase
+speaker: Tugdual "Tug" Grall
+speakerKey: tugdualgrall
 ---
-
-***à l'HEPIA, Salle A106 à partir de 18h30***
 
 **Introduction au NoSQL avec Couchbase**
 par **[Tugdual Grall](/jug/speakers.html?key=tugdualgrall)**
@@ -18,5 +19,4 @@ Une fois cette introduction effectuée vous verrez en detail la solution Couchba
 - la mise en place et l’administration d’un cluster, et les défis associés
 Venez découvrir les joies du NoSQL et du developpment “schemaless”!
 
-Comme d'habitude cette soirée se finira par un buffet offert par nos sponsors.
 
