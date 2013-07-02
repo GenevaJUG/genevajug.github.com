@@ -20,3 +20,5 @@ Une fois cette introduction effectuée vous verrez en detail la solution Couchba
 Venez découvrir les joies du NoSQL et du developpment “schemaless”!
 
 
+Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/7159902461)
+
