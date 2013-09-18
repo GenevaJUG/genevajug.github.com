@@ -3,6 +3,8 @@ layout: speaker
 title: Tugdual "Tug" Grall
 photo: tugdual_grall.jpg
 key: tugdualgrall
+event: Introduction au NoSQL avec Couchbase
+eventKey: couchbase
 ---
 
 Tugdual “Tug” Grall est Technical Evangelist chez Couchbase, et un développer passionné. Il travaille actuellement avec les communautés de developpers en Europe pour faciliter l’adoption du NoSQL. Tugdual contribue aux SDKs Java et NodeJS de Couchbase.

@@ -3,6 +3,8 @@ layout: speaker
 title: Thierry Wasylczenko
 photo: thierry_wasylczenko.jpg
 key: thierrywasylczenko
+event: "Développement d'applications JavaFX 2"
+eventKey: javafx
 ---
 
 Thierry est développeur Java depuis plusieurs années et est ingénieur logiciel & qualité chez General Electric Healthcare.

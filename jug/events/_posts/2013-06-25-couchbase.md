@@ -17,8 +17,5 @@ Une fois cette introduction effectuée vous verrez en detail la solution Couchba
 - se basant sur des structures de données flexibles (Document JSON)
 - l’utilisation de Map Reduce pour la création de requetes complexes
 - la mise en place et l’administration d’un cluster, et les défis associés
+
 Venez découvrir les joies du NoSQL et du developpment “schemaless”!
-
-
-Inscription obligatoire sur [eventbrite](http://www.eventbrite.com/event/7159902461)
-
