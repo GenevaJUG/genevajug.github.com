@@ -3,6 +3,8 @@ layout: speaker
 title: Axel Deblasi
 photo: axel_deblasi.jpeg
 key: axeldeblasi
+eventKey: gae
+event: "Google App Engine in \"Z\" air"
 ---
 
 Axel est un spécialiste du middleware particulièrement sensible aux problématiques de performances, de concurrences et de charges. Il a travaillé plusieurs années pour Airbus avant d'intégrer la direction technique d'Hardis, un éditeur grenoblois. C'est là qu'il rencontrera Dominique qui fera un bref passage chez Hardis dans une carrière remplie de postes en SSII liés à JAVA. 
