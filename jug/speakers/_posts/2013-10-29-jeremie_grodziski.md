@@ -3,6 +3,8 @@ layout: speaker
 title: Jérémie Grodziski
 photo: jeremie_grodziski.png
 key: jeremiegrodziski
+eventKey: ddd
+event: "Domain Driven Design"
 ---
 
 Jérémie est un passionné de la conception et du développement de logiciel. Il perfectionne cet art depuis plus de 25 ans et adore partager sa passion. 
