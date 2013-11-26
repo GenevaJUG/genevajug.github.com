@@ -1,8 +1,10 @@
 #
 # Jekyll configuration
 #
-auto:        true
-
+# Auto-regeneration no more supported. Have to use --watch on the command line instead.
+# See http://jekyllrb.com/docs/configuration/
+# auto:        true        
+encoding: UTF-8
 #
 # Site configuration
 #
