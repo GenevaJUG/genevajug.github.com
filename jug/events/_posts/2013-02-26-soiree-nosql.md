@@ -2,6 +2,7 @@
 layout: event
 title: "Soirée NoSQL"
 eventKey: soireenosql
+embedded_video: <iframe width="560" height="315" src="//www.youtube.com/embed/HxRIDkyvoCg" frameborder="0" allowfullscreen></iframe>
 ---
 
 **Speaker Academy: NoSQL** par **[Cyril Lapinte](/jug/speakers.html?key=cyrillapinte)**

@@ -4,6 +4,7 @@ title: "Introduction au NoSQL avec Couchbase"
 eventKey: couchbase
 speaker: Tugdual "Tug" Grall
 speakerKey: tugdualgrall
+embedded_video: <iframe width="560" height="315" src="//www.youtube.com/embed/oXIeefqw1vM" frameborder="0" allowfullscreen></iframe>
 ---
 
 **Introduction au NoSQL avec Couchbase**

@@ -24,4 +24,12 @@
            pluginspage="http://www.macromedia.com/go/getflashplayer">
     </embed>
     {% endif %}
+    {% if page.embedded_video %}
+    <h3>Vidéo de le session</h3>
+    <br/>
+    <div style="text-align: center;">
+    {{ page.embedded_video }}
+    <br/>
+    </div>
+    {% endif %}
 </div>
