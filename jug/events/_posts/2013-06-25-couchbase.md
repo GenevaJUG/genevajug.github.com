@@ -7,8 +7,6 @@ speakerKey: tugdualgrall
 youtubeId: oXIeefqw1vM
 ---
 
-**Introduction au NoSQL avec Couchbase**
-
 Cette présentation commencera par une introduction au NoSQL. Cette introduction expliquera les raisons pour lesquelles de plus en plus de projets utilisent ce type de solutions et les limitations des architectures classiques. Tugdual fera également le tour des différentes approches (Clé Valeur, Document, Colonnes, Graph) et solutions.
 
 Une fois cette introduction effectuée vous verrez en detail la solution Couchbase Server 2.0. Couchbase est une base de donées NoSQL orientée Document développée en Open Source. Tugdual presentera en s’appuyant sur des démonstrations
