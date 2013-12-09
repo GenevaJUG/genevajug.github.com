@@ -3,6 +3,8 @@ layout: speaker
 title: Sébastien Deleuze
 photo: sebastien_deleuze.png
 key: sebastiendeleuze
+eventKey: dart
+event: Dart
 ---
 
 Sébastien Deleuze est le fondateur de 3 projets Open Source : 

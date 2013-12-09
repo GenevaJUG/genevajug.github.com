@@ -4,11 +4,10 @@ title: "Introduction au NoSQL avec Couchbase"
 eventKey: couchbase
 speaker: Tugdual "Tug" Grall
 speakerKey: tugdualgrall
-embedded_video: <iframe width="560" height="315" src="//www.youtube.com/embed/oXIeefqw1vM" frameborder="0" allowfullscreen></iframe>
+youtubeId: oXIeefqw1vM
 ---
 
 **Introduction au NoSQL avec Couchbase**
-par **[Tugdual Grall](/jug/speakers.html?key=tugdualgrall)**
 
 Cette présentation commencera par une introduction au NoSQL. Cette introduction expliquera les raisons pour lesquelles de plus en plus de projets utilisent ce type de solutions et les limitations des architectures classiques. Tugdual fera également le tour des différentes approches (Clé Valeur, Document, Colonnes, Graph) et solutions.
 

@@ -4,11 +4,10 @@ title: "Soirée Elasticsearch"
 eventKey: elasticsearch
 speaker: David Pilato
 speakerKey: davidpilato
-embedded_video: <iframe width="560" height="315" src="//www.youtube.com/embed/agDVlm4zxAk" frameborder="0" allowfullscreen></iframe>
+youtubeId: agDVlm4zxAk
 ---
 
 **Soirée Elasticsearch**
-par **[David Pilato](/jug/speakers.html?key=davidpilato)**
 
 Vous utilisez encore des requêtes SQL pour faire des recherches ? Vos utilisateurs vous reprochent de ne pas pouvoir chercher
 sur toutes les rubriques ? Votre temps de réponse moyen est supérieur à la demi-seconde avec seulement quelques millions de documents ?

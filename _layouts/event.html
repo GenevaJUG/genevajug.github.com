@@ -24,12 +24,13 @@
            pluginspage="http://www.macromedia.com/go/getflashplayer">
     </embed>
     {% endif %}
-    {% if page.embedded_video %}
+    {% if page.youtubeId %}
+    <hr/>
+    <br/>
     <h3>Vidéo de la session</h3>
     <br/>
     <div style="text-align: center;">
-    {{ page.embedded_video }}
-    <br/>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/{{ page.youtubeId }}" frameborder="0" allowfullscreen></iframe>
     </div>
     {% endif %}
 </div>
