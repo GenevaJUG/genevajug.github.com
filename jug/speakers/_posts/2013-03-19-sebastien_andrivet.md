@@ -3,6 +3,8 @@ layout: speaker
 title: Sébastien Andrivet
 photo: sebastien_andrivet.jpg
 key: sebastienandrivet
+event: "Applications Java: rétro-conception et hacking"
+eventKey: applicationjavahacking
 ---
 
 Sebastien est tombé dans la marmite informatique au début des années 80. Après quelques temps à programmer en assembleur des processeurs 8-bits, il s'est dirigé vers le C et le C++ dans le monde Win/Intel.

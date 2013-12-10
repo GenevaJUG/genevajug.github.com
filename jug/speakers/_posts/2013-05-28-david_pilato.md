@@ -3,6 +3,8 @@ layout: speaker
 title: David Pilato
 photo: david_pilato.jpg
 key: davidpilato
+event: "Soirée Elasticsearch"
+eventKey: elasticsearch
 ---
 
 David Pilato est "technical advocate" chez Elasticsearch.com, après avoir passé les deux dernières années à promouvoir le projet open-source Elasticsearch, dont il anime la communauté française. Fidèle des JUG, il a donné une conférence sur le sujet lors de la première édition de Devoxx France en avril 2012 et sillonne désormais les routes de France pour partager sa passion.
