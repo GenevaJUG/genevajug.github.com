@@ -3,6 +3,8 @@ layout: speaker
 title: Cyril Lapinte
 photo: cyril_lapinte.jpg
 key: cyrillapinte
+event: "Soirée NoSQL"
+eventKey: soireenosql
 ---
 
 Cyril obtient un DEA informatique d'intelligence artificielle en 2004. Dans un laboratoire de l'INRIA, il se confronte à des problématiques de fouille de données et d'apprentissage automatique.

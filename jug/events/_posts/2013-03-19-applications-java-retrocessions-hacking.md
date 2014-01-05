@@ -2,6 +2,8 @@
 layout: event
 title: "Applications Java: rétro-conception et hacking"
 eventKey: applicationjavahacking
+speaker: Sébastien Andrivet
+speakerKey: sebastienandrivet
 ---
 **Applications Java: rétro-conception et hacking** par **[Sébastien Andrivet](/jug/speakers.html?key=sebastienandrivet)**
 
