@@ -7,3 +7,7 @@ photo: guillaume_vial.jpg
 ---
 
 eCommerce Team Leader at Nestlé Nespresso S.A.
+
+<br />
+<br />
+<br />
