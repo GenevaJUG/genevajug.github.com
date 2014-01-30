@@ -3,6 +3,8 @@ layout: speaker
 title: Nicolas Peru
 photo: nicolas_peru.jpg
 key: nicolas_peru
+event: "Soirée Quickies pour le 4ème anniversaire du GenevaJUG"
+eventKey: quickies
 ---
 
 Nicolas est un geek curieux et autodidacte (pleonasme ?). C’est un passioné de code et de beau code.

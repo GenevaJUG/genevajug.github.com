@@ -1,16 +1,9 @@
 ---
-category: next
-title: "le 28 Janvier, Soirée Quickies pour le 4ème anniversaire du GenevaJUG"
+layout: event
+title: "Soirée Quickies pour le 4ème anniversaire du GenevaJUG"
+eventKey: quickies
 youtubeId: RaXHKYiYxvs
 ---
-
-***à l'HEPIA, Salle Aula à partir de 18h30***
-
-**4ème anniversaire: Soirée Quickies**
-
-Pour fêter le 4ème anniversaire du GenevaJUG, nous vous proposons une soirée Quickies animée uniquement par des speakers locaux !
-
-Vous avez été une centaine à voter pour choisir les présentations que vous vouliez voir lors de cette soirée, voici donc le programme que vous avez plébiscité:
 
 * **Clean HTML** par [Audrey Lièvremont](http://genevajug.ch/jug/speakers.html?key=audrey_lievremont) 
 
@@ -48,7 +41,3 @@ Vous avez été une centaine à voter pour choisir les présentations que vous v
 	Au fil des années les developpeurs java ont acquis des biais psychologiques sur certaines pratiques du developpement qui sont interessantes à explorer (bonnes ou mauvaises pratiques). Voire, ces biais sont également à exploiter pour rendre évidentes les mauvaises pratiques qui ne sautent pas toujours aux yeux.
 	
 	Durant le talk, nous parlerons de quelques-unes de ces habitudes et nous verrons pourquoi elles sont parfois mauvaises et comment les contourner.
-
-
- Comme d'habitude cette soirée se finira par un buffet et un gâteau d'anniversaire offert par nos sponsors !
- 

@@ -3,6 +3,8 @@ layout: speaker
 title: Philippe Kernevez
 photo: philippe_kernevez.jpg
 key: philippe_kernevez
+event: "Soirée Quickies pour le 4ème anniversaire du GenevaJUG"
+eventKey: quickies
 ---
 
 Philippe a démarré sa carrière dans le développement logiciel en 1995 sur des technologies clients/serveurs (L4G Natstar, forté) avant de prendre un virage (radical) vers Java en 1998 puis de s'orienter vers le conseil en architecture chez OCTO Technology.

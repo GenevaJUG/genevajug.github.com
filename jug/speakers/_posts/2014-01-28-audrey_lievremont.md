@@ -3,6 +3,8 @@ layout: speaker
 title: Audrey Lièvremont
 photo: nophoto.png
 key: audrey_lievremont
+event: "Soirée Quickies pour le 4ème anniversaire du GenevaJUG"
+eventKey: quickies
 ---
 
 Audrey est développeuse chez AIM. Elle a 8 ans d'expérience dans les projets Web à Belfort, Grenoble et Genève.
