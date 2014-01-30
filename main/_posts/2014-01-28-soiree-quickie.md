@@ -1,6 +1,7 @@
 ---
 category: next
-title: "le 28 Janvier, Soirée Quickie pour le 4ème anniversaire du GenevaJUG"
+title: "le 28 Janvier, Soirée Quickies pour le 4ème anniversaire du GenevaJUG"
+youtubeId: RaXHKYiYxvs
 ---
 
 ***à l'HEPIA, Salle Aula à partir de 18h30***
@@ -51,4 +52,3 @@ Vous avez été une centaine à voter pour choisir les présentations que vous v
 
  Comme d'habitude cette soirée se finira par un buffet et un gâteau d'anniversaire offert par nos sponsors !
  
-<center><a href="https://www.eventbrite.fr/e/inscription-4eme-anniversaire-soiree-quickies-10115115583?ref=ebtn" target="_blank"><img src="http://www.eventbrite.fr/custombutton?eid=10115115583" alt="Eventbrite - 4ème anniversaire: soirée Quickies" /></a></center>
