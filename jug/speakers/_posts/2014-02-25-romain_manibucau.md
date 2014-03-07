@@ -3,6 +3,8 @@ layout: speaker
 title: Romain Mani-Bucau
 photo: romain_manibucau.jpg
 key: romain_manibucau
+event: "3 projets Apache à suivre en 2014"
+eventKey: apache
 ---
 
 Romain est développeur Java et JavaEE depuis 2010. Il aime participer à améliorer les solutions open source et en particulier les produits Apache. 
