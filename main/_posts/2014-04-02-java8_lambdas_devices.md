@@ -3,7 +3,7 @@ category: next
 title: "April 2nd, Java 8 Lambdas and Devices"
 ---
 
-***HEPIA, Room A106 starting at 18h30***
+***Uptown Geneva, Room Rive starting at 18h30***
 
 **Java 8 Lambdas and Devices** by **[Stephen Chin](/jug/speakers.html?key=stephen_chin)**
 
