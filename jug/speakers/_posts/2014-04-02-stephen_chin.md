@@ -3,6 +3,8 @@ layout: speaker
 title: Stephen Chin
 photo: stephen_chin.jpg
 key: stephen_chin
+event: "Java 8 Lambdas and Devices"
+eventKey: java8
 ---
 
 Stephen Chin is a Java Ambassador at Oracle specializing in embedded and UI technology, co-author of the Pro JavaFX Platform 2 title, and the JavaOne Content Chair. 
