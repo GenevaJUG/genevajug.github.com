@@ -3,6 +3,8 @@ layout: speaker
 title: Dinesh Bolkensteyn
 photo: dinesh_bolkensteyn.jpeg
 key: dinesh_bolkensteyn
+event: "The Art Of Parsing"
+eventKey: parsing
 ---
 
 Having fun writing the tools to analyze your code (Java, C#, ...) and the code you wish didn't exist (COBOL, PL/I, RPG, ...) at SonarSource. 

@@ -3,6 +3,8 @@ layout: speaker
 title: Evgeny Mandrikov
 photo: evgeny_mandrikov.png
 key: evgeny_mandrikov
+event: "The Art Of Parsing"
+eventKey: parsing
 ---
 
 Software Gardener, addicted to open source and code quality, hired by SonarSource after creation of improved open source analogs of their commercial products. 
