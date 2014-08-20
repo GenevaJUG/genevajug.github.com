@@ -3,6 +3,8 @@ layout: speaker
 title: Sébastien Jarrin
 photo: sebastien_jarrin.jpg
 key: sebastien_jarrin
+event: "Modern Web Development"
+eventKey: webdev
 ---
 
 Sébastien Jarrin est un développeur web chez Hortis. Il est un ancien développeur backend ayant migré progressivement vers le frontend par goût du risque... et il ne le regrette absolument pas !
