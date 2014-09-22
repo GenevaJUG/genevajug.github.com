@@ -1,6 +1,6 @@
 ---
 category: next
-title: "Le 29 Octobre, Cassandra"
+title: "Le 29 Septembre, Cassandra"
 ---
 
 ***Hepia, Salle à 106, à partir de 18h30***
