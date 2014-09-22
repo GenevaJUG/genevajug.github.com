@@ -3,6 +3,8 @@ layout: speaker
 title: Vincent Attiogbé
 photo: vincent_attiogbe.jpg
 key: vincent_attiogbe
+event: "Modern Web Development"
+eventKey: webdev
 ---
 
 Vincent Attiogbé est Développeur FrontEnd pour la société Hortis.

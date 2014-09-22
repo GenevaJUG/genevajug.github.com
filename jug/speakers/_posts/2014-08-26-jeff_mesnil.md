@@ -3,6 +3,8 @@ layout: speaker
 title: Jeff Mesnil
 photo: jeff_mesnil.jpg
 key: jeffmesnil
+event: "WildFly"
+eventKey: wildfly
 ---
 
 Jeff Mesnil is a software developer at JBoss, the middleware division of Red Hat. 

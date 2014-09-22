@@ -5,6 +5,8 @@ photo: ehugonnet.jpg
 key: emmanuelhugonnet
 event: "J2EE m'a tuer - Comment (sur)vivre avec du code legacy"
 eventKey: j2eematuer
+event2: "WildFly"
+eventKey2: wildfly
 ---
 
 Depuis plus de dix ans, Emmanuel conçoit et met en place des solutions J2EE pour de grands comptes de l’industrie et des télécoms. 
