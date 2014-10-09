@@ -6,6 +6,7 @@ speaker: Sébastien Jarrin
 speakerKey: sebastien_jarrin
 speaker2: Vincent Attiogbé
 speakerKey2: vincent_attiogbe
+youtubeId: NFSiuHG5gTY
 ---
 
 L'environnement Web a fortement évolué ces dernières années et offre désormais un niveau d'industrialisation comparable à celui du Backend.

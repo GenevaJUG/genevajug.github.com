@@ -1,6 +1,7 @@
 ---
 category: next
 title: "Le 29 Septembre, Cassandra"
+youtubeId: mR7IN3Oi854
 ---
 
 ***Hepia, Salle à 106, à partir de 18h30***
