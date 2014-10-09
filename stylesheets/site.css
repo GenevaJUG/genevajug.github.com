@@ -225,21 +225,8 @@ p {
     color: #ffffff;
 }
 
-#social {
+#old_social {
     padding: 14px 0 0 0;
-}
-
-#social ul {
-
-}
-
-#social li {
-    float: left;
-}
-
-#social li a {
-    display: block;
-    padding: 0 6px 0 6px;
 }
 
 #main {
@@ -476,4 +463,39 @@ ul#grid-saison-footer li img {
     display: block;
     margin-right: 10px;
     clear: both;
+}
+
+/* Adding new social styles*/
+#social {
+    color: #707070;
+    font-family: Lucida Grande, lucida-sans, Arial, Helvetica, Tahoma;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 15px 0;
+    background-color: #f5f5f5;
+}
+
+#social ul {
+    height: 100%;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#social ul li {
+    float: left;
+    width: 210px;
+    margin-bottom: 3px;
+}
+
+#social ul li div {
+	margin-left: 50px;
+}
+
+#social ul li div a img {
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	display: inline;
+	margin-right: 10px;
 }

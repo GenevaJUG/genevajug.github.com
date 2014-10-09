@@ -1,18 +1,19 @@
-{% include header_navigation.html %}
-<div id="nav">
-    <ul>
-        <li class="first"><a href="/">Accueil</a></li>
-        <li><a href="/jug/agenda.html"><span class="hover">JUG</span></a></li>
-        <li><a href="/codingdojo/presentation.html">Coding Dojo</a></li>
-        <li><a href="/speaker.academy/">Speaker Academy</a></li>
-        <li class="parent active"><a href="#">Partenaires</a>
-            <ul>
-                <li id="sponsor"><a href="sponsors.html">Sponsors</a></li>
-                <li id="partners"><a href="partenaires.html">Partenaires</a></li>
-                <li id="soutien"><a href="soutien.html">Soutenez nous</a></li>
-            </ul>
-        </li>
-        <li><a href="/association/index.html">Association</a></li>
-    </ul>
+<div id="navigation">
+	{% include header_navigation.html %}
+	<div id="nav">
+		<ul>
+			<li class="first"><a href="/">Accueil</a></li>
+			<li><a href="/jug/agenda.html"><span class="hover">JUG</span></a></li>
+			<li><a href="/codingdojo/presentation.html">Coding Dojo</a></li>
+			<li><a href="/speaker.academy/">Speaker Academy</a></li>
+			<li class="parent active"><a href="#">Partenaires</a>
+				<ul>
+					<li id="sponsor"><a href="sponsors.html">Sponsors</a></li>
+					<li id="partners"><a href="partenaires.html">Partenaires</a></li>
+					<li id="soutien"><a href="soutien.html">Soutenez nous</a></li>
+				</ul></li>
+			<li><a href="/association/index.html">Association</a></li>
+		</ul>
+	</div>
+	{% include footer_navigation.html %}
 </div>
-{% include footer_navigation.html %}
