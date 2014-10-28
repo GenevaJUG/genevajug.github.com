@@ -3,6 +3,8 @@ layout: speaker
 title: Michaël Figuiere
 photo: michael_figuiere.jpg
 key: michaelfiguiere
+event: Cassandra
+eventKey: cassandra
 ---
 
 Michael is an engineer and a developer advocate at DataStax where he actively works to improve Cassandra. 

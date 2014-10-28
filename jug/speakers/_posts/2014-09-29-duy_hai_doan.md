@@ -1,8 +1,10 @@
 ---
 layout: speaker
 title: Duy Hai Doan
-photo: duy_hai_doan.jpg
 key: duyhai
+photo: duy_hai_doan.jpg
+event: Cassandra
+eventKey: cassandra
 ---
 
 Duy Hai est évangéliste technique pour Datastax, l'entreprise commerciale derrière Apache Cassandra. 
