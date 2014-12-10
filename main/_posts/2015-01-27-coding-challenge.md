@@ -69,5 +69,5 @@ Les points bonus (qui s'ajoutent au delà de 50 points de base):
 Les malus (s'appliquent dès le départ :-) :
 
 * Pour chaque EJB **-20 pts**
-* Utilisater Vaadin **-10 pts**
-* Utilisater AngularJS **-10 pts**
+* Utiliser Vaadin **-10 pts**
+* Utiliser AngularJS **-10 pts**
