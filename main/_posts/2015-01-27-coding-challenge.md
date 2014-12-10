@@ -13,7 +13,7 @@ title: "User Group Coding Challenge: les codeurs de l'extrême 2015"
 
 ## Appel à tous les codeurs de l'extrême de la suisse Romande: 
 
-Pour la date anniversaire du GenevaJUG le **27 Janvier 2015**, nous nous associons aux autres user groups de suisse romande (Scala Romandie, Geneva .NET, MUG) pour lancer une compétition de développement ouverte à tous et quelque soit vos langages favoris. 
+Pour la date anniversaire du GenevaJUG le **27 Janvier 2015**, nous nous associons aux autres user groups de suisse romande (Scala Romandie, Geneva .NET, GenevaMUG, Docker Geneva) pour lancer une compétition de développement ouverte à tous et quelque soit vos langages favoris. 
 
 L'objectif est de développer une petite application web (ou pas !) qui permet de soumettre et sélectionner des idées de Quickies pour les prochains User Group (GenevaJUG ou autre). Les deux mots d'ordre sont: Freestyle et Gamification ! 
  
