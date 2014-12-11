@@ -10,8 +10,8 @@ layout: challenge
 |Team|Lien vers l'app|points|
 |-----|----|----|
 ||||
+|@FGenaudet et @roujul |[http://florian-genaudet.fr/projects/ugquickies/](http://florian-genaudet.fr/projects/ugquickies/)| 2 pts |
 
-Pour l'instant aucune team n'a démarré
 
 <br><br><br>
 
@@ -37,6 +37,7 @@ Cette liste va évoluer régulièrement, surtout au niveau des bonus et malus...
 
 |Points de base|Bonus|Malus|
 |--------------|-----|-----|
+||||
 |URL publique d'accès **2 pts**|Intégrer des chatons **5 pts**|Pour chaque EJB **-20 pts**|
 |Création d'un compte (bio)	**15 pts**|Nom de la team  **1 à 10 pts**|Utiliser Vaadin **-10 pts**|
 |Enregistrement d'une session <br> (titre, description, user group)	**20 pts**|Mode Solo **10 pts**|Utiliser AngularJS **-10 pts**|
