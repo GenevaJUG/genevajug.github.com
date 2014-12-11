@@ -10,7 +10,7 @@ layout: challenge
 |Team|Lien vers l'app|points|
 |-----|----|----|
 ||||
-|@FGenaudet et @roujul |[http://florian-genaudet.fr/projects/ugquickies/](http://florian-genaudet.fr/projects/ugquickies/)| 2 pts |
+|ReadyAimFired|[http://florian-genaudet.fr/projects/ugquickies/](http://florian-genaudet.fr/projects/ugquickies/)| 2 pts |
 
 
 <br><br><br>
