@@ -65,9 +65,18 @@ Les points bonus (qui s'ajoutent au delà de 50 points de base):
 * Nom de la team **1 à 10 pts**
 * Mode Solo	**10 pts**
 * Mur de tweets #UGQuickie **20 pts**
+* Utilisable sur Minitel **20 pts**
+* Utilisable en telnet **15 pts**
+* Déployé dans un cloud suisse **10 pts**
+* Utilisation du language BrainFuck **50 pts**
+* Vote pour une session par tweet **50 pts**
 
 Les malus (s'appliquent dès le départ :-) :
 
 * Pour chaque EJB **-20 pts**
 * Utiliser Vaadin **-10 pts**
 * Utiliser AngularJS **-10 pts**
+* Utilisation de Java 6 ou 7 **-20 pts**
+* Développeur sans enfants **-10 pts**
+* Moins de 20 commits sur son projet **-20 pts**
+* Développeur sans compte Twitter **-10 pts**
