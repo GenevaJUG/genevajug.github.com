@@ -4,6 +4,7 @@ title: "Novembre 25th, From Zero To Hero with Spring Boot"
 eventKey: springboot
 speaker: Stéphane Nicoll
 speakerKey: stephane_nicoll
+youtubeId: PZuIEUQZFcE
 ---
 
 Spring Boot, the new convention-over-configuration centric framework from the Spring team at Pivotal, marries Spring's flexibility with conventional, common sense defaults to make application development not just fly, but pleasant! 
