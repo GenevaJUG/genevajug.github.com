@@ -10,9 +10,10 @@ layout: challenge
 |Team|Lien vers l'app|points|
 |-----|----|----|
 ||||
-|Frédéric Duperier|[ugquickies.shellyapp.com](http://ugquickies.shellyapp.com)| 152 pts (152 + 10 - 10) |
-|Logique plurielle|[quickies.logique-plurielle.com/](http://quickies.logique-plurielle.com/)| 122 pts (127 + 25 - 30)|
+|Logique plurielle|[quickies.logique-plurielle.com/](http://quickies.logique-plurielle.com/)| 187 pts (152 + 45 - 10)|
+|Frédéric Duperier|[ugquickies.shellyapp.com](http://ugquickies.shellyapp.com)| 172 pts (152 + 30 - 10) |
 |ReadyAimFired|[florian-genaudet.fr/projects/ugquickies/](http://florian-genaudet.fr/projects/ugquickies/)| 117 pts (102 + 25 - 10)|
+|Quick@eam|[quickat.cpollet.net:8090/](http://quickat.cpollet.net:8090/)| 37 pts (72 + 5 - 40)|
 |JB Lièvremont|[call4paper.app.exo.io](http://call4paper.app.exo.io)| 2 pts (2 + 20 - 20)|
 
 <br><br><br>
