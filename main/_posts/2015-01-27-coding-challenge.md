@@ -1,6 +1,6 @@
 ---
 category: next
-title: "User Group Coding Challenge: les codeurs de l'extrême 2015"
+title: "le 27 Janvier, 5ème anniversaire: Soirée User Group Coding Challenge"
 ---
 
 <ul id="grid-premium">
@@ -11,72 +11,27 @@ title: "User Group Coding Challenge: les codeurs de l'extrême 2015"
 	<li><a href="http://genevamug.ch/"><img src="/images/genevamug.jpeg" alt="GenevaMUG"></a></li>
 </ul>
 
-## Appel à tous les codeurs de l'extrême de la suisse Romande: 
+***Hepia, Salle Aula, à partir de 18h30***
 
-Pour la date anniversaire du GenevaJUG le **27 Janvier 2015**, nous nous associons aux autres user groups de suisse romande (Scala Romandie, Geneva .NET, GenevaMUG, Docker Geneva) pour lancer une compétition de développement ouverte à tous et quelque soit vos langages favoris. 
+Pour fêter les 5 ans du GenevaJUG, nous nous sommes associés aux autres user groups de suisse romande (Scala Romandie, Geneva .NET, GenevaMUG, Docker Geneva) pour lancer une compétition de développement.
 
-L'objectif est de développer une petite application web (ou pas !) qui permet de soumettre et sélectionner des idées de Quickies pour les prochains User Group (GenevaJUG ou autre). Les deux mots d'ordre sont: Freestyle et Gamification ! 
- 
-**Freestyle**, car aucune contrainte sur les languages de développement, les plateformes d'hébergement, les frameworks … 
+L'objectif était de développer une petite application web (ou pas !) qui permet de soumettre et sélectionner des idées de Quickies pour les prochains User Group (GenevaJUG ou autre)
 
-**Gamification**, car chaque atteinte d'un objectif permet de gagner des points et le classement de l'ensemble de projets sera mis à jour en continu 
+Lors de cette soirée anniversaire, chaque participant à ce concours viendra présenter son application, les choix techniques faits et les difficultés rencontrées (ou pas ;-), puis nous pourrons passer en production l'application des gagnants !
 
-Le 27 Janvier, tous les participants auront la possibilité s'ils le souhaitent de présenter leur projets et les choix technologies adoptés, aussi farfelus soient-ils. 
+Pour rappel, voici le classement:
 
-Cette date sera l'occasion de dire adieu à la SpeakerAcademy et de passer en production l'application des gagnants pour lancer une dynamique autour des Quickies.
+|Team|Lien vers l'app|points|
+|-----|----|----|
+||||
+|ReadyAimFired|[florian-genaudet.fr/projects/ugquickies/](http://florian-genaudet.fr/projects/ugquickies/)| 267 pts (152 + 145 - 30)|
+|Logique plurielle|[quickies.logique-plurielle.com/](http://quickies.logique-plurielle.com/)| 237 pts (152 + 95 - 10)|
+|Frédéric Duperier|[ugquickies.shellyapp.com](http://ugquickies.shellyapp.com)| 172 pts (152 + 30 - 10) |
+|Quick@eam|[quickat.cpollet.net:8090/](http://quickat.cpollet.net:8090/)| 37 pts (72 + 5 - 40)|
 
-Voici les règles pour participer à ce jeu: 
+<br><br>
+Et si vous souhaitez encore partciper, retrouvez le règlement sur [genevajug.ch/challenge](http://genevajug.ch/challenge/)
 
-* Créer une team (ou pas)
-* Créer un repo Github
-* Codez !
-* Déployez !
-* Tweeter nous l’url d’accès à votre app (ou un petit mail à team@genevajug.ch)
-* Continuez à coder et à déployer !
-* Checker votre classement et les nouvelles règles régulièrement sur [genevajug.ch/challenge](/challenge)
+Nous vous attendons nombreux pour cette soirée pas comme les autres qui se finira par un buffet et un gateau d'anniversaire !!!
 
-
-Grâce à notre sponsor soirée Exoscale, vous pouvez même déployer votre app gratuitement avec le code GENEVAJUG !
-
-<center><a href="https://portal.exoscale.ch"><img src="/images/exoscale.png" alt="Exoscale" style="padding-bottom: 20px"/></a></center>
-
-Voici la liste des objectifs à atteindre et la manière de gagner/perdre des points de bonus/malus. Cette liste va évoluer régulièrement, surtout au niveau des bonus et malus...
-
-Les points de base:
-
-* URL publique d'accès **2 pts**
-* Création d'un compte (bio) **15 pts**
-* Enregistrement d'une session (titre, description, user group)	**20 pts**
-* Suppression d'une session	**5 pts**
-* Liste des sessions à venir **20 pts**
-* Filtrer par User Group **5 pts**
-* Vote pour une session à venir	**20 pts**
-* Thread de discussions sur session	**10 pts**
-* Partage sur réseau sociaux **5 pts**
-* Liste des sessions passées **10 pts**
-* Vote pour une session passée	**10 pts**
-* Modification de son profil utilisateur **10 pts**
-* Top 3 des sessions les plus attendues	**10 pts**
-* Top 3 des sessions passées **10 pts**
-
-Les points bonus (qui s'ajoutent au delà de 50 points de base):
-
-* Intégrer des chatons **5 pts**
-* Nom de la team **1 à 10 pts**
-* Mode Solo	**10 pts**
-* Mur de tweets #UGQuickie **20 pts**
-* Utilisable sur Minitel **20 pts**
-* Utilisable en telnet **15 pts**
-* Déployé dans un cloud suisse **10 pts**
-* Utilisation du language BrainFuck **50 pts**
-* Vote pour une session par tweet **50 pts**
-
-Les malus (s'appliquent dès le départ :-) :
-
-* Pour chaque EJB **-20 pts**
-* Utiliser Vaadin **-10 pts**
-* Utiliser AngularJS **-10 pts**
-* Utilisation de Java 6 ou 7 **-20 pts**
-* Développeur sans enfants **-10 pts**
-* Moins de 20 commits sur son projet **-20 pts**
-* Développeur sans compte Twitter **-10 pts**
+<center><a href="http://www.eventbrite.fr/e/inscription-5eme-anniversaire-soiree-user-group-coding-challenge-15436369597?ref=ebtn" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid=15436369597" alt="Eventbrite - 5ème anniversaire: soirée User Group Coding Challenge" /></a></center>
