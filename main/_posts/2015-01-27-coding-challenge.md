@@ -11,7 +11,7 @@ title: "le 27 Janvier, 5ème anniversaire: Soirée User Group Coding Challenge"
 	<li><a href="http://genevamug.ch/"><img src="/images/genevamug.jpeg" alt="GenevaMUG"></a></li>
 </ul>
 
-***Hepia, Salle Aula, à partir de 18h30***
+***Hepia, Salle A106, à partir de 18h30***
 
 Pour fêter les 5 ans du GenevaJUG, nous nous sommes associés aux autres user groups de suisse romande (Scala Romandie, Geneva .NET, GenevaMUG, Docker Geneva) pour lancer une compétition de développement.
 
