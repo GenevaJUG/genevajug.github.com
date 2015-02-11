@@ -324,7 +324,7 @@ div.text {
 
 #footer ul li {
     float: left;
-    width: 210px;
+    width: 50%;
 }
 
 #copy {
@@ -411,17 +411,18 @@ ul#grid-premium li img {
 ul#grid-premium-footer li {
     list-style: none outside;
     float: left;
-    margin-right: 10px;
-    width: 80px;
-    height: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;
     background: none;
 }
 
 ul#grid-premium-footer li img {
     float: none;
-    height: 70px;
-    margin-right: 5px;
-    margin-left: 5px;
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 ul#grid-saison li {
@@ -444,18 +445,18 @@ ul#grid-saison li img {
 ul#grid-saison-footer li {
     list-style: none outside;
     float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 60px;
-    height: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
     background: none;
 }
 
 ul#grid-saison-footer li img {
     float: none;
-    height: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .sponsor-details {

@@ -1,6 +1,6 @@
 ---
-category: next
-title: "Novembre 25th, From Zero To Hero with Spring Boot"
+layout: event
+title: "From Zero To Hero with Spring Boot"
 eventKey: springboot
 speaker: Stéphane Nicoll
 speakerKey: stephane_nicoll
