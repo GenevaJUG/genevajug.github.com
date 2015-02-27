@@ -3,7 +3,7 @@ category: next
 title: "le 9 Mars, On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles?"
 ---
 
-***Hepia, Salle A106, à partir de 19h00***
+***Hepia, Salle B119, à partir de 19h00***
 
 **On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles?** avec **[Emmanuel Bernard](/jug/speakers.html?key=emmanuel_bernard)**
 
