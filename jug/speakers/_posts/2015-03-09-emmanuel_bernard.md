@@ -3,6 +3,8 @@ layout: speaker
 title: Emmanuel Bernard
 photo: emmanuel_bernard.jpg
 key: emmanuel_bernard
+event: "On n'est pas que des cobayes: ORM et NoSQL sont-ils solubles ?"
+eventKey: hibernateogm
 ---
 
 Emmanuel Bernard est architecte plate-forme données sur le portefeuille JBoss chez Red Hat. Il supervise les projets liées aux données et en particulier le portefeuille Hibernate d'où il vient.
