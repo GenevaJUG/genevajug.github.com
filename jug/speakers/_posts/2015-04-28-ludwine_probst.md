@@ -3,6 +3,8 @@ layout: speaker
 title: Ludwine Probst
 photo: ludwine_probst.jpg
 key: ludwine_probst
+event: "Soirée Big Data en collaboration avec JDuchess"
+eventKey: spark
 ---
 
 Ludwine Probst est Data Engineer chez Cityzen Data, où elle travaille sur du Machine Learning et du traitement de gros volumes de données temps réel. 
