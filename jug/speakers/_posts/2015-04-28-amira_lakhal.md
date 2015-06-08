@@ -3,6 +3,8 @@ layout: speaker
 title: Amira Lakhal
 photo: amira_lakhal.jpg
 key: amira_lakhal
+event: "Soirée Big Data en collaboration avec JDuchess"
+eventKey: spark
 ---
 
 Amira LAKHAL est Agile Java Scala développeur chez Valtech. Elle est passionnée par l’agilité, les langages fonctionnels et le monde du Big Data. 

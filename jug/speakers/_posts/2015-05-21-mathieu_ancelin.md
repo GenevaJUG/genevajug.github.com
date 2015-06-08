@@ -3,6 +3,8 @@ layout: speaker
 title: Mathieu ancelin
 photo: mathieu_ancelin.jpg
 key: mathieu_ancelin
+event: "I don't always write reactive applications, but when I do, it runs on Raspberry Pi"
+eventKey: reactive
 ---
 
 Mathieu ANCELIN est développeur à SERLI, spécialisé dans la programmation web et les frameworks web modernes avec un bon background autour des technologies Java EE. 
