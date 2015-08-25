@@ -3,6 +3,8 @@ layout: speaker
 title: Thierry Chatel
 photo: thierry_chatel.jpg
 key: thierry_chatel
+event: "AngularJS, en attendant la v2..."
+eventKey: angularjs
 ---
 
 Thierry Chatel est consultant et formateur indépendant, spécialiste de l’architecture des applications web et du framework AngularJS, et membre du réseau des Google Developers Experts depuis 2014.
