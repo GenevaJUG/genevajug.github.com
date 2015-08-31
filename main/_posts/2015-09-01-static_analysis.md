@@ -3,7 +3,7 @@ category: next
 title: "Septembre 1st, DIY : Java Static Analysis and Improve your tests quality with Mutation Testing"
 ---
 
-***Geneva Business Center, Room Lancy, starting at 18h30***
+***Geneva Business Center, Auditorium, starting at 18h30***
 
 **DIY : Java Static Analysis** by **[Nicolas Peru](/jug/speakers.html?key=nicolas_peru)** (french talk)
 
