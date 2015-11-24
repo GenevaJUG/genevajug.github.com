@@ -1,0 +1,502 @@
+/* -----------------------------------------------
+	www				: http://www.genevajug.ch/
+	last update 	: 28.12.2010
+	version			: 0.2
+	by 				: Roberto Schincaglia
+					  www.hortis.ch
+----------------------------------------------- */
+
+/* -----------------------------------------------
+   Base
+----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 100%;
+    width: 100%;
+}
+
+html body {
+    height: 100%;
+}
+
+table {
+    clear: both;
+    width: 100%;
+}
+
+table, table td, table tr {
+    clear: both;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: top;
+}
+
+img {
+    border-style: none;
+    display: block;
+}
+
+abbr, acronym, .help {
+    border-bottom: 1px dotted #333333;
+    cursor: help;
+}
+
+h1, h2, h3, h4 {
+    clear: both;
+}
+
+h1 {
+    display: block;
+    color: #555555;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 31px;
+    font-style: italic;
+}
+
+h2 {
+    font-family: Georgia, Arial, lucida sans;
+    font-size: 24px;
+    text-transform: none;
+    color: #00AAE7;
+    display: block;
+    padding: 0px 0px 10px 0px;
+    font-weight: normal;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    line-height: 21px;
+}
+
+h3 {
+    color: #666666;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+h4 {
+
+    display: block;
+    color: #8F8F8F;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+    font-style: italic;
+    padding: 0px 0px 15px 0px;
+}
+
+ul, ol, dl {
+    list-style: none outside none;
+}
+
+header, section, footer, aside, nav, article, figure {
+    display: block;
+}
+
+input, textarea {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+*:link, *:visited, *:link:focus, *:visited:focus {
+    color: #00aae7;
+    text-decoration: none;
+}
+
+*:link:hover, *:visited:hover, *:link:active, *:visited:active {
+    color: #00aae7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 16px;
+    padding: 0 0 10px 0;
+    text-align: justify;
+}
+
+/* -----------------------------------------------
+	Page Layout
+----------------------------------------------- */
+#superimage {
+    clear: both;
+    position: fixed;
+    z-index: -1;
+    width: 2024px;
+    height: 1518px;
+    display: block;
+}
+
+#superimage img {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+	clear: both;
+    position: absolute;
+    background: url(/images/raster.gif) repeat scroll 0 0 transparent;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: auto;
+}
+
+#main_container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    text-align: left;
+    z-index: 999999;
+}
+
+#navigation {
+    display: block;
+    width: 160px;
+    float: left;
+    overflow: hidden;
+}
+
+#navigation img {
+    border: none;
+    padding: 0 0 20px 0;
+}
+
+#nav ul li {
+    text-align: right;
+    font-size: 12px;
+}
+
+#nav ul li a {
+    background: url("/images/dis.png") repeat-x scroll left bottom transparent;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff;
+}
+
+#nav ul li ul li a {
+    text-align: right;
+    font-size: 11px;
+    color: #00aae7;
+}
+
+#nav ul li a:hover {
+    background: url("/images/hover.png") no-repeat 0 -70px transparent;
+}
+
+#nav ul li.active a {
+    background: url("/images/hover.png") no-repeat 0 -35px transparent;
+}
+
+#nav ul li.active a:hover {
+    background: url("/images/hover.png") no-repeat 0 -35px transparent;
+}
+
+#nav ul li ul li a {
+    background: url("/images/hover.png") no-repeat 0 -70px transparent;
+}
+
+#nav ul li.parent.active ul li a {
+    background: url("/images/hover.png") no-repeat 0 -70px transparent;
+}
+
+#nav ul li.parent.active ul li a:hover {
+    background: url("/images/hover.png") no-repeat 0 -105px transparent;
+}
+
+#nav ul li.parent.active ul li.active a {
+    background: url("/images/hover.png") no-repeat 0 0 transparent;
+    color: #ffffff;
+}
+
+#old_social {
+    padding: 14px 0 0 0;
+}
+
+#main {
+    display: block;
+    width: 715px;
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+#slogan {
+    background-color: #000000;
+    margin: 5px 0 0 0;
+    padding: 9px 15px 9px 15px;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+#content {
+    background: url("/images/bg_content.png") repeat 0 0 transparent;
+    margin: 23px 0 20px 0;
+    padding: 15px 15px 15px 15px;
+    color: #4b4b4b;
+}
+
+.disp {
+    color: #707070;
+    font-family: Lucida Grande, lucida-sans, Arial, Helvetica, Tahoma;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 15px 0;
+    background-color: #f5f5f5;
+}
+
+.disp ul {
+    margin: 0 0 25px 10px;
+    overflow: hidden;
+}
+
+.disp li {
+    padding: 0 0 1px 10px;
+    background: url("/images/ul_li.gif") no-repeat 0 3px transparent;
+}
+
+.art-Infos-footer {
+    padding: 25px 0 0 0;
+    clear: both;
+    text-align: right;
+    font-size: 12px;
+    color: #b6dff7;
+}
+
+.imgtop {
+    float: left;
+    padding: 0 15px 15px 0;
+}
+
+div.cadre {
+    position: absolute;
+    width: 170px;
+    height: 120px;
+    background: url("/images/sponsor_logo.gif") no-repeat 0 0 transparent;
+    float: left;
+    z-index: 300;
+}
+
+div.img {
+    position: absolute;
+    z-index: 200;
+    float: left;
+    margin-top: 20px;
+}
+
+div.text {
+    padding: 0 0 0 200px;
+    clear: both;
+}
+
+#footer {
+    color: #707070;
+    font-family: Lucida Grande, lucida-sans, Arial, Helvetica, Tahoma;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 0 0;
+    background-color: #f5f5f5;
+}
+
+#footer ul {
+    height: 100%;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#footer ul li {
+    float: left;
+    width: 50%;
+}
+
+#copy {
+    text-align: right;
+}
+
+.banner img {
+    margin: 0 auto;
+}
+
+#details {
+    margin-top: 40px;
+}
+
+.member-photo {
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.speaker-photo {
+    float: left;
+    height: 120px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.partner-logo {
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.event-logo {
+    display: block;
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.margin-logo {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+ul#grid-speaker li {
+    list-style: none outside;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 110px;
+    background: none;
+}
+
+ul#grid-speaker li img {
+    float: none;
+}
+
+ul#grid-premium li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 120px;
+    height: 120px;
+    background: none;
+}
+
+ul#grid-premium li img {
+    float: none;
+    height: 110px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul#grid-premium-footer li {
+    list-style: none outside;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;
+    background: none;
+}
+
+ul#grid-premium-footer li img {
+    float: none;
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul#grid-saison li {
+    list-style: none outside;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+
+ul#grid-saison li img {
+    float: none;
+    height: 70px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul#grid-saison-footer li {
+    list-style: none outside;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    background: none;
+}
+
+ul#grid-saison-footer li img {
+    float: none;
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sponsor-details {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    clear: both;
+}
+
+/* Adding new social styles*/
+#social {
+    color: #707070;
+    font-family: Lucida Grande, lucida-sans, Arial, Helvetica, Tahoma;
+    font-size: 12px;
+    padding: 15px 15px 15px 15px;
+    margin: 0 0 15px 0;
+    background-color: #f5f5f5;
+}
+
+#social ul {
+    height: 100%;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#social ul li {
+    float: left;
+    width: 210px;
+    margin-bottom: 3px;
+}
+
+#social ul li div {
+	margin-left: 50px;
+}
+
+#social ul li div a img {
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	display: inline;
+	margin-right: 10px;
+}
