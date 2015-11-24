@@ -12,7 +12,7 @@ layout: jug
 </script>
 <div class="disp">
     <ul id="grid-speaker">
-    {% for post in site.categories.speakers %}
+    {% for post in site.speakers reversed %}
         <li><a href="{{ post.url }}" class="load" id="{{ post.key }}"><img src="/images/speakers/{{ post.photo }}" alt="{{ post.title }}"/></a></li>
     {% endfor %}
     </ul>

@@ -15,3 +15,16 @@ keywords:     Geneva, Java, JUG
 author:       # atom.xml: Name of website's author
 email:        # atom.xml: Author email
 analytics_id: UA-20372950-1
+
+collections:
+  main:
+  events:
+    output: true
+  speakers:
+    output: true
+  sponsors_premium:
+    output: true
+  sponsors_saison:
+    output: true
+  sponsoring:
+    output: true

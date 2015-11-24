@@ -2,20 +2,11 @@
 layout: accueil
 ---
 
-{% for post in site.categories.main %}
+{% for post in site.main reversed %}
 <div class="disp">
     <h2>{{ post.title }}</h2>
     <br/>
     {{ post.content }}
     <br/>
-    {% if post.youtubeId %}
-    <hr/>
-    <br/>
-    <h3>Vidéo de la session</h3>
-    <br/>
-    <div style="text-align: center; margin-bottom: 20px;">
-        <iframe width="560" height="315" src="//www.youtube.com/embed/{{ post.youtubeId }}" frameborder="0" allowfullscreen></iframe>
-    </div>
-    {% endif %}
 </div>
 {% endfor %}

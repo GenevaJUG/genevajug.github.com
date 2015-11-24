@@ -12,7 +12,7 @@ layout: jug
 </script>
 <div class="disp">
     <ul>
-    {% for post in site.categories.events %}
+    {% for post in site.events reversed %}
         <li>{{ post.date | date_to_string }} <a href="{{ post.url }}" class="load" id="{{ post.eventKey }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
