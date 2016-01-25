@@ -3,6 +3,8 @@ layout: speaker
 title: Gaetan Zoritchak
 photo: gaetan_zoritchak.jpg
 key: gaetan_zoritchak
+event: "Kotlin : Code with Fun"
+eventKey: kotlin
 ---
 
 Je suis développeur, consultant, architecte logiciel, formateur dans l'écosystème java depuis plus de 15 ans. 
