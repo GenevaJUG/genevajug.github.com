@@ -1,8 +1,9 @@
 ---
-title: "Le 2 Février, Soirée Quickies pour les 6 ans du GenevaJUG !"
+layout: event
+title: "Soirée Quickies pour les 6 ans du GenevaJUG"
+eventKey: "6year"
+youtube: KHDkQFOT7Xc
 ---
-
-Pour fêter le 6ème anniversaire du GenevaJUG, nous vous proposons une soirée Quickies animée uniquement par des speakers locaux !
 
 * **Keynote surprise** par [Alexis Roussel](/jug/speakers.html?key=alexis_roussel)
 
@@ -32,8 +33,3 @@ Pour fêter le 6ème anniversaire du GenevaJUG, nous vous proposons une soirée 
 * **Retour d'expérience - Architecture d'un bus d'intégration lightweight** par [Jean-Christophe Plessis](/jug/speakers.html?key=jp_plessis)
 
 	Pour un de nos clients en banque privée, nous consolidons dans des services REST, exposant un modèle métier unifié, des données issues de différents backends. Le tout est basé sur une architecture micro-service et orchestré par l’EAI Apache Camel. Au travers de cette présentation nous discuterons l'architecture mise en place, les contraintes, les succès et les pièges que nous avons rencontrés. Enfin, Nous finirons par une vision de l'architecture telle que nous la verrions aujourd'hui avec le recul de cette expérience.
-
-
-Comme d'habitude, cette soirée se finira par un buffet offert par nos sponsors !
-
-<center><a href="http://www.eventbrite.fr/e/inscription-soiree-quickies-pour-les-6-ans-du-genevajug-21021007399?ref=ebtn" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid=21021007399" alt="Eventbrite - Soirée Quickies pour les 6 ans du GenevaJUG !" /></a></center>
