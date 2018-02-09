@@ -3,6 +3,8 @@ layout: speaker
 title:  Sebastian Daschner
 photo:  SebastianDaschner.png
 key:  sebastian_daschner
+eventKey: java_champion
+event: Java Champion Night
 ---
 
 Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE).
