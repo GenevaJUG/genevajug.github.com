@@ -1,11 +1,12 @@
 ---
-title: "20 février, soirée anniversaire: le développeur, ce leader !"
+layout: event
+title: "soirée anniversaire: le développeur, ce leader !"
+eventKey: leader
+speaker: Freddy Mallet
+speakerKey: freddy_mallet
+speaker2: Daniel Schwarz
+speakerKey2: daniel_schwarz
 ---
-
-***Fintech Fusion, à partir de 18h30***
-
-Venez fêter le 8ème anniversaire du GenevaJUG avec une soirée spéciale "le développeur, ce leader !"
-<br><br>
 
 **Développeurs, être un expert incompris ou un leader d'opinions ne dépend que de vous** par **[Freddy Mallet](/jug/speakers.html?key=freddy_mallet)** (french talk)
 
@@ -19,8 +20,3 @@ Basé en partie sur des principes et techniques de communication mises en place 
 **Boost Your Presentation** by **[Daniel Schwarz](/jug/speakers.html?key=daniel_schwarz)** (english talk)
 
 A bucket full of ideas on how to let your audience pay attention and never forget your presentation's content.
-<br><br>
-
-Ces présentations seront suivies d'un buffet d'anniversaire offert par nos sponsors
-
-<center><a href="https://www.eventbrite.fr/e/inscription-soiree-anniversaire-le-developpeur-ce-leader-43017734201?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid=43017734201" alt="Eventbrite - Soirée anniversaire: le développeur, ce leader !" /></a></center>

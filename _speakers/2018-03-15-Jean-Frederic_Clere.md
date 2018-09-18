@@ -3,6 +3,8 @@ layout: speaker
 title:  Jean-Frederic Clere
 photo:  Jean-Frederique-Clere.png
 key:  jf_clere
+event: Tomcat du cluster au cloud via Kubernetes
+eventKey: kubernetes
 ---
 
 Jean-Frederic Clere a passé plus de 20 ans à réaliser des logiciels client/serveur. Ses connaissances vont du Cobol à Java, du BS2000 à GNU/Linux et du /390 au i386 mais avec une préférence pour ce dernier 😉
