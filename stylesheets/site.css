@@ -389,6 +389,8 @@ ul#grid-speaker li {
 
 ul#grid-speaker li img {
     float: none;
+    width: 100px;
+    height: 115px;
 }
 
 ul#grid-premium li {
