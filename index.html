@@ -60,24 +60,60 @@
         <div id="content">
             
 <div class="disp">
-    <h2>Mardi 26 Mars, Upgrader vers Spring Boot 2</h2>
+    <h2>Mardi 30 Avril, Déployer Vault et Consul sur Kubernetes</h2>
     <br/>
-    <p>Par <a href="/jug/speakers.html?key=stephane_nicoll">Stéphane Nicoll</a></p>
+    <p>
+        Par <a href="/jug/speakers.html?key=vincent_sevel">Vincent Sevel</a>
+    </p>
     <p><em>Fusion, à partir de 18h30</em></p>
 
 
-<p>Spring Boot 2 est la première release majeure depuis la première version du projet en Avril 2014. En plus de s'appuyer sur Spring Framework 5 et les nouvelles versions des projets Spring, elle apporte de nombreuses fonctionnalités et même de nouveaux modèles de programmation.</p>
 
-<p>C'est aussi une opportunité unique pour corriger et améliorer en profondeur certains de ses mécanismes.</p>
+    <p>
+            Les enjeux de Kubernetes dépassent largement le cadre feutré du déploiement des applications stateless 12 factors.
+            A travers sa versatilité, Kubernetes s’affirme de manière croissante comme la plateforme universelle de déploiement.
+        </p>
+    
+        <p>
+            Kubernetes peut donc être utilisé pour déployer vos composants applicatifs, mais également les technologies d’infrastructure
+            qui les soutiennent, y compris quand ces technologies ont été conçues avant l’émergence de Kubernetes.
+        </p>
+    
+        <p>
+            L’exercice d’intégration d’une technologie legacy dans Kubernetes est intéressant pour 2 raisons :
+            <ul>
+                <li>
+                    La première est purement pédagogique : 
+                    en se confrontant à l’intégration d’une technologie on est forcé de se poser les bonnes questions,
+                    d’appréhender les concepts et la philosophie du produit, de comprendre les options à disposition et leurs limites.
+                    On ressort de l’exercice avec quelques bleus, mais surtout une connaissance accrue de la plateforme qui sera utile pour les intégrations
+                    futures d’applications legacy.
+                </li>
+                <li>
+                    La deuxième est pragmatique et utilitaire : 
+                    l’intégration d’une technologie tierce dans Kubernetes offre une opportunité de réduire l’empreinte des intégrations sur mesure dans le 
+                    système d’information et amène en même temps tous les avantages de Kubernetes en terme d’administrabilité : 
+                    infrastructure as code, ‘desired state’, cycle de vie, surveillance, …
+                </li>
+            </ul> 
+        </p>
+    
+        <p>
+            Dans cette présentation nous prendrons l’exemple spécifique des technologies HashiCorp Vault & Consul et montrerons comment elles peuvent 
+            s’intégrer dans une environnement Kubernetes. 
+            Nous évaluerons plusieurs aspects comme le stateful, l’exposition, la haute disponibilité, la sécurisation et la surveillance.
+            A la fin de l’exercice, nous aurons une solution prod-ready, mais surtout nous aurons acquis une expérience et une connaissance qui nous 
+            sera utile pour continuer sur le chemin de l’adoption de Kubernetes.
+        </p>
 
-<p>Dans cette session, Stéphane mettra à jour une application Spring Boot 1.5 vers 2.0 et montrera par l'exemple en quoi Spring Boot 2 améliore l'expérience développeur, y compris pendant la migration.</p>
-
+        <br>
 <p><a href="https://www.fusion.xyz/fintech/" target="_blank">Fusion</a> est situé 50 Avenue de la Praille 1227 Carouge.</p> 
 <p>Transport public : P+R Etoile</p>
 <p>Parking : P+R Etoile</p>
 
+<!--
 <center><a href="https://www.eventbrite.com/e/billets-upgrader-vers-spring-boot-2-58855735088?aff=mc" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid=58855735088" alt="Eventbrite - Upgrader vers Spring Boot 2" /></a></center>
-
+-->
     <br/>
 </div>
 
