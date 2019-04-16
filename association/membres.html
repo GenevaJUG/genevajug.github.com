@@ -69,6 +69,15 @@
     });
 </script>
 
+<hr>
+<h2>Staff Members</h2>
+
+{% for staff_member in site.staff_members %}
+  <h2>{{ staff_member.name }}</h2>
+  <p>{{ staff_member.content | markdownify }}</p>
+{% endfor %}
+
+<hr>
 <div class="disp">
     <img src="/images/members/xavier.jpg" class="member-photo" alt="Xavier Bourguignon"/>
     <a class="linkedin-profileinsider-popup" href="">Xavier Bourguignon</a>
