@@ -1,0 +1,13 @@
+<div class="disp">
+    <div class="img">
+	    <a href="{{page.url}}"><img src="{{page.img}}" alt="{{page.title}}" width="160"/></a>
+	    {%if page.twitter or page.linkedin %}<h3>Retrouvez les sur</h3>
+	      {%if page.twitter%}<a href="{{page.twitter}}"><img src="/images/twitter.png" width="120"/></a>{%endif%}
+	      {%if page.linkedin%}<a href="{{page.linkedin}}"><img src="/images/linkedin.png" width="120"/></a>{%endif%}
+	    {%endif%}
+    </div>
+    <div class="text">
+    {{content}}
+    </div>
+</div>
+

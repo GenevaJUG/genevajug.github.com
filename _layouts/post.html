@@ -1,0 +1,32 @@
+<div class="disp">
+    <h2>{{ page.title }}</h2>
+    {%if page.speaker %}
+    {% assign speakerid="/speakers/"|append: page.speaker[0]  %}
+    {% assign firstspeaker = site.speakers|where:"id", speakerid |first%}
+    <h3>Avec <a href="{{ firstspeaker.url}} ">{{ firstspeaker.title}}</a> 
+	    {% if page.speaker.size > 1 %} 
+	      {% for nextspeakerid in page.speaker offset:1 %}
+	        {% assign nextspeakerfullid = "/speakers/"|append: nextspeakerid %}
+	        {% assign nextspeaker = site.speakers|where:"id", nextspeakerfullid |first %}
+	        et <a href="{{ nextspeaker.url}} ">{{ nextspeaker.title}}</a> 
+	      {% endfor %}
+	    {% endif %}
+    </h3>
+    {%endif%}
+    {% if page.img %} <img src="{{ page.img }}" class="event-logo" alt="{{ page.title }}" >{% endif %}
+    <br/>
+    {{ content }}
+    <br/>
+    {%  if page.slideshare %} {% for slideshare in  page.slideshare %}<iframe src="http://www.slideshare.net/slideshow/embed_code/{{ slideshare }}" width="310" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> {% endfor %}{%  endif %}
+    {%  if page.picasa %} <embed type="application/x-shockwave-flash" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" width="310" height="250" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=fr&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fxavierbourguignon%2Falbumid%2F{{ page.picasa }}%3Falt%3Drss%26kind%3Dphoto%26hl%3Dfr" pluginspage="http://www.macromedia.com/go/getflashplayer"> {%  endif %}
+    {%  if page.youtube %}<hr/><br/><h3>Vidéo de la session</h3><div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{page.youtube }}" frameborder="0" allowfullscreen></iframe></div>{%endif%}
+
+    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+    {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+    {% if blogDate < currentDate %}
+      {% if page.location %}<p><a href="{{page.locationlink}}"> {{page.location}}</a> est situé {{page.address}} </p>{%endif%}
+      {% if page.transport%}<p>Transport public : {{page.transport}} </p>{%endif%}
+      {% if page.parking%}<p>Parking : {{page.parking}} </p>{%endif%}
+      {% if page.eventbrite%}<center><a href="https://www.eventbrite.com/e/{{page.eventbrite}}{{page.eventbriteid}}?aff=mc" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid={{page.eventbriteid}}" alt="Eventbrite - {{page.title}}" /></a></center>{%endif%}
+    {%endif%}
+</div>
