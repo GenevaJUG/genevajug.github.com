@@ -7,9 +7,17 @@
 	<h3>{{ page.title }}</h3>
 	<br/>
 	{{ content }}
+	<br/>
+    <h3>Conferences au JUG Genève</h3>
+    <ul>
     {% for post in site.posts %}
-      {% if post.speaker == page.title %} 
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {% for speaker in post.speaker %}
+        {% assign speakerid = page.id | remove: "/speakers/"%}  
+        {% assign postid = post.id | remove: "/events/"%}  
+        {% if speaker == speakerid %} 
+	<li><a href="/jug/archive.html?event={{ postid }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
+    {% endfor %}
+    </ul>
 </div>

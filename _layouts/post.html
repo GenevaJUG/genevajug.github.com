@@ -3,12 +3,12 @@
     {%if page.speaker %}
     {% assign speakerid="/speakers/"|append: page.speaker[0]  %}
     {% assign firstspeaker = site.speakers|where:"id", speakerid |first%}
-    <h3>Avec <a href="{{ firstspeaker.url}} ">{{ firstspeaker.title}}</a> 
+    <h3>Avec <a href="/jug/speakers.html?speaker={{ page.speaker[0] }} ">{{ firstspeaker.title}}</a> 
 	    {% if page.speaker.size > 1 %} 
 	      {% for nextspeakerid in page.speaker offset:1 %}
 	        {% assign nextspeakerfullid = "/speakers/"|append: nextspeakerid %}
 	        {% assign nextspeaker = site.speakers|where:"id", nextspeakerfullid |first %}
-	        et <a href="{{ nextspeaker.url}} ">{{ nextspeaker.title}}</a> 
+	        et <a href="/jug/speakers.html?speaker={{ nextspeakerid }} ">{{ nextspeaker.title}}</a> 
 	      {% endfor %}
 	    {% endif %}
     </h3>

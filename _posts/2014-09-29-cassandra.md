@@ -2,7 +2,7 @@
 layout: post
 title: Cassandra
 speaker:
-  - duy_hai
+  - duy_hai_doan
   - michael_figuiere
 youtube: mR7IN3Oi854
 ---

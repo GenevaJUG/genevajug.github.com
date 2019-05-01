@@ -3,12 +3,9 @@ layout: default
 ---
           <div class="disp">
             <ul>
-            {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
             {% for post in site.posts %}
-              {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-              {% if blogDate < currentDate %}
-	      <li>{{ post.date | date: "%b %-d, %Y" }}<a href="{{ post.url | prepend: site.baseurl }}" class="load" id="{{ post.name }}" name="{{ post.name }}" > {{ post.title }}</a></li>
-              {% endif %}
+              {% assign postid = post.id | remove: "/events/"%}
+	      <li>{{ post.date | date: "%d %-b %Y" }}<a href="{{ post.url | prepend: site.baseurl }}" class="load" id="{{ postid }}" > {{ post.title }}</a></li>
             {% endfor %}
             </ul>
           </div>

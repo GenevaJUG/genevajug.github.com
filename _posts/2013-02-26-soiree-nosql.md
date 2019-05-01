@@ -4,6 +4,7 @@ title: Soirée NoSQL
 speaker:
   - benoit_perroud
   - katia_aresti
+  - cyril_lapinte
 youtube: HxRIDkyvoCg
 ---
 **Speaker Academy: NoSQL**

@@ -3,6 +3,7 @@ layout: post
 title: The Art Of Parsing
 speaker:
   - evgeny_mandrikov
+  - dinesh_bolkensteyn
 ---
 What attracts researchers starting from the 60s till nowadays? What is studied in university by engineers in computer science and then successfully forgotten? What is at the heart of the compilers used daily by any software developer?
 Parsers!

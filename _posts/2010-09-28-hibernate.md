@@ -3,6 +3,7 @@ layout: post
 title: Hibernate, stratégies de chargement et de cache performantes
 speaker:
   - alain_helaili
+  - iulian_dragos
 slideshare: 
   - 5359304
 img: /images/events/hibernate_logo.png

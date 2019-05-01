@@ -3,6 +3,7 @@ layout: post
 title: Modern Web Development
 speaker: 
   - vincent_attiogbe
+  - sebastien_jarrin
 youtube: NFSiuHG5gTY
 ---
 L’environnement Web a fortement évolué ces dernières années et offre désormais un niveau d’industrialisation comparable à celui du Backend. La navigation Web s’effectue désormais sur une multitude d’appareils et la tendance est à l’uniformisation des sites sur tout type de Support. Basés sur les dernières fonctionnalités HTML5 et CSS3, des Frameworks comme Bootstrap ou Foundation sont des outils performants pour créer des sites Web modernes et adaptés à tous les devices.
