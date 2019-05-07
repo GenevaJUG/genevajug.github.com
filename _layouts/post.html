@@ -18,8 +18,7 @@
     <br/>
     {{ content }}
     <br/>
-    {%  if page.slideshare %} {% for slideshare in  page.slideshare %}<iframe src="http://www.slideshare.net/slideshow/embed_code/{{ slideshare }}" width="310" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> {% endfor %}{%  endif %}
-    {%  if page.picasa %} <embed type="application/x-shockwave-flash" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" width="310" height="250" flashvars="host=picasaweb.google.com&amp;captions=1&amp;hl=fr&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fxavierbourguignon%2Falbumid%2F{{ page.picasa }}%3Falt%3Drss%26kind%3Dphoto%26hl%3Dfr" pluginspage="http://www.macromedia.com/go/getflashplayer"> {%  endif %}
+    {%  if page.slideshare %} {% for slideshare in  page.slideshare %}<iframe src="http://www.slideshare.net/slideshow/embed_code/{{ slideshare }}" width="620" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> {% endfor %}{%  endif %}
     {%  if page.youtube %}<hr/><br/><h3>Vidéo de la session</h3><div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/{{page.youtube }}" frameborder="0" allowfullscreen></iframe></div>{%endif%}
 
     {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
