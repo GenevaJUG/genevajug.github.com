@@ -1,0 +1,47 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+	var params = location.search.substring(1).split(/&/);
+        var sessionParam = params[0].split('=');
+        $("a#"+sessionParam[1]).click();
+        var sectionId="nav-"+window.location.pathname.split("/")[1];
+        var sectionDiv=document.getElementById(sectionId);
+	    if(sectionDiv){
+                sectionDiv.style.display = "block";
+                sectionDiv.parentNode.className="parent active"
+            }
+	var pageName=window.location.pathname.split("/")[2];
+	if(pageName)
+	   document.getElementById(pageName.replace(/.html/,"")).className="active"
+    });
+</script>
+<div id="navigation">
+  <a href="/"><img src="/images/geneva_jug_logo.png" alt="GenevaJUG" /></a>
+  <div id="nav">
+    <ul>
+      <li class="first"><a href="/">Accueil</a></li>
+      <li>
+	<a href="/jug/archive.html">JUG</a>
+        <ul id="nav-jug">
+          <li id="archive"><a href="/jug/archive.html">Réunions passées</a></li>
+          <li id="speakers"><a href="/jug/speakers.html">Les speakers</a></li>
+        </ul>
+      </li>
+      <li>
+	<a href="/partners/sponsors.html">Partenaires</a>
+        <ul id="nav-partners">
+          <li id="sponsors"><a href="sponsors.html">Sponsors</a></li>
+          <li id="soutien"><a href="soutien.html">Soutenez nous</a></li>
+        </ul>
+      </li>
+      <li>
+	<a href="/association/presentation.html">Association</a>
+        <ul id="nav-association">
+          <li id="presentation"><a href="/association/presentation.html">Présentation</a></li>
+          <li id="membres"><a href="/association/membres.html">Les membres</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <!-- DO NOT REMOVE THIS DIV ! THIS BREAK THE GENERAL SITE LAYOUT -->
+  <div id="old_social"></div>
+</div>

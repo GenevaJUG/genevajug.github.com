@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+{% include head.html %}
+<body>
+  <div id="superimage">
+	  <img src="/images/bg_01.jpg" alt="background1" /> 
+	  <img src="/images/bg_02.jpg" alt="background2" /> 
+	  <img src="/images/bg_03.jpg" alt="background3" /> 
+	  <img src="/images/bg_04.jpg" alt="background4" />
+  </div>
+  <div id="container" class="scroll_auto">
+    <div id="main_container">
+      {% include nav.html %}
+      <div id="main">
+        <div id="slogan">
+		{{ site.slogan}}
+        </div>
+        <div id="content">
+          {{ content }}
+	  <div id="footer">
+            <ul>
+              <li>
+                <h3>sponsors premiums</h3>
+                <ul id="grid-premium-footer">
+                  {% for premium in site.sponsors_premium %}
+                    {% assign premiumid = premium.id | remove: "/sponsors_premium/"%}
+                    <li><a href="/partners/sponsors.html?sponsor={{premiumid}}"><img src="{{premium.img}}" alt="{{premium.title}}" /></a></li>
+                  {%endfor%}
+                </ul>
+              </li>
+              <li>
+                <h3>sponsors saison</h3>
+                <ul id="grid-saison-footer">
+                  {% for season in site.sponsors_saison %}
+                    {% assign seasonid = saison.id | remove: "/sponsors_saison/"%}
+                    <li><a href="/partners/sponsors.html?sponsor={{seasonid}}"><img src="{{season.img}}" alt="{{season.title}}" /></a></li>
+                  {%endfor%}
+                </ul>
+              </li>
+            </ul><br />
+            <div id="copy">© Copyright 2012-2018 GenevaJUG - Powered by <a href="http://jekyllrb.com/">Jekyll</a> - Hosted on <a href="https://github.com/">Github</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% include google-analytics.html %}
+{% include tracker.html %}
+</body>
+</html>

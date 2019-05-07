@@ -1,163 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-	<head>
-		<title>Geneva JUG</title>
+---
+layout: default
+---
 
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-		<meta http-equiv="content-language" content="fr" />
-
-		<meta name="language" content="fr" />
-        <meta name="description" xml:lang="fr"
-              content="Geneva Java User Group Website"/>
-        <meta name="keywords" content="Geneva, Java, JUG"/>
-        <meta name="robots" content="noodp,noydir"/>
-        <meta name="author" content="GenevaJUG" />
-	    <meta name="google-site-verification" content="zVC_J91im4ViKj6X6f-5nJbZbmKdz8JXN14OcnDKVeA" />
-
-        <title> GenevaJUG</title>
-
-        <link href="/apple_touch_icon.png" rel="apple-touch-icon" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
-        <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /><![endif]-->
-
-        <link rel="stylesheet" media="screen" type="text/css" title="default css" href="/stylesheets/site.css" />
-
-        <script src="http://www.linkedin.com/js/public-profile/widget-os.js" type="text/javascript"></script>
-        <script src="http://widgets.twimg.com/j/2/widget.js" type="text/javascript"></script>
-		<script src="/javascripts/jquery-1.4.4.min.js" type="text/javascript"></script>
-	    <script src="/javascripts/jquery.cycle.js" type="text/javascript"></script>
-        <script src="/javascripts/application.js" type="text/javascript"></script>
-    </head>
-
-	<body>
-		<div id="superimage">
-            <img src="/images/bg_01.jpg" alt="background1" />
-            <img src="/images/bg_02.jpg" alt="background2" />
-            <img src="/images/bg_03.jpg" alt="background3" />
-			<img src="/images/bg_04.jpg" alt="background4" />
-		</div>
-		<div id="container" class="scroll_auto">
-            <div id="main_container">
-    <div id="navigation">
-	
-<a href="/"><img src="/images/geneva_jug_logo.png" alt="GenevaJUG" /></a>
-
-	<div id="nav">
-	    <ul>
-	        <li class="first active"><a href="#">Accueil</a></li>
-	        <li><a href="/jug/archive.html">JUG</a></li>
-	        <li><a href="/partners/sponsors.html">Partenaires</a></li>
-	        <li><a href="/association/index.html">Association</a></li>
-	    </ul>
-	</div>
-	<!-- DO NOT REMOVE THIS DIV ! THIS BREAK THE GENERAL SITE LAYOUT -->
-<div id="old_social"></div>
-
-</div>
-    <div id="main">
-        <div id="slogan">// Java dans tous ses états</div>
-        <div id="content">
-            
-<div class="disp">
-    <h2>Mardi 30 Avril, Déployer Vault et Consul sur Kubernetes</h2>
-    <br/>
-    <p>
-        Par <a href="/jug/speakers.html?key=vincent_sevel">Vincent Sevel</a>
-    </p>
-    <p><em>Fusion, à partir de 18h30</em></p>
-
-
-
-    <p>
-            Les enjeux de Kubernetes dépassent largement le cadre feutré du déploiement des applications stateless 12 factors.
-            A travers sa versatilité, Kubernetes s’affirme de manière croissante comme la plateforme universelle de déploiement.
-        </p>
-    
-        <p>
-            Kubernetes peut donc être utilisé pour déployer vos composants applicatifs, mais également les technologies d’infrastructure
-            qui les soutiennent, y compris quand ces technologies ont été conçues avant l’émergence de Kubernetes.
-        </p>
-    
-        <p>
-            L’exercice d’intégration d’une technologie legacy dans Kubernetes est intéressant pour 2 raisons :
+     {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+     {% for post in site.posts reversed %}
+       {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+       {% if blogDate >= currentDate %}
+         {{ post.output }}
+         {% break %}
+       {% endif %}
+      {% endfor %}
+          <div class="disp">
+            <h2>Le Geneva Java User Group en quelques mots...</h2>
+	    <br />
+            <p>Le GenevaJUG est un groupe d’utilisateurs Java ayant
+            pour but de réunir les acteurs du langage
+            (professionnels, communautés open source, institutions,
+            étudiants, enseignants…) afin d’échanger des idées et
+            de discuter des avancées technologiques de la
+            plateforme Java.</p>
+            <p>Nous nous rencontrons le dernier mardi du mois. Les
+            réunions sont gratuites, ouvertes à tous et consistent
+            en une présentation technique, une démonstration d’un
+            produit, ou une table ronde. Après la réunion nous nous
+            retrouvons généralement pour un échange informel autour
+            d’un verre et d’un mini-buffet.</p><br />
+          </div>
+          <div id="social">
             <ul>
-                <li>
-                    La première est purement pédagogique : 
-                    en se confrontant à l’intégration d’une technologie on est forcé de se poser les bonnes questions,
-                    d’appréhender les concepts et la philosophie du produit, de comprendre les options à disposition et leurs limites.
-                    On ressort de l’exercice avec quelques bleus, mais surtout une connaissance accrue de la plateforme qui sera utile pour les intégrations
-                    futures d’applications legacy.
-                </li>
-                <li>
-                    La deuxième est pragmatique et utilitaire : 
-                    l’intégration d’une technologie tierce dans Kubernetes offre une opportunité de réduire l’empreinte des intégrations sur mesure dans le 
-                    système d’information et amène en même temps tous les avantages de Kubernetes en terme d’administrabilité : 
-                    infrastructure as code, ‘desired state’, cycle de vie, surveillance, …
-                </li>
-            </ul> 
-        </p>
-    
-        <p>
-            Dans cette présentation nous prendrons l’exemple spécifique des technologies HashiCorp Vault & Consul et montrerons comment elles peuvent 
-            s’intégrer dans une environnement Kubernetes. 
-            Nous évaluerons plusieurs aspects comme le stateful, l’exposition, la haute disponibilité, la sécurisation et la surveillance.
-            A la fin de l’exercice, nous aurons une solution prod-ready, mais surtout nous aurons acquis une expérience et une connaissance qui nous 
-            sera utile pour continuer sur le chemin de l’adoption de Kubernetes.
-        </p>
-
-        <br>
-<p><a href="https://www.fusion.xyz/fintech/" target="_blank">Fusion</a> est situé 50 Avenue de la Praille 1227 Carouge.</p> 
-<p>Transport public : P+R Etoile</p>
-<p>Parking : P+R Etoile</p>
-
-
-<center><a href="https://www.eventbrite.com/e/billets-deployer-vault-et-consul-sur-kubernetes-60721738354?aff=mc" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid=60721738354" alt="Eventbrite - Déployer Vault et Consul sur Kubernetes" /></a></center>
-
-    <br/>
-</div>
-
-<div class="disp">
-    <h2>Le Geneva Java User Group en quelques mots ...</h2>
-    <br/>
-    <p>Le GenevaJUG est un groupe d’utilisateurs Java ayant pour but de réunir les acteurs du langage (professionnels, communautés open source, institutions, étudiants, enseignants…) afin d’échanger des idées et de discuter des avancées technologiques de la plateforme Java.</p>
-
-<p>Nous nous rencontrons le dernier mardi du mois. Les réunions sont gratuites, ouvertes à tous et consistent en une présentation technique, une démonstration d’un produit, ou une table ronde. Après la réunion nous nous retrouvons généralement pour un échange informel autour d’un verre et d’un mini-buffet.</p>
-
-    <br/>
-</div>
-
-
-            <div id="social">
-        <ul>
-            <li><div><a href="http://www.eventbrite.com/org/1520696882"><img src="/images/eventbrite_logo.png" alt="eventbrite"/><span>Eventbrite</span></a></div></li>
-            <li><div><a href="http://www.twitter.com/GenevaJUG"><img src="/images/twitter_logo.jpg" alt="twitter"/><span>Twitter</span></a></div></li>
-            <li><div><a href="https://plus.google.com/114530398687218050969" rel="publisher"><img src="/images/googlePlus_logo.jpg" alt="Google+"/><span>Google+</span></a></div></li>
-            <li><div><a href="http://www.eventbrite.com/rss/organizer_list_events/1520696882"><img src="/images/rss_logo.png" alt="rss"/><span>RSS Events</span></a></div></li>
-            <li><div><a href="http://www.linkedin.com/groups?gid=2511735"><img src="/images/linkedin_logo.png" alt="linkedin"/><span>LinkedIn</span></a></div></li>
-            <li><div><a href="http://groups.google.com/group/genevajug"><img src="/images/google_groups_logo.png" alt="google groups"/><span>Google Groups</span></a></div></li>
-        </ul>
-</div>
-
- {% include footer.html %}
-
-        </div>
-    </div>
-</div>
-
-		</div>
-         
-<script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("UA-20372950-1");
-        pageTracker._trackPageview();
-    } catch(err) {}
-</script>
- 
-
-	</body>
-</html>
+              {% for social in site.data.social %}
+              <li>
+                <div>
+			<a href="{{ social.url }}"><img src="{{ social.img }}" alt="{{ social.name }}" /><span>{{ social.name }}</span></a>
+                </div>
+              </li>
+	      {% endfor %}
+            </ul>
+          </div>

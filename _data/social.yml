@@ -1,0 +1,24 @@
+- id: eventbrite
+  name: Eventbrite
+  url: http://www.eventbrite.com/org/1520696882
+  img: /images/eventbrite_logo.png
+
+- id: googlegroups
+  name: Google Groups
+  url: http://groups.google.com/group/genevajug
+  img: /images/google_groups_logo.png
+
+- id: twitter
+  name: Twitter
+  url: http://www.twitter.com/GenevaJUG
+  img: /images/twitter_logo.jpg
+
+- id: googleplus
+  name: Google+
+  url: https://plus.google.com/114530398687218050969 
+  img: /images/googlePlus_logo.jpg
+
+- id: rss
+  name: RSS Events
+  url: http://www.eventbrite.com/rss/organizer_list_events/1520696882
+  img: /images/rss_logo.png

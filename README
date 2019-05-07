@@ -1,1 +1,76 @@
 GenevaJUG's website
+
+### Ajouter un évènement
+
+Dans le répertoire _posts, ajouter un fichier YYYY-MM-dd-nom_de_mon_evenement.md (exemple : _posts/2019-03-26-upgrader_vers_spring_boot2.md)
+Le fichier se comporte d'une partie metadonnée (frontmatter) et d'une partie contenu.
+
+La partie metadonnée se trouve en début de fichier, elle est délimité par trois signe moins (---)
+Les metadonnées sont reprises dans le template associé dans le répertoire _layout (_layouts/post.html)
+Les différentes metadonnées sont les suivantes : 
+* title: le titre de l'évènement
+* speaker: une liste de animateur (voir 2019-04-30-kebernetess.md ou _posts/2018-02-02-birthday_developer_leader.md pour une liste ayant plusieurs animateurs)
+* youtube: l'id d'une vidéo youtube (seul l'id de la video est à donner, voir _posts/2017-05-30-spring5.md )  
+* slideshare: une liste d'id slideshare (voir _posts/2011-01-17-anniversaire.md)
+* picasa: l'id d'un album picasa
+* location: le nom du lieu de l'évènement (voir 2019-04-30-kebernetess.md)
+* locationlink: un lien concernant le lieu (voir 2019-04-30-kebernetess.md)
+* address: l'adresse du lieu (voir 2019-04-30-kebernetess.md)
+* transport: le nom du l'arret des transport en commun le pus proche (voir 2019-04-30-kebernetess.md)
+* parking: le nom du parking le plus proche (voir 2019-04-30-kebernetess.md)
+* eventbrite: la référence au ticket eventbrite (voir 2019-04-30-kebernetess.md)
+* eventbriteid: l'id de el'évènement eventbrite (voir 2019-04-30-kebernetess.md)
+
+La partie contenu est à la suite de la partie metadonnées. Le format markdown ou html peut être utilisé dans cette partie.
+De plus, on peut aussi utiliser des directives jekyll dans cette partie.
+
+
+### Ajouter un présentateur
+
+Dans le répertoire _speakers, ajouter un fichier YYYY-MM-dd-nom_de_l_animateur.md (exemple : _speakers/2019-04-30-vincent_sevel.md)
+Le nom du fichier donne aussi l'id du speaker qui sera référencé dans les évènements. Par exemple pour le fichier "_speakers/2019-04-30-vincent_sevel.md", l'id sera "/speakers/vincent_sevel"
+Ajouter une photo dans le répertoire images/speakers au dimensions 100 x 115 dont le nom est l'id de l'animateur (images/speakers/vincent_sevel)
+
+Le fichier se comporte d'une partie metadonnée (frontmatter) et d'une partie contenu.
+
+La partie metadonnée se trouve en début de fichier, elle est délimité par trois signe moins (---).
+Les metadonnées sont reprises dans le template associé dans le répertoire _layout (_layouts/speaker.html).
+Les différentes metadonnées sont les suivantes :
+* title: le titre de l'évènement
+
+La partie contenu est à la suite de la partie metadonnées. Le format markdown ou html peut être utilisé dans cette partie.
+De plus, on peut aussi utiliser des directives jekyll dans cette partie.
+
+### Ajouter un sponsor saison
+
+Dans le répertoire _sponsors_saison, ajouter un fichier YYYY-MM-dd-nom_du_sponsor.md (exemple : _sponsors_saison/2010-12-02-kalyss.md) 
+Le fichier se comporte d'une partie metadonnée (frontmatter) et d'une partie contenu.
+La partie metadonnée se trouve en début de fichier, elle est délimité par trois signe moins (---).
+Les metadonnées sont reprises dans le template associé dans le répertoire _layout (_layouts/sponsors.html).
+Les différentes metadonnées sont les suivantes :
+* title: le nom du sponsor
+* url: le lien du site web du sponsor
+* img: l'url du logo du sponsor
+* linkedin: le lien du compte linkedin du sponsor
+* twitter: le lien du compte twitter du sponsor
+
+La partie contenu est à la suite de la partie metadonnées. Le format markdown ou html peut être utilisé dans cette partie.
+De plus, on peut aussi utiliser des directives jekyll dans cette partie.
+
+### Ajouter un sponsor premium
+
+Dans le répertoire _sponsors_premium, ajouter un fichier YYYY-MM-dd-nom_du_sponsor.md (exemple : _sponsors_premium/2010-12-13-hortis.md)
+Le fichier se comporte d'une partie metadonnée (frontmatter) et d'une partie contenu.
+
+La partie metadonnée se trouve en début de fichier, elle est délimité par trois signe moins (---).
+Les metadonnées sont reprises dans le template associé dans le répertoire _layout (_layouts/sponsors.html).
+Les différentes metadonnées sont les suivantes :
+* title: le nom du sponsor
+* url: le lien du site web du sponsor
+* img: l'url du logo du sponsor
+* linkedin: le lien du compte linkedin du sponsor
+* twitter: le lien du compte twitter du sponsor
+
+La partie contenu est à la suite de la partie metadonnées. Le format markdown ou html peut être utilisé dans cette partie.
+De plus, on peut aussi utiliser des directives jekyll dans cette partie.
+

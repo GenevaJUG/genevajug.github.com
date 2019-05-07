@@ -1,0 +1,23 @@
+<div class="img">
+	<img src="/images/{{ page.id }}.jpg" alt="{{ page.title }}" style="margin-left:20px;">
+</div>
+<div class="text">
+
+	<br/>
+	<h3>{{ page.title }}</h3>
+	<br/>
+	{{ content }}
+	<br/>
+    <h3>Conferences au JUG Genève</h3>
+    <ul>
+    {% for post in site.posts %}
+      {% for speaker in post.speaker %}
+        {% assign speakerid = page.id | remove: "/speakers/"%}  
+        {% assign postid = post.id | remove: "/events/"%}  
+        {% if speaker == speakerid %} 
+	<li><a href="/jug/archive.html?event={{ postid }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% endfor %}
+    </ul>
+</div>

@@ -179,6 +179,9 @@ p {
     text-align: right;
     font-size: 12px;
 }
+#nav ul li ul{
+    display:none
+}
 
 #nav ul li a {
     background: url("/images/dis.png") repeat-x scroll left bottom transparent;
