@@ -8,8 +8,6 @@ locationlink: https://www.fusion.xyz/fintech/
 address: 50 Avenue de la Praille 1227 Carouge.
 transport:  P+R Etoile
 parking: P+R Etoile
-eventbrite: billets-deployer-vault-et-consul-sur-kubernetes-
-eventbriteid: 60721738354
 ---
 Les enjeux de Kubernetes dépassent largement le cadre feutré du déploiement des applications stateless 12 factors.
 
