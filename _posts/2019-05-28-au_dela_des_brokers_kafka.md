@@ -8,6 +8,8 @@ locationlink: https://www.fusion.xyz/fintech/
 address: 50 Avenue de la Praille 1227 Carouge.
 transport:  P+R Etoile
 parking: P+R Etoile
+eventbrite: billets-au-dela-des-brokers-un-tour-de-lenvironnement-kafka-
+eventbriteid: 61862018964
 ---
 
 Apache Kafka ne se résume pas aux brokers, il y a tout un écosystème open-source qui gravite autour. Je vous propose ainsi de découvrir les principaux composants comme Kafka Streams, KSQL, Kafka Connect, Rest proxy, Schema Registry, MirrorMaker, etc.
