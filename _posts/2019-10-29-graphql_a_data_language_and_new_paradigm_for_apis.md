@@ -4,7 +4,7 @@ title: GraphQL — a data language and new paradigm for APIs
 speaker:
   - olivier_lange
 location: Voisins 105
-locationlink: https://www.fusion.xyz/fintech/
+locationlink: https://105.voisins.ch
 address: Route des jeunes 105A, 1227 Carouge
 transport:  Stade de Genève
 parking: P+R Voie Centrale (Free from 19H) or Centre commercial de la Praille
