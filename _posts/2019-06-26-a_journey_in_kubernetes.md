@@ -8,8 +8,6 @@ locationlink: https://www.fusion.xyz/fintech/
 address: 50 Avenue de la Praille 1227 Carouge.
 transport:  P+R Etoile
 parking: P+R Etoile
-eventbrite: billets-a-journey-in-kubernetes-in-a-hybrid-and-multi-cloud-scenario-
-eventbriteid: 63599480759
 ---
 
 from an idea of a product to a sail across the oceans of Kubernetes and two cloud providers: AWS and Alibaba.
