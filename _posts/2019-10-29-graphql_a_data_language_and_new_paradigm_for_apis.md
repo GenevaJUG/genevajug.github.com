@@ -8,8 +8,6 @@ locationlink: https://105.voisins.ch
 address: Route des jeunes 105A, 1227 Carouge
 transport:  Stade de Genève
 parking: P+R Voie Centrale (Free from 19H) or Centre commercial de la Praille
-eventbrite: billets-graphql-a-data-language-and-new-paradigm-for-apis-
-eventbriteid: 77975965211
 ---
 
 GraphQL is a schema description and data query language, as well as a specification and a runtime, which are redefining API design and client-server interaction.  GraphQL provides an alternative to REST-based architectures, with the purpose of increasing developer productivity and minimizing amounts of data transferred.
