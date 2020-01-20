@@ -16,7 +16,8 @@ parking: Parking Ikea (normalement gratuit pour l'évènement)
 
 Pour fêter les 10 ans du JUG nous aurons 3 sessions !
 
-**Au-delà des couleurs, des interfaces adaptées au daltonisme** par Laura Wacrenier
+## Au-delà des couleurs, des interfaces adaptées au daltonisme 
+par **Laura Wacrenier**
 
 Pour certaines personnes, le rouge et le vert sont une seule et même teinte. Et pourtant qu'est-ce qu'on voit partout sur le web et sur nos outils de travail ? Des dashboards remplis d'indicateurs colorés, des messages d'erreur rouges, des graphiques légendés en rouge et vert... Pour les personnes daltoniennes, grand nombre de produits numériques sont tout simplement inutilisables. Et des personnes daltoniennes, il y en a beaucoup plus que ce que l'on croit.  
 
@@ -28,7 +29,8 @@ Oui mais non. Et pas besoin d'être un designer confirmé pour y arriver ! Déve
 * Les approches efficaces pour convaincre votre équipe 
 * Comment intégrer ces améliorations dans votre planning 
 
-**Community +=10** par Audrey Neveu
+## Community +=10
+par **Audrey Neveu**
 
 Dix ans.   
 
@@ -40,6 +42,7 @@ Pour que dans dix ans, nous soyons toujours là, encore plus motivés et encore 
 
    
 
-**Apprendre à coder à des enfants ? Mais quelle idée folle!** par Xavier Bourguignon
+## Apprendre à coder à des enfants ? Mais quelle idée folle!
+par **Xavier Bourguignon**
 
 Apprendre à coder à des enfants ? Mais quelle idée folle ! Nous verrons ensemble pourquoi cette idée est pertinente, comment on s'y prend pour apprendre des bases de programmation à des enfants entre 4 et 10 ans et tout ce que cela pourrait vous apporter si vous vous y mettez !	
