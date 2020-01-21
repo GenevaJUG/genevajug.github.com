@@ -10,8 +10,8 @@ locationlink:
 address: Route de Pré-Bois 1, 1214 Vernier
 transport:  CFF Gare de Vernier, TPG Vernier-Gare/Renfile 
 parking: Parking Ikea (normalement gratuit pour l'évènement)
-#eventbrite: billets-10eme-anniversaire-
-#eventbriteid: 90721559627
+eventbrite: billets-10eme-anniversaire-
+eventbriteid: 90721559627
 ---
 
 Pour fêter les 10 ans du JUG nous aurons 3 sessions !
