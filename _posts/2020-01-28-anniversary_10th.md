@@ -11,10 +11,17 @@ address: Route de Pré-Bois 1, 1214 Vernier
 transport:  CFF Gare de Vernier, TPG Vernier-Gare/Renfile 
 parking: Parking Ikea (normalement gratuit pour l'évènement)
 #eventbrite: billets-10eme-anniversaire-
-#eventbriteid: 
+#eventbriteid: 90721559627
 ---
 
 Pour fêter les 10 ans du JUG nous aurons 3 sessions !
+
+
+## Apprendre à coder à des enfants ? Mais quelle idée folle!
+par **Xavier Bourguignon**
+
+Apprendre à coder à des enfants ? Mais quelle idée folle ! Nous verrons ensemble pourquoi cette idée est pertinente, comment on s'y prend pour apprendre des bases de programmation à des enfants entre 4 et 10 ans et tout ce que cela pourrait vous apporter si vous vous y mettez !	
+
 
 ## Au-delà des couleurs, des interfaces adaptées au daltonisme 
 par **Laura Wacrenier**
@@ -40,9 +47,3 @@ Dans cette keynote j’aimerais me pencher sur ce qui fait l’essence de nos co
 
 Pour que dans dix ans, nous soyons toujours là, encore plus motivés et encore plus riches de valeur que jamais !   
 
-   
-
-## Apprendre à coder à des enfants ? Mais quelle idée folle!
-par **Xavier Bourguignon**
-
-Apprendre à coder à des enfants ? Mais quelle idée folle ! Nous verrons ensemble pourquoi cette idée est pertinente, comment on s'y prend pour apprendre des bases de programmation à des enfants entre 4 et 10 ans et tout ce que cela pourrait vous apporter si vous vous y mettez !	
