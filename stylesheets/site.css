@@ -365,6 +365,13 @@ div.text {
     clear: both;
 }
 
+.event-logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .event-logo {
     display: block;
     float: left;
