@@ -7,8 +7,8 @@ speaker:
   - guillaume_smet 
 #location: Online Event
 #locationlink:   
-#eventbrite:
-#eventbriteid:
+eventbrite: billets-quarkus-world-tour-
+eventbriteid: 155718890393
 ---
 
 ![Logo Quarkus World Tour](/images/events/hero_worldtour.png){:align="center"}{:.event-logo-center}
