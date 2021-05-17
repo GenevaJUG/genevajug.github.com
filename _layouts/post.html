@@ -27,6 +27,6 @@
       {% if page.location %}<p><a href="{{page.locationlink}}"> {{page.location}}</a> {% if page.address %} est situé {{page.address}} {%endif%} </p>{%endif%}
       {% if page.transport%}<p>Transport public : {{page.transport}} </p>{%endif%}
       {% if page.parking%}<p>Parking : {{page.parking}} </p>{%endif%}
-      {% if page.eventbrite%}<center><a href="https://www.eventbrite.com/e/{{page.eventbrite}}{{page.eventbriteid}}?aff=mc" target="_blank"><img src="https://www.eventbrite.fr/custombutton?eid={{page.eventbriteid}}" alt="Eventbrite - {{page.title}}" /></a></center>{%endif%}
+      {% if page.eventbrite%}<center><a href="https://www.eventbrite.com/e/{{page.eventbrite}}{{page.eventbriteid}}?aff=mc" target="_blank"><button class="eventbrite">Eventbrite - {{page.title}}</button></a></center>{%endif%}
     {%endif%}
 </div>
