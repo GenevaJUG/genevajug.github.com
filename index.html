@@ -2,7 +2,7 @@
 layout: default
 ---
 
-     {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+     {% capture currentDate %}{{'today' | date: '%Y-%m-%d' | date : '%s' }}{% endcapture %}
      {% for post in site.posts reversed %}
        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
        {% if blogDate >= currentDate %}
