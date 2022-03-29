@@ -4,7 +4,7 @@ title: Micro Frontends REX - Diviser pour mieux régner !
 eventstartat: 18h30
 speaker:
 - hugo_chiavenuto
-location: HEPIA
+location: HEPIA salle B119
 locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
