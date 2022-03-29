@@ -428,9 +428,9 @@ ul#grid-premium li {
 
 ul#grid-premium li img {
     float: none;
-    height: 110px;
-    margin-right: 5px;
-    margin-left: 5px;
+    max-height: 110px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 ul#grid-premium-footer li {
@@ -446,6 +446,7 @@ ul#grid-premium-footer li {
 ul#grid-premium-footer li img {
     float: none;
     max-height: 80px;
+    max-width: 100px;
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -463,8 +464,8 @@ ul#grid-saison li {
 ul#grid-saison li img {
     float: none;
     height: 70px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 ul#grid-saison-footer li {
