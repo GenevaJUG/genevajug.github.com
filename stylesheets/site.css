@@ -421,9 +421,12 @@ ul#grid-premium li {
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    width: 120px;
+    width: 180px;
     height: 120px;
     background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul#grid-premium li img {
@@ -441,6 +444,9 @@ ul#grid-premium-footer li {
     width: 90px;
     height: 90px;
     background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul#grid-premium-footer li img {
