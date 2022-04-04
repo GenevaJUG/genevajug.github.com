@@ -10,8 +10,8 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: En dessous du bâtiment de l'HEPIA
-#eventbrite: micro-frontends-rex-diviser-pour-mieux-regner-tickets-
-#eventbriteid: 303121583817
+eventbrite: atelier-deployer-vault-et-consul-dans-kubernetes-tickets-
+eventbriteid: 313900283197
 ---
 
 
@@ -26,8 +26,9 @@ Les enjeux de Kubernetes dépassent largement le cadre feutré du déploiement d
 
 L’exercice d’intégration d’une technologie legacy dans Kubernetes est intéressant pour 2 raisons :  
 
-    La première est purement pédagogique : on est forcé de se poser les bonnes questions.
-    La deuxième est pragmatique et utilitaire : l’intégration offre une opportunité de réduire l’empreinte des intégrations sur mesure dans le système d’information et amène en même temps tous les avantages de Kubernetes en terme d’administrabilité.
+La première est purement pédagogique : on est forcé de se poser les bonnes questions.
+
+La deuxième est pragmatique et utilitaire : l’intégration offre une opportunité de réduire l’empreinte des intégrations sur mesure dans le système d’information et amène en même temps tous les avantages de Kubernetes en terme d’administrabilité.
 
 Dans cette présentation nous prendrons l’exemple spécifique des technologies HashiCorp Vault & Consul et montrerons comment elles peuvent s’intégrer dans une environnement Kubernetes. Nous évaluerons plusieurs aspects comme le stateful, l’exposition, la haute disponibilité, la sécurisation et la surveillance.
 
