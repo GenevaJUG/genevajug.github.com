@@ -4,11 +4,13 @@ title: Fluid Pull Request
 eventstartat: 18h30
 speaker:
 - freddy_mallet
-location: HEPIA salle ??
+location: HEPIA salle B119
 locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: Below HEPIA building
+eventbrite: billets-fluid-pull-request-by-freddy-mallet-
+eventbriteid: 476816670497
 ---
 
 GenevaJUG will welcome **Freddy Mallet** 
