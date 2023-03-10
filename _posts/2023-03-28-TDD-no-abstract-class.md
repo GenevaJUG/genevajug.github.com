@@ -26,7 +26,7 @@ En creusant la question, je me rends compte que c'est depuis que j'ai commencé 
 Mais quel est le rapport entre les deux ? C'est ce que je vais tenter d'expliquer via ce talk.
 
 ## Sonar meets Kotlin
-by **Margarita Nedzelska **
+by **Margarita Nedzelska**
 
 You've probably heard about Static Code Analysis tools provided by SonarSource, but have you ever thought about what's under the hood of these analyzers?
 
