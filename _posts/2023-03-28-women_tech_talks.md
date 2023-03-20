@@ -11,8 +11,8 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: Below HEPIA building
-eventbrite: 
-eventbriteid: 
+eventbrite: billets-women-tech-talks-
+eventbriteid: 595214611927
 ---
 
 Exceptionnellement, nous aurons 2 sessions ! La première sera en français et la seconde en anglais.
