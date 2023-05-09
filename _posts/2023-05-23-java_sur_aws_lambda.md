@@ -10,8 +10,9 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: En dessous du batiment de l'HEPIA
-eventbrite: 
-eventbriteid: 
+eventbrite: java-sur-aws-lambda-differences-et-challenges-tickets-
+eventbriteid: 633255402957
+
 ---
 
 Cette session sera organisée avec la collaboration du [AWS Swiss User Group - Geneva](https://www.meetup.com/fr-FR/aws-swiss-user-group-geneva).
