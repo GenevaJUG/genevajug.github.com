@@ -10,8 +10,8 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: En dessous du batiment de l'HEPIA
-eventbrite: 
-eventbriteid: 
+eventbrite: billets-exception-handling-in-functional-and-reactive-programming-
+eventbriteid: 705417712367
 
 ---
 
