@@ -2,14 +2,36 @@
 layout: default
 ---
 
+    {% assign futureSessions = "" | split: "," %}
+
      {% capture currentDate %}{{'today' | date: '%Y-%m-%d' | date : '%s' }}{% endcapture %}
+
+     {% assign nextBlogFound = false %}
+
+
      {% for post in site.posts reversed %}
        {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-       {% if blogDate >= currentDate %}
+       {% if nextBlogFound == false and blogDate >= currentDate %}
+         {% assign nextBlogFound = true %}
+         {% assign nextBlogDate = false %}
          {{ post.output }}
-         {% break %}
+       {% elsif nextBlogFound == true and blogDate >= currentDate %}
+          {% assign futureSessions = futureSessions | push:post %}
        {% endif %}
       {% endfor %}
+
+      {% assign futureSessionsSize = futureSessions | size %}
+      {% if futureSessionsSize  != 0 %}
+      <div class="disp">
+        <h2>Next sessions</h2>
+         {% for post in futureSessions %}
+
+             {{ post.output }}
+  
+          {% endfor %}
+      </div>
+      {% endif %}
+
           <div class="disp">
             <h2>Le Geneva Java User Group en quelques mots...</h2>
 	    <br />
