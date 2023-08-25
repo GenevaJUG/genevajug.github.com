@@ -10,7 +10,7 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: En dessous du batiment de l'HEPIA
-eventbrite: billets-a-quarkus-introduction-for-spring-developers
+eventbrite: billets-a-quarkus-introduction-for-spring-developers-
 eventbriteid: 705426960027
 
 ---
