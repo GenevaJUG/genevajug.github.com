@@ -7,8 +7,3 @@
   name: Twitter
   url: http://www.twitter.com/GenevaJUG
   img: /images/twitter_logo.jpg
-
-- id: rss
-  name: RSS Events
-  url: http://www.eventbrite.com/rss/organizer_list_events/1520696882
-  img: /images/rss_logo.png

@@ -510,7 +510,8 @@ ul#grid-saison-footer li img {
 
 #social ul {
     height: 100%;
-    margin: 0 0 15px 0;
+    margin: 0 auto;
+    display: table;
     overflow: hidden;
     list-style-type: none;
 }
