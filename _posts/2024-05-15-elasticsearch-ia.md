@@ -10,8 +10,8 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: En dessous du batiment de l'HEPIA
-eventbrite: 
-eventbriteid: 
+eventbrite: la-recherche-a-lere-de-lia-tickets-
+eventbriteid: 901248256797
 
 ---
 
