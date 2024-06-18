@@ -9,6 +9,8 @@ locationlink: https://www.hesge.ch/hepia/
 address: Rue de la Prairie 4, 1202 Genève
 transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
 parking: Below HEPIA building
+eventbrite: event-sourcing-combining-reliability-consistency-and-performance-tickets-
+eventbriteid: 927718790877
 ---
 
 GenevaJUG will welcome **Nicolas Piguet** 
