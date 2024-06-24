@@ -4,14 +4,16 @@ title: 'Event sourcing: Combining reliability, consistency and performance'
 eventstartat: 18h30
 speaker:
 - nicolas_piguet
-location: HEPIA salle B119
-locationlink: https://www.hesge.ch/hepia/
-address: Rue de la Prairie 4, 1202 Genève
-transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie
+location: Foound 
+locationlink: https://www.foound.ch/
+address: Rue Jean-Dassier 7, 1201 Genève
+transport: Gare Cornavin à proximité, TPG Arrêt Lyon, Prairie, Mercier
 parking: Below HEPIA building
 eventbrite: event-sourcing-combining-reliability-consistency-and-performance-tickets-
 eventbriteid: 927718790877
 ---
+
+## <span style="color:red">**Pay attention, the location has changed, we have moved to Foound at Rue Jean-Dassier 7, 1201 Genève**</span>
 
 GenevaJUG will welcome **Nicolas Piguet** 
 
