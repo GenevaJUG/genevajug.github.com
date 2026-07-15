@@ -2,8 +2,4 @@
 title: Evgeny Mandrikov
 locale: en
 ---
-Software Gardener, addicted to open source and code quality, hired by SonarSource after creation of improved open source analogs of their commercial products.
-
-Currently working as Language Team Technical Leader, responsible for development of source code analyzers for languages like Java, C/C++, C#, JavaScript, Python, COBOL, PL/SQL; implementator of cross project duplication detection.
-
-In a spare time working on other projects like for example JaCoCo, Eclipse EclEmma.
+Evgeny is a contributor to various open source projects, including OpenJDK, and a speaker at international conferences and JUGs. He is also one of the project leads of widely adopted code coverage library for Java and Kotlin - JaCoCo, and the award-winning EclEmma project at the Eclipse Foundation that integrates JaCoCo into Eclipse. In his day job as Principal Software Engineer at Sonar he develops SonarQube’s static source code analysis for languages such as Java, Kotlin, C, and C++.
