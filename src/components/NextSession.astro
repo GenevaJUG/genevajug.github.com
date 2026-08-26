@@ -8,15 +8,15 @@ const { locale } = Astro.props;
 const messages = {
   en: {
     title: 'Next Session',
-    heading: '🔮 Coming Soon',
-    message: 'The next session is currently under discussion! We\'re working on bringing you an exciting technical presentation.',
-    teaser: 'Stay tuned for updates and exciting news about our upcoming event!',
+    heading: '🚀 Deploying to production with confidence',
+    message: `With Andres Almiray\n\nHow many times have we asked ourselves if it is a good idea to release to production on a Friday afternoon? Is the production software sufficiently robust and/or resilient to vulnerabilities? How can we detect and correct security problems in production? Better yet, how can we prevent such problems or attacks? In recent years the topic Software Supply Chain Security has taken on greater importance. Concepts like SBOMs, SLSA, Reproducible Builds, CI/CD Security are widely discussed to answer the previously posited questions. In this session we will discover what are these concepts and how you may apply them to your own projects.` ,
+    
   },
   fr: {
     title: 'Prochaine Session',
-    heading: '🔮 À Venir',
-    message: 'La prochaine session est en discussion! Nous travaillons pour vous apporter une présentation technique passionnante.',
-    teaser: 'Restez à l\'écoute pour les mises à jour et les nouvelles enthousiasmantes sur notre prochain événement!',
+    heading: '🚀 Déployer en production en toute confiance',
+    message: `Avec Andres Almiray\n\nCombien de fois nous sommes-nous demandé s'il était judicieux de déployer en production un vendredi après-midi ? Le logiciel en production est-il suffisamment robuste et/ou résilient face aux vulnérabilités ? Comment détecter et corriger les problèmes de sécurité en production ? Mieux encore, comment prévenir ces problèmes ou attaques ? Ces dernières années, la sécurité de la chaîne d'approvisionnement logicielle (Software Supply Chain Security) a pris une importance croissante. Des concepts comme SBOMs, SLSA, builds reproductibles, sécurité CI/CD sont largement discutés pour répondre à ces questions. Lors de cette session, nous découvrirons ces concepts et comment les appliquer à vos propres projets.` ,
+    
   },
 };
 
@@ -28,9 +28,35 @@ const content = messages[locale];
     <h2>{content.title}</h2>
     <div class="teaser-card">
       <h3>{content.heading}</h3>
-      <p class="teaser-message">{content.message}</p>
-      <p class="teaser-follow-up">{content.teaser}</p>
+      <div class="speaker-badge">
+        {locale === 'en' ? (
+          <a href="/speaker/andres_almiray" class="speaker-link">With Andres Almiray</a>
+        ) : (
+          <a href="/fr/speaker/andres_almiray" class="speaker-link">Avec Andres Almiray</a>
+        )}
+      </div>
+      <p class="teaser-message">{content.message.replace(/^(With|Avec) Andres Almiray\n?/, '')}</p>
+      {locale === 'en' ? (
+        <p>
+          Join us for a deep dive into supply chain security and safe production deployments!
+          <br /><br />
+          <a href="https://infomaniak.events/fr-ch/conferences/deploying-to-production-with-confidence/48c2ddd7-7a44-4ac4-a9ff-5fdd8d547211/events/397935" target="_blank" rel="noopener noreferrer">
+            Register now!
+          </a>
+          🚀
+        </p>
+      ) : (
+        <p>
+          Plongez avec nous dans la sécurité de la chaîne logicielle et les déploiements sereins !
+          <br /><br />
+          <a href="https://infomaniak.events/fr-ch/conferences/deploying-to-production-with-confidence/48c2ddd7-7a44-4ac4-a9ff-5fdd8d547211/events/397935" target="_blank" rel="noopener noreferrer">
+            Inscrivez-vous !
+          </a>
+          🚀
+        </p>
+      )}
       <div class="teaser-decoration">✨</div>
+
     </div>
   </div>
 </section>
@@ -100,7 +126,21 @@ const content = messages[locale];
     font-style: italic;
   }
 
-  .teaser-decoration {
+  .speaker-badge {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.speaker-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.speaker-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.teaser-decoration {
     font-size: 2rem;
     animation: float 3s ease-in-out infinite;
   }
