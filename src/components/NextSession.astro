@@ -10,13 +10,19 @@ const messages = {
     title: 'Next Session',
     heading: '🚀 Deploying to production with confidence',
     message: `With Andres Almiray\n\nHow many times have we asked ourselves if it is a good idea to release to production on a Friday afternoon? Is the production software sufficiently robust and/or resilient to vulnerabilities? How can we detect and correct security problems in production? Better yet, how can we prevent such problems or attacks? In recent years the topic Software Supply Chain Security has taken on greater importance. Concepts like SBOMs, SLSA, Reproducible Builds, CI/CD Security are widely discussed to answer the previously posited questions. In this session we will discover what are these concepts and how you may apply them to your own projects.` ,
-    
+    date: 'September 24, 2026',
+    time: '19:00 - 21:00',
+    location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Switzerland',
+    mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
   },
   fr: {
     title: 'Prochaine Session',
     heading: '🚀 Déployer en production en toute confiance',
     message: `Avec Andres Almiray\n\nCombien de fois nous sommes-nous demandé s'il était judicieux de déployer en production un vendredi après-midi ? Le logiciel en production est-il suffisamment robuste et/ou résilient face aux vulnérabilités ? Comment détecter et corriger les problèmes de sécurité en production ? Mieux encore, comment prévenir ces problèmes ou attaques ? Ces dernières années, la sécurité de la chaîne d'approvisionnement logicielle (Software Supply Chain Security) a pris une importance croissante. Des concepts comme SBOMs, SLSA, builds reproductibles, sécurité CI/CD sont largement discutés pour répondre à ces questions. Lors de cette session, nous découvrirons ces concepts et comment les appliquer à vos propres projets.` ,
-    
+    date: '24 septembre 2026',
+    time: '19h00 - 21h00',
+    location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Suisse',
+    mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
   },
 };
 
@@ -36,6 +42,11 @@ const content = messages[locale];
         )}
       </div>
       <p class="teaser-message">{content.message.replace(/^(With|Avec) Andres Almiray\n?/, '')}</p>
+      <div class="event-details">
+        <p class="detail-item">📅 <strong>{content.date}</strong></p>
+        <p class="detail-item">⏰ <strong>{content.time}</strong></p>
+        <p class="detail-item">📍 <a href={content.mapsLink} target="_blank" rel="noopener noreferrer" class="maps-link">{content.location}</a></p>
+      </div>
       {locale === 'en' ? (
         <p>
           Join us for a deep dive into supply chain security and safe production deployments!
@@ -117,6 +128,32 @@ const content = messages[locale];
     color: var(--text-primary);
     margin-bottom: 1rem;
     line-height: 1.6;
+  }
+
+  .event-details {
+    background: rgba(0, 123, 255, 0.05);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-left: 4px solid #007bff;
+  }
+
+  .detail-item {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+
+  .maps-link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .maps-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
   }
 
   .teaser-follow-up {
