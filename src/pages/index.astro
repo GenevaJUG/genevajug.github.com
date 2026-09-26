@@ -99,6 +99,16 @@ import Team from '../components/Team.astro';
         font-size: 1.5rem;
       }
 
+      .social-link.newsletter-link {
+        width: auto;
+        min-width: 50px;
+        padding: 0 1rem;
+        border-radius: 999px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+
       .social-link:hover {
         background: var(--text-muted);
         border-color: var(--text-muted);
@@ -128,6 +138,73 @@ import Team from '../components/Team.astro';
         line-height: 1.8;
         margin-bottom: 1.5rem;
         color: var(--text-secondary);
+      }
+
+      .newsletter-section {
+        padding: 0 2rem 4rem;
+      }
+
+      .newsletter-card {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 2rem;
+      }
+
+      .newsletter-card h2 {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+        color: var(--text-primary);
+      }
+
+      .newsletter-card p {
+        margin-bottom: 1.25rem;
+        color: var(--text-secondary);
+      }
+
+      .newsletter-form {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .newsletter-fields {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .newsletter-form input {
+        width: 100%;
+        min-height: 44px;
+        padding: 0.75rem 0.85rem;
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        font: inherit;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+      }
+
+      .newsletter-rgpd {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        line-height: 1.5;
+      }
+
+      .newsletter-submit {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .newsletter-submit input {
+        width: auto;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 0.75rem 1.5rem;
+        cursor: pointer;
+        font-weight: 600;
       }
 
       @media (max-width: 768px) {
@@ -175,6 +252,7 @@ import Team from '../components/Team.astro';
           <a href="https://www.linkedin.com/groups/2511735/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-linkedin-in"></i>
           </a>
+          <a href="#newsletter" class="social-link newsletter-link" aria-label="Join the newsletter">✉️ Join the newsletter</a>
         </div>
       </div>
     </section>
@@ -183,6 +261,39 @@ import Team from '../components/Team.astro';
       <h2>About the Geneva Java User Group</h2>
       <p>The GenevaJUG is a Java user group dedicated to bringing together professionals, open source communities, institutions, students and educators to exchange ideas and discuss the technological advances of the Java platform.</p>
       <p>We meet on the last Tuesday of each month. Our meetings are free, open to everyone and feature technical presentations, product demonstrations, or round table discussions. After each meeting, we typically gather for informal networking over drinks and refreshments.</p>
+    </section>
+
+    <section id="newsletter" class="newsletter-section">
+      <div class="newsletter-card">
+        <h2>Join the mailing list</h2>
+        <p>Receive updates about upcoming sessions, community news, and events.</p>
+
+        <form method="post" action="https://newsletter.infomaniak.com/v3/api/1/newsletters/webforms/25697/submit" class="newsletter-form">
+          <input type="text" name="inf_email_check" autocomplete="off" tabindex="-1" aria-hidden="true" style="display:none" />
+          <input type="text" name="website" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;" />
+          <input type="hidden" name="key" value="eyJpdiI6IlNFbkp4eHVtVDFtKzJsTE1VOUdRWUE5R0FNOEZndUE5XC9KOGc5QkR4NHpzPSIsIm1hYyI6ImYxN2E5ZDZiZGEyZWZlNDgxNjkzM2MyMzA1YmFkMjM3ZTE5NDNkOWI0YTgxYjlkYjE5MDM5NmMyMzliMTI4ZGQiLCJ2YWx1ZSI6IjJNZm5PTkdMS0hLcnFoYjVVOWlmR3RVektDMFEzMHRJSXJiOTFoSlN1Ync9In0=" />
+          <input type="hidden" name="webform_id" value="25697" />
+
+          <div class="newsletter-fields">
+            <input type="email" name="inf[1]" data-inf-meta="1" data-inf-error="" required="required" placeholder="Email *" />
+            <input type="text" name="inf[2]" data-inf-meta="2" data-inf-error="" placeholder="First name" />
+            <input type="text" name="inf[3]" data-inf-meta="3" data-inf-error="" placeholder="Last name" />
+          </div>
+
+          <div class="newsletter-rgpd">
+            Your email address is only used to send our newsletter and information about our activities. You can unsubscribe at any time via the link included in each email.
+          </div>
+
+          <script src="https://newsletter.infomaniak.com/v3/static/mcaptcha/altcha.min.js?v=1789646400" type="module"></script>
+          <altcha-widget hidelogo hidefooter floating challengeurl="https://newsletter.infomaniak.com/v3/altcha-challenge"></altcha-widget>
+          <script src="https://newsletter.infomaniak.com/v3/static/mcaptcha/altcha-index.js?v=1789646400" defer></script>
+          <script src="https://newsletter.infomaniak.com/v3/static/webform_index.js?v=1789646400"></script>
+
+          <div class="newsletter-submit">
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
     </section>
 
     <NextSession locale="en" />
