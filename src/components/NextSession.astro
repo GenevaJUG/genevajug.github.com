@@ -14,6 +14,7 @@ const messages = {
     time: '19:00 - 21:00',
     location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Switzerland',
     mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
+    registrationNotice: 'Registrations will open soon.',
   },
   fr: {
     title: 'Prochaine Session',
@@ -23,6 +24,7 @@ const messages = {
     time: '19h00 - 21h00',
     location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Suisse',
     mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
+    registrationNotice: 'Les inscriptions ouvriront bientôt.',
   },
 };
 
@@ -47,6 +49,7 @@ const content = messages[locale];
         <p class="detail-item">⏰ <strong>{content.time}</strong></p>
         <p class="detail-item">📍 <a href={content.mapsLink} target="_blank" rel="noopener noreferrer" class="maps-link">{content.location}</a></p>
       </div>
+      <p class="registration-notice">{content.registrationNotice}</p>
       <div class="teaser-decoration">✨</div>
 
     </div>
@@ -142,6 +145,13 @@ const content = messages[locale];
     color: var(--text-secondary);
     margin-bottom: 2rem;
     font-style: italic;
+  }
+
+  .registration-notice {
+    margin: 1.5rem 0 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #007bff;
   }
 
   .speaker-badge {
