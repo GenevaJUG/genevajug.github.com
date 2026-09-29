@@ -6,6 +6,18 @@
 </button>
 
 <script>
+  function getStoredTheme() {
+    try {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark' || savedTheme === 'light') {
+        return savedTheme;
+      }
+    } catch (error) {
+      // Ignore storage access issues (e.g. Safari private browsing / restricted storage)
+    }
+    return null;
+  }
+
   function initThemeToggle() {
     const toggle = document.getElementById('theme-toggle');
     const html = document.documentElement;
@@ -14,7 +26,7 @@
       return;
     }
 
-    const savedTheme = localStorage.getItem('theme');
+    const savedTheme = getStoredTheme();
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
 
@@ -24,11 +36,16 @@
       const currentTheme = html.getAttribute('data-theme') || 'light';
       const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
       setTheme(newTheme);
-      localStorage.setItem('theme', newTheme);
+      try {
+        localStorage.setItem('theme', newTheme);
+      } catch (error) {
+        // Ignore storage write issues; the UI still switches in-memory.
+      }
     });
 
     function setTheme(theme) {
       html.setAttribute('data-theme', theme);
+      html.style.colorScheme = theme === 'dark' ? 'dark' : 'light';
       const icon = toggle.querySelector('i');
       if (icon) {
         icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';

@@ -9,6 +9,19 @@ import Team from '../../components/Team.astro';
 <!DOCTYPE html>
 <html lang="fr" data-theme="light">
   <head>
+    <script is:inline>
+      (function() {
+        try {
+          const savedTheme = localStorage.getItem('theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+          document.documentElement.style.colorScheme = theme;
+        } catch (error) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>GenevaJUG - Groupe d'utilisateurs Java de Genève</title>
