@@ -49,14 +49,14 @@ const moreItems = allItems.slice(1);
 
       <div class="mobile-nav">
         <a href={firstItem.href} class="nav-link">{firstItem.label}</a>
-        <div class="dropdown-wrapper">
-          <button class="dropdown-toggle" aria-label="More menu items">⋮</button>
+        <details class="dropdown-wrapper">
+          <summary class="dropdown-toggle" aria-label="More menu items">⋮</summary>
           <div class="dropdown-menu">
             {moreItems.map((item) => (
               <a href={item.href} class="dropdown-item">{item.label}</a>
             ))}
           </div>
-        </div>
+        </details>
       </div>
     </nav>
     <div class="header-tools">
@@ -66,34 +66,6 @@ const moreItems = allItems.slice(1);
   </div>
 </header>
 
-<script>
-  document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
-    toggle.addEventListener('click', (e) => {
-      e.preventDefault();
-      const wrapper = toggle.parentElement;
-      wrapper?.classList.toggle('open');
-    });
-  });
-
-  // Close dropdown when clicking outside
-  document.addEventListener('click', (e) => {
-    const target = e.target as HTMLElement;
-    if (!target.closest('.dropdown-wrapper')) {
-      document.querySelectorAll('.dropdown-wrapper').forEach(w => {
-        w.classList.remove('open');
-      });
-    }
-  });
-
-  // Close dropdown when clicking a menu item
-  document.querySelectorAll('.dropdown-item').forEach(item => {
-    item.addEventListener('click', () => {
-      const wrapper = item.closest('.dropdown-wrapper');
-      wrapper?.classList.remove('open');
-    });
-  });
-</script>
-
 <style>
   .header {
     position: sticky;
@@ -102,6 +74,7 @@ const moreItems = allItems.slice(1);
     background-color: var(--bg-primary);
     border-bottom: 1px solid var(--border-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow: visible;
   }
 
   .header-container {
@@ -113,6 +86,7 @@ const moreItems = allItems.slice(1);
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
+    overflow: visible;
   }
 
   .header-tools {
@@ -155,6 +129,7 @@ const moreItems = allItems.slice(1);
     flex: 1;
     min-width: 0;
     overflow: visible;
+    position: relative;
   }
 
   .nav-list {
@@ -203,6 +178,14 @@ const moreItems = allItems.slice(1);
     z-index: 30;
   }
 
+  .dropdown-wrapper > summary {
+    list-style: none;
+  }
+
+  .dropdown-wrapper > summary::-webkit-details-marker {
+    display: none;
+  }
+
   .dropdown-toggle {
     background: none;
     border: none;
@@ -214,6 +197,8 @@ const moreItems = allItems.slice(1);
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
+    user-select: none;
   }
 
   .dropdown-toggle:hover {
@@ -235,9 +220,10 @@ const moreItems = allItems.slice(1);
     margin-top: 0;
     max-height: 70vh;
     overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
-  .dropdown-wrapper.open .dropdown-menu {
+  .dropdown-wrapper[open] .dropdown-menu {
     display: flex;
   }
 
