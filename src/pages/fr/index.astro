@@ -63,6 +63,7 @@ import Team from '../../components/Team.astro';
       }
 
       .hero {
+        position: relative;
         min-height: calc(100vh - 80px);
         background: var(--bg-primary);
         display: flex;
@@ -70,6 +71,54 @@ import Team from '../../components/Team.astro';
         justify-content: center;
         text-align: center;
         padding: 2rem;
+      }
+
+      .scroll-cue {
+        position: absolute;
+        bottom: 1.5rem;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transform: translateX(-50%);
+      }
+
+      .scroll-cue:hover {
+        color: var(--text-primary);
+      }
+
+      .scroll-cue:focus-visible {
+        outline: 2px solid #007bff;
+        outline-offset: 6px;
+        border-radius: 2px;
+      }
+
+      .scroll-cue-icon {
+        width: 0.75rem;
+        height: 0.75rem;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+        transform: rotate(45deg);
+        animation: scroll-cue-bounce 1.6s ease-in-out infinite;
+      }
+
+      @keyframes scroll-cue-bounce {
+        0%, 100% {
+          transform: translateY(-3px) rotate(45deg);
+        }
+        50% {
+          transform: translateY(3px) rotate(45deg);
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .scroll-cue-icon {
+          animation: none;
+        }
       }
 
       .hero-content {
@@ -265,9 +314,14 @@ import Team from '../../components/Team.astro';
           <a href="https://www.linkedin.com/groups/12345/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#newsletter" class="social-link newsletter-link" aria-label="S'inscrire à la lettre d'information">✉️ S'inscrire à la newsletter</a>
+          <a href="#newsletter" class="social-link newsletter-link" aria-label="S'inscrire à la lettre d'information">📰 S'inscrire à la newsletter</a>
+          <a href="mailto:team@genevajug.org" class="social-link newsletter-link">💬 Nous contacter</a>
         </div>
       </div>
+      <a href="#about" class="scroll-cue">
+        <span>Faites défiler pour découvrir</span>
+        <span class="scroll-cue-icon" aria-hidden="true"></span>
+      </a>
     </section>
 
     <section id="about" class="about-section">
