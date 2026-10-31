@@ -5,7 +5,7 @@ This is the official website for the Geneva Java User Group, built with [Astro](
 ## Setup
 
 ### Prerequisites
-- Node.js 18+ and npm
+- Node.js 22.23.4+ and npm
 
 ### Installation
 
