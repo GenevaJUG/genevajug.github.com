@@ -8,25 +8,41 @@ const { locale } = Astro.props;
 const messages = {
   en: {
     title: 'Next Session',
-    heading: 'Stop Prompting, Start Planning - Reliable Agentic AI with Embabel',
-    message: `With Patrick Baumgartner\n\nLarge Language Models enable powerful new AI capabilities, but production-grade enterprise agents require more than prompting alone. Prompt chaining often results in non-deterministic behavior, limited traceability, and systems that are difficult to control and test.\n\nThis talk introduces Embabel, an open source agent framework for the JVM created by Rod Johnson, founder of the Spring Framework. Embabel enables controllable, explainable, and production-ready agentic systems directly within existing Java and Spring applications.\n\nRather than orchestrating behavior through prompts, Embabel applies Goal-Oriented Action Planning (GOAP). Agents are composed of strongly typed actions, goals, and domain models, allowing execution paths to be dynamically replanned when assumptions change or steps fail. The result is agent behavior that remains explainable, deterministic, and testable.\n\nThe talk demonstrates why LLM-driven orchestration often breaks down in enterprise environments and how teams can build robust, maintainable, and controllable AI agents without introducing a new tech stack, relying on fragile prompt logic, or sacrificing architectural control.`,
-    date: 'October 27, 2026',
+    heading: 'Durable, composable and scalable agentic engineering with spring-ai-agent',
+    speaker: 'Sébastien Deleuze',
+    message: [
+      'Getting an LLM to call a few tools is the easy part. Running agents in production is harder: a multi-step agent may crash partway through, pause for human input, hand work to other agents, and stream tokens to thousands of users at once. spring-ai-agent is a new Spring AI module for these challenges, built with the same type safety, extensibility, and operational focus as the rest of the Spring portfolio.',
+      'Composable: an agent is a typed Agent<I, O> transformation. You can build one from an existing ChatClient or from a graph whose nodes call the model and run tools. Graph agents can orchestrate nested agents, with conversations that can be shared, forked, or isolated. Mismatched contexts are caught when the agent is built, not halfway through a run.',
+      'Durable: the durability feature snapshots each completed step, so a run that crashes resumes where it stopped instead of calling the LLM again. The same mechanism supports human-in-the-loop workflows: interrupt nodes pause a run and resume it with a human’s answer, even deep inside nested agents.',
+      'Observable and extensible: logging, conversation persistence and compaction, and durability are all pluggable features. Each is written once on a single set of hooks and sees every model call, tool call, and node, including those of nested agents.',
+      'Scalable: spring-ai-agent provides a unified API for either a blocking call or an imperative event stream with backpressure, designed for virtual threads and structured concurrency, with no reactive programming required.',
+      'You’ll leave knowing how to design agentic systems that are reliable, testable, and ready for production, and how the new module fits into the Spring AI programming model.',
+    ],
+    date: 'December 3, 2026',
     time: '19:00 - 21:00',
     doorsOpen: 'Doors open at 18:45.',
+    registrationNotice: 'Registration will be available soon.',
     location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Switzerland',
     mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
-    registrationNotice: 'Register for this session',
   },
   fr: {
     title: 'Prochaine Session',
-    heading: 'Stop Prompting, Start Planning - Reliable Agentic AI with Embabel',
-    message: `Avec Patrick Baumgartner\n\nLes grands modèles de langage permettent de nouvelles capacités d'IA puissantes, mais les agents d'entreprise prêts pour la production exigent bien plus qu'un simple prompting. L'enchaînement de prompts conduit souvent à un comportement non déterministe, une traçabilité limitée et des systèmes difficiles à contrôler et à tester.\n\nCette présentation introduit Embabel, un framework d'agents open source pour la JVM créé par Rod Johnson, fondateur du Spring Framework. Embabel permet de construire des systèmes agentiques contrôlables, explicables et prêts pour la production directement dans les applications Java et Spring existantes.\n\nPlutôt que d'orchestrer le comportement via des prompts, Embabel applique le Goal-Oriented Action Planning (GOAP). Les agents sont composés d'actions fortement typées, d'objectifs et de modèles de domaine, ce qui permet de replanifier dynamiquement les chemins d'exécution lorsque les hypothèses changent ou que des étapes échouent. Le résultat est un comportement d'agent explicable, déterministe et testable.\n\nLa conférence explique pourquoi l'orchestration pilotée par les LLMs échoue souvent dans les environnements d'entreprise et comment les équipes peuvent construire des agents IA robustes, maintenables et contrôlables sans introduire une nouvelle pile technique, sans dépendre d'une logique de prompts fragile, ni sacrifier le contrôle architectural.`,
-    date: '27 octobre 2026',
+    heading: 'Une ingénierie agentique durable, composable et évolutive avec spring-ai-agent',
+    speaker: 'Sébastien Deleuze',
+    message: [
+      'Faire appeler quelques outils à un LLM est la partie facile. Exploiter des agents en production est plus difficile : un agent en plusieurs étapes peut s’interrompre en cours d’exécution, attendre une intervention humaine, déléguer des tâches à d’autres agents et diffuser des jetons à des milliers d’utilisateurs simultanément. spring-ai-agent est un nouveau module de Spring AI conçu pour ces défis, avec le même niveau de sûreté des types, d’extensibilité et d’attention aux opérations que le reste de l’écosystème Spring.',
+      'Composable : un agent est une transformation typée Agent<I, O>. Vous pouvez le construire à partir d’un ChatClient existant ou d’un graphe dont les nœuds appellent le modèle et exécutent des outils. Les agents sous forme de graphe peuvent orchestrer des agents imbriqués, avec des conversations partagées, dupliquées ou isolées. Les contextes incompatibles sont détectés à la construction de l’agent, et non au milieu de son exécution.',
+      'Durable : la fonctionnalité de durabilité enregistre un instantané après chaque étape terminée. En cas d’interruption, l’exécution reprend là où elle s’était arrêtée, sans rappeler le LLM. Ce même mécanisme permet l’intervention humaine : des nœuds d’interruption mettent une exécution en pause, puis la reprennent avec la réponse de la personne, même au cœur d’agents imbriqués.',
+      'Observable et extensible : la journalisation, la persistance et la compaction des conversations, ainsi que la durabilité, sont des fonctionnalités enfichables. Chacune est implémentée une seule fois à l’aide d’un ensemble commun de points d’extension et observe tous les appels au modèle, aux outils et aux nœuds, y compris ceux des agents imbriqués.',
+      'Adapté à la montée en charge : spring-ai-agent propose une API unifiée pour un appel bloquant ou un flux événementiel impératif avec contre-pression. Elle est conçue pour les threads virtuels et la concurrence structurée, sans programmation réactive.',
+      'Vous repartirez avec les clés pour concevoir des systèmes agentiques fiables, testables et prêts pour la production, ainsi qu’une meilleure compréhension de la place de ce nouveau module dans le modèle de programmation de Spring AI.',
+    ],
+    date: '3 décembre 2026',
     time: '19h00 - 21h00',
     doorsOpen: 'Ouverture des portes à 18h45.',
+    registrationNotice: 'Les inscriptions seront bientôt ouvertes.',
     location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Suisse',
     mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
-    registrationNotice: "S'inscrire à cette session",
   },
 };
 
@@ -39,22 +55,18 @@ const content = messages[locale];
     <div class="teaser-card">
       <h3>{content.heading}</h3>
       <div class="speaker-badge">
-        {locale === 'en' ? (
-          <a href="/speaker/patrick_baumgartner" class="speaker-link">With Patrick Baumgartner</a>
-        ) : (
-          <a href="/fr/speaker/patrick_baumgartner" class="speaker-link">Avec Patrick Baumgartner</a>
-        )}
+        <a href={locale === 'en' ? '/speaker/sebastien_deleuze' : '/fr/speaker/sebastien_deleuze'} class="speaker-link">{content.speaker}</a>
       </div>
-      <p class="teaser-message">{content.message.replace(/^(With|Avec) Patrick Baumgartner\n?/, '')}</p>
+      <div class="teaser-message">
+        {content.message.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
       <div class="event-details">
         <p class="detail-item">📅 <strong>{content.date}</strong></p>
         <p class="detail-item">⏰ <strong>{content.time}</strong></p>
         <p class="detail-item">🚪 <strong>{content.doorsOpen}</strong></p>
         <p class="detail-item">📍 <a href={content.mapsLink} target="_blank" rel="noopener noreferrer" class="maps-link">{content.location}</a></p>
       </div>
-      <p class="registration-notice">
-        <a href="https://infomaniak.events/fr-ch/conferences/stop-prompting-start-planning-reliable-agentic-ai-with-embabel/40aae980-ccdd-46e5-a71d-9f1ff46a324e/events/400362" target="_blank" rel="noopener noreferrer" class="registration-link">{content.registrationNotice}</a>
-      </p>
+      <p class="registration-notice">{content.registrationNotice}</p>
       <div class="teaser-decoration">✨</div>
 
     </div>
@@ -119,6 +131,10 @@ const content = messages[locale];
     line-height: 1.6;
   }
 
+  .teaser-message p {
+    margin-bottom: 1rem;
+  }
+
   .event-details {
     background: rgba(0, 123, 255, 0.05);
     border-radius: 8px;
@@ -152,6 +168,11 @@ const content = messages[locale];
     font-style: italic;
   }
 
+  .speaker-badge {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
   .registration-notice {
     margin: 1.5rem 0 0;
     font-size: 1.05rem;
@@ -159,11 +180,6 @@ const content = messages[locale];
     color: #007bff;
   }
 
-  .speaker-badge {
-  margin-bottom: 1rem;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
 .speaker-link {
   color: #007bff;
   text-decoration: none;

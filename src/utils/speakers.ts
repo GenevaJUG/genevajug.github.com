@@ -21,9 +21,7 @@ function nameToImageFilename(name: string): string {
 
 export async function getSpeakers(locale: string = 'en'): Promise<Speaker[]> {
   const imagesDir = path.join(process.cwd(), 'public', 'speakers');
-  const imageFiles = new Set(
-    fs.readdirSync(imagesDir).map((f) => f.replace('.jpg', '').replace('.png', ''))
-  );
+  const imageFiles = new Set(fs.readdirSync(imagesDir));
 
   const allSpeakers = await getCollection('speakers');
 
@@ -40,12 +38,14 @@ export async function getSpeakers(locale: string = 'en'): Promise<Speaker[]> {
 
       const name = speaker.data.title || 'Unknown';
       const imageFilename = nameToImageFilename(name);
-      const hasImage = imageFiles.has(imageFilename);
+      const imageFile = ['.jpeg', '.jpg', '.png']
+        .map((extension) => `${imageFilename}${extension}`)
+        .find((filename) => imageFiles.has(filename));
 
       return {
         name,
         bio: speaker.body.trim(),
-        image: hasImage ? `/speakers/${imageFilename}.jpg` : undefined,
+        image: imageFile ? `/speakers/${imageFile}` : undefined,
         id,
       };
     })
