@@ -21,7 +21,7 @@ const messages = {
     date: 'December 3, 2026',
     time: '19:00 - 21:00',
     doorsOpen: 'Doors open at 18:45.',
-    registrationNotice: 'Registration will be available soon.',
+    registrationLabel: 'Register now',
     location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Switzerland',
     mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
   },
@@ -40,7 +40,7 @@ const messages = {
     date: '3 décembre 2026',
     time: '19h00 - 21h00',
     doorsOpen: 'Ouverture des portes à 18h45.',
-    registrationNotice: 'Les inscriptions seront bientôt ouvertes.',
+    registrationLabel: 'Inscrivez-vous',
     location: 'Sonar, Chemin de Blandonnet 10, 1214 Vernier, Suisse',
     mapsLink: 'https://maps.google.com/?q=Sonar,+Chemin+de+Blandonnet+10,+1214+Vernier,+Switzerland',
   },
@@ -66,7 +66,7 @@ const content = messages[locale];
         <p class="detail-item">🚪 <strong>{content.doorsOpen}</strong></p>
         <p class="detail-item">📍 <a href={content.mapsLink} target="_blank" rel="noopener noreferrer" class="maps-link">{content.location}</a></p>
       </div>
-      <p class="registration-notice">{content.registrationNotice}</p>
+      <p class="registration-notice"><a href="https://infomaniak.events/fr-ch/conferences/durable-composable-and-scalable-agentic-engineering-with-spring-ai-agent/d80d800c-f513-45d8-9611-f063536c1e8e/events/402919" target="_blank" rel="noopener noreferrer">{content.registrationLabel}</a></p>
       <div class="teaser-decoration">✨</div>
 
     </div>
